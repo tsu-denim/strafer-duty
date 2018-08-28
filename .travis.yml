@@ -4,7 +4,7 @@ sudo: required
 install: true
 script:
   - sudo apt-get install software-properties-common
-  - sudo add-apt-repository ppa:deadsnakes/ppa
+  - sudo add-apt-repository --yes ppa:deadsnakes/ppa
   - sudo apt-get update
   - sudo apt-get install python3.6
   - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3
