@@ -7,6 +7,7 @@ script:
   - sudo -H add-apt-repository --yes ppa:deadsnakes/ppa
   - sudo -H apt-get update
   - sudo -H apt-get install python3.6
-  - sudo -H python3 --version
+  - sudo -H python --version
   - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3.6
-  - ./run_pipeline_stages.sh
+  - export PYTHONPATH=''
+  - cd ./pipeline/unit_tests && python -m pytest *
