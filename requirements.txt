@@ -1,0 +1,7 @@
+botocore
+boto3
+requests
+pytest
+twine
+setuptools
+wheel

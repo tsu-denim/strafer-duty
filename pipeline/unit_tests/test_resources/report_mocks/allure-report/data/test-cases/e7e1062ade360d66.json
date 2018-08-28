@@ -1,0 +1,74 @@
+{
+  "uid" : "e7e1062ade360d66",
+  "name" : "should pass if an element is not supposed to exist and is missing #integrationSuite",
+  "fullName" : "Protractor sync test cases should pass if an element is not supposed to exist and is missing #integrationSuite",
+  "historyId" : "Protractor sync test cases should pass if an element is not supposed to exist and is missing #integrationSuite",
+  "time" : {
+    "start" : 1535407878977,
+    "stop" : 1535407879178,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "Screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Protractor sync test cases"
+  }, {
+    "name" : "host",
+    "value" : "Lambda"
+  }, {
+    "name" : "thread",
+    "value" : "ip-10-157-73-116"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Video",
+    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/2/18-08-27-18-10-015143/2-18-08-27-18-10-015143.mp4",
+    "type" : "video/mp4"
+  }, {
+    "name" : "Chrome Log",
+    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/2/18-08-27-18-10-015143/2-18-08-27-18-10-015143.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Chrome Driver Log",
+    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/2/18-08-27-18-10-015143/2-18-08-27-18-10-015143.chromedriver.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Console Log",
+    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/2/18-08-27-18-10-015143/2-18-08-27-18-10-015143.console.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Lambda Cloudwatch Logs",
+    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: 05567268-b3ec-4038-9d22-5a89445b5be8\"",
+    "type" : "text/html"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7e1062ade360d66.json",
+  "parameterValues" : [ ]
+}

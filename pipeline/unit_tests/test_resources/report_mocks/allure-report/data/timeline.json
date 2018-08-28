@@ -1,0 +1,109 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Lambda",
+    "children" : [ {
+      "name" : "ip-10-157-73-116",
+      "children" : [ {
+        "name" : "should pass if an element is not supposed to exist and is missing #integrationSuite",
+        "uid" : "e7e1062ade360d66",
+        "parentUid" : "d01764fbee21ecfb28094697af8f79b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535407878977,
+          "stop" : 1535407879178,
+          "duration" : 201
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d01764fbee21ecfb28094697af8f79b7"
+    }, {
+      "name" : "ip-10-128-116-237",
+      "children" : [ {
+        "name" : "can be skipped if we want them to #integrationSuite",
+        "uid" : "d80694d331daa56f",
+        "parentUid" : "a5f4034b12b1037ace0c2f0223246d73",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1535407882488,
+          "stop" : 1535407882488,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Finds the closest element matching the selector",
+        "uid" : "803765332dbf8bc5",
+        "parentUid" : "a5f4034b12b1037ace0c2f0223246d73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535407816115,
+          "stop" : 1535407816402,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should fail if an element is not supposed to exist but is found #integrationSuite",
+        "uid" : "e23144cea1277a80",
+        "parentUid" : "a5f4034b12b1037ace0c2f0223246d73",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535407883463,
+          "stop" : 1535407884181,
+          "duration" : 718
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5f4034b12b1037ace0c2f0223246d73"
+    }, {
+      "name" : "ip-10-128-216-43",
+      "children" : [ {
+        "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
+        "uid" : "9663fdd889edf12b",
+        "parentUid" : "eb1534f8f206e693bc8cacf8ff7a3e8a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1535407883753,
+          "stop" : 1535407883753,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can be disabled and hidden from the Jasmine reporter #integrationSuite",
+        "uid" : "5202fe0d9c5aebbb",
+        "parentUid" : "eb1534f8f206e693bc8cacf8ff7a3e8a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1535407869666,
+          "stop" : 1535407883861,
+          "duration" : 14195
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb1534f8f206e693bc8cacf8ff7a3e8a"
+    }, {
+      "name" : "ip-10-128-201-233",
+      "children" : [ {
+        "name" : "can retry if they fail when configured #integrationSuite",
+        "uid" : "af6a8836f3b39b2b",
+        "parentUid" : "9b409d2779170778c9fe88c7acc9c3b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535407879133,
+          "stop" : 1535407879274,
+          "duration" : 141
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b409d2779170778c9fe88c7acc9c3b4"
+    } ],
+    "uid" : "fbc8134fe3e3302e248468682536c4c8"
+  } ]
+}

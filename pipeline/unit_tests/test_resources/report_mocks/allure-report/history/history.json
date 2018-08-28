@@ -1,0 +1,139 @@
+{
+  "Protractor sync test cases can be skipped if we want them to #integrationSuite" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d80694d331daa56f",
+      "status" : "skipped",
+      "statusDetails" : "Suite disabled",
+      "time" : {
+        "start" : 1535407882488,
+        "stop" : 1535407882488,
+        "duration" : 0
+      }
+    } ]
+  },
+  "Protractor sync test cases can be disabled and hidden from the Jasmine reporter #integrationSuite" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5202fe0d9c5aebbb",
+      "status" : "unknown",
+      "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
+      "time" : {
+        "start" : 1535407869666,
+        "stop" : 1535407883861,
+        "duration" : 14195
+      }
+    } ]
+  },
+  "Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9663fdd889edf12b",
+      "status" : "skipped",
+      "statusDetails" : "Tags: #quarantine\nSuite disabled",
+      "time" : {
+        "start" : 1535407883753,
+        "stop" : 1535407883753,
+        "duration" : 0
+      }
+    } ]
+  },
+  "Protractor sync test cases can retry if they fail when configured #integrationSuite" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af6a8836f3b39b2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535407879133,
+        "stop" : 1535407879274,
+        "duration" : 141
+      }
+    } ]
+  },
+  "Protractor sync test cases should pass if an element is not supposed to exist and is missing #integrationSuite" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7e1062ade360d66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535407878977,
+        "stop" : 1535407879178,
+        "duration" : 201
+      }
+    } ]
+  },
+  "Protractor sync test cases should fail if an element is not supposed to exist but is found #integrationSuite" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e23144cea1277a80",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Error: .element-does-exist was found when it should not exist!\n    at onTimeout (/tmp/lambda_protractor/app/selection.ts:51:13)\n    at Object.polledWait (/tmp/lambda_protractor/app/polled-wait.ts:35:9)\n    at _getElements (/tmp/lambda_protractor/app/selection.ts:76:10)\n    at Object.assertElementDoesNotExist (/tmp/lambda_protractor/app/selection.ts:146:20)\n    at ElementFinderSync.assertElementDoesNotExist (/tmp/lambda_protractor/app/element-finder-sync.ts:38:12)\n    at /tmp/lambda_protractor/test/spec/protractor_sync_test.ts:70:18\n    at /tmp/lambda_protractor/test/spec/protractor_sync_test.ts:43:13\n    at fiberContents (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:92:26)\n=== Pre-asyncblock stack ===\nError\n    at module.exports (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:29:15)\n    at UserContext.<anonymous> (/tmp/lambda_protractor/test/spec/protractor_sync_test.ts:42:9)\n    at /tmp/lambda_protractor/node_modules/jasminewd2/index.js:108:15\n    at new ManagedPromise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/tmp/lambda_protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:668:7' to be undefined.",
+      "time" : {
+        "start" : 1535407883463,
+        "stop" : 1535407884181,
+        "duration" : 718
+      }
+    } ]
+  },
+  "Protractor extensions jQuery methods Finds the closest element matching the selector" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "803765332dbf8bc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535407816115,
+        "stop" : 1535407816402,
+        "duration" : 287
+      }
+    } ]
+  }
+}

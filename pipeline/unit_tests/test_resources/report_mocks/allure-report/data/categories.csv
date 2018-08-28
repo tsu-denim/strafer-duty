@@ -1,0 +1,6 @@
+"Category","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"Risk Based Testing","1","0","0","2","0"
+"Product defects","1","0","0","0","0"
+"Flaky Tests","0","0","1","0","0"
+"Quarantined","0","0","0","1","0"
+"Hidden Behind Feature Flag","0","0","0","0","1"

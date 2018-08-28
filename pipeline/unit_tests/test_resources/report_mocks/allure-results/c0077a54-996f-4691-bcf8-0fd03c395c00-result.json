@@ -1,0 +1,61 @@
+{
+    "attachments": [
+        {
+            "name": "Screenshot",
+            "source": "9324e575-f45c-4be0-be03-999038caf232-attachment.png",
+            "type": "image/png"
+        }
+    ],
+    "fullName": "Protractor sync test cases should pass if an element is not supposed to exist and is missing #integrationSuite",
+    "historyId": "Protractor sync test cases should pass if an element is not supposed to exist and is missing #integrationSuite",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "Protractor sync test cases"
+        },
+        {
+            "name": "host",
+            "value": "Lambda"
+        },
+        {
+            "name": "thread",
+            "value": "ip-10-157-73-116"
+        }
+    ],
+    "links": [
+        {
+            "name": "Test Video",
+            "type": "video/mp4",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/2/18-08-27-18-10-015143/2-18-08-27-18-10-015143.mp4"
+        },
+        {
+            "name": "Chrome Log",
+            "type": "text/plain",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/2/18-08-27-18-10-015143/2-18-08-27-18-10-015143.log"
+        },
+        {
+            "name": "Chrome Driver Log",
+            "type": "text/plain",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/2/18-08-27-18-10-015143/2-18-08-27-18-10-015143.chromedriver.log"
+        },
+        {
+            "name": "Console Log",
+            "type": "text/plain",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/2/18-08-27-18-10-015143/2-18-08-27-18-10-015143.console.log"
+        },
+        {
+            "name": "Lambda Cloudwatch Logs",
+            "type": "text/html",
+            "url": "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: 05567268-b3ec-4038-9d22-5a89445b5be8\""
+        }
+    ],
+    "name": "should pass if an element is not supposed to exist and is missing #integrationSuite",
+    "parameters": [],
+    "stage": "finished",
+    "start": 1535407878977,
+    "status": "passed",
+    "statusDetails": {},
+    "steps": [],
+    "stop": 1535407879178,
+    "uuid": "fcbd51bf-0631-4731-9b3b-b03e1fe47bf0"
+}

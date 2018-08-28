@@ -1,0 +1,8 @@
+"Status","Name","Duration in ms","Description"
+"passed","Protractor sync test cases should pass if an element is not supposed to exist and is missing #integrationSuite","201",""
+"skipped","Protractor sync test cases can be skipped if we want them to #integrationSuite","0",""
+"passed","Protractor extensions jQuery methods Finds the closest element matching the selector","287",""
+"skipped","Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)","0",""
+"failed","Protractor sync test cases should fail if an element is not supposed to exist but is found #integrationSuite","718",""
+"passed","Protractor sync test cases can retry if they fail when configured #integrationSuite","141",""
+"unknown","Protractor sync test cases can be disabled and hidden from the Jasmine reporter #integrationSuite","14195",""

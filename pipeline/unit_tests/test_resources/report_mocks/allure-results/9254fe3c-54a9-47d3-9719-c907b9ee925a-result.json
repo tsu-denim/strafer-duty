@@ -1,0 +1,57 @@
+{
+    "attachments": [],
+    "fullName": "Protractor sync test cases can be skipped if we want them to #integrationSuite",
+    "historyId": "Protractor sync test cases can be skipped if we want them to #integrationSuite",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "Protractor sync test cases"
+        },
+        {
+            "name": "host",
+            "value": "Lambda"
+        },
+        {
+            "name": "thread",
+            "value": "ip-10-128-116-237"
+        }
+    ],
+    "links": [
+        {
+            "name": "Test Video",
+            "type": "video/mp4",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/4/18-08-27-18-10-015143/4-18-08-27-18-10-015143.mp4"
+        },
+        {
+            "name": "Chrome Log",
+            "type": "text/plain",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/4/18-08-27-18-10-015143/4-18-08-27-18-10-015143.log"
+        },
+        {
+            "name": "Chrome Driver Log",
+            "type": "text/plain",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/4/18-08-27-18-10-015143/4-18-08-27-18-10-015143.chromedriver.log"
+        },
+        {
+            "name": "Console Log",
+            "type": "text/plain",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/4/18-08-27-18-10-015143/4-18-08-27-18-10-015143.console.log"
+        },
+        {
+            "name": "Lambda Cloudwatch Logs",
+            "type": "text/html",
+            "url": "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: 9cd509c8-d21e-42bf-a1ef-f28f6c31b957\""
+        }
+    ],
+    "name": "can be skipped if we want them to #integrationSuite",
+    "parameters": [],
+    "stage": "finished",
+    "start": 1535407882488,
+    "status": "skipped",
+    "statusDetails": {
+        "message": "Suite disabled"
+    },
+    "steps": [],
+    "stop": 1535407882488,
+    "uuid": "d8036d29-f2e6-4ae7-893b-f406eba1bb70"
+}

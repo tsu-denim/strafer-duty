@@ -1,0 +1,341 @@
+AWSTemplateFormatVersion: 2010-09-09
+Transform:
+- AWS::Serverless-2016-10-31
+
+Parameters:
+  ChromeVersion:
+    Type: String
+    Description: Version of Chrome to use in runTest
+
+
+
+Resources:
+  LambdaServiceRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          -
+            Effect: "Allow"
+            Principal:
+              Service:
+                - "lambda.amazonaws.com"
+            Action:
+              - "sts:AssumeRole"
+      Policies:
+        -
+          PolicyName: "strafer-duty-lambda-policy"
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              -
+                Effect: "Allow"
+                Action:
+                  - "logs:*"
+                Resource:
+                  - "*"
+              -
+                Effect: "Allow"
+                Action:
+                  - "sns:*"
+                Resource:
+                  -
+                    Fn::Sub: |-
+                      ${TaskStartTopic}
+              -
+                Effect: "Allow"
+                Action:
+                  - "sdb:*"
+                Resource:
+                  -
+                    Fn::Sub: |-
+                      arn:aws:sdb:${AWS::Region}:${AWS::AccountId}:domain/${TaskRunnerDomain}
+              -
+                Effect: "Allow"
+                Action:
+                  - "s3:*"
+                Resource:
+                  -
+                    Fn::Sub: |-
+                      arn:aws:s3:::${TaskStore}
+              -
+                Effect: "Allow"
+                Action:
+                  - "s3:*"
+                Resource:
+                  -
+                    Fn::Sub: |-
+                      arn:aws:s3:::${TaskStore}/*
+  StepFunctionServiceRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          -
+            Effect: "Allow"
+            Principal:
+              Service:
+                -
+                  Fn::Sub: |-
+                    states.${AWS::Region}.amazonaws.com
+            Action:
+              - "sts:AssumeRole"
+      Policies:
+        -
+          PolicyName: "strafer-duty-states-policy"
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              -
+                Effect: "Allow"
+                Action:
+                  - "lambda:InvokeFunction"
+                Resource:
+                  -
+                    Fn::Sub: |-
+                      arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${JobStart}
+                  -
+                    Fn::Sub: |-
+                      arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${RunTask}
+                  -
+                    Fn::Sub: |-
+                      arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${MarkTaskTimeout}
+                  -
+                    Fn::Sub: |-
+                      arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${CheckJobFinished}
+                  -
+                    Fn::Sub: |-
+                      arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${CreateTaskReport}
+  TaskStore:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      LifecycleConfiguration:
+        Rules:
+        - ExpirationInDays: 3
+          Id: 'Delete objects once they are 3 days old.'
+          Status: 'Enabled'
+  TaskRunnerDomain:
+    Type: 'AWS::SDB::Domain'
+    Properties:
+      Description: 'Simple DB Domain Lambda functions use to write execution data'
+  JobStart:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: functions/jobStart.handler
+      Runtime: python3.6
+      CodeUri: ./task-runner-functions.zip
+      Description: 'Starts tasks provided by the task manifest'
+      MemorySize: 1536
+      Timeout: 300
+      Role:
+        Fn::Sub: |-
+          arn:aws:iam::${AWS::AccountId}:role/${LambdaServiceRole}
+      Environment:
+        Variables:
+          SNSTOPIC: 
+            Ref: TaskStartTopic
+          SNSEXTERNALTOPIC: 'OBSOLETE'
+          SDBDOMAIN: 
+            Ref: TaskRunnerDomain
+          ASSUMABLEROLE: 'OBSOLETE'
+          TASKRUNNERBUCKET:
+            Ref: TaskStore
+  RunTask:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: functions/runTask.handler
+      Runtime: python3.6
+      CodeUri: ./task-runner-functions.zip
+      Description: 'Executes a task'
+      MemorySize: 1300
+      Timeout: 300
+      Role:
+        Fn::Sub: |-
+          arn:aws:iam::${AWS::AccountId}:role/${LambdaServiceRole}
+      Environment:
+        Variables:
+          PATH: '/var/task/node-v6.11.4-linux-x64/bin/:/usr/local/bin:/usr/bin/:/bin'
+          DISPLAY: ':99'
+          LD_LIBRARY_PATH: >-
+            /tmp/chrome-lambda/libs:/lib64:/usr/lib64:/var/runtime:/var/runtime/lib:/var/task:/var/task/lib:/tmp/lambda_protractor/lib
+          HOME: '/tmp/homedir'
+          CHROME_VERSION:
+            Ref: ChromeVersion
+          CHROME_LOG_FILE: '/tmp/chrome_debug.log'
+          DBUS_SESSION_BUS_ADDRESS: '/dev/null'
+          SDBDOMAIN: 
+            Ref: TaskRunnerDomain
+          TASKRUNNERBUCKET:
+            Ref: TaskStore
+      Events:
+        SNS1:
+          Type: SNS
+          Properties:
+            Topic:
+              Ref: TaskStartTopic
+  TaskStartTopic:
+    Type: 'AWS::SNS::Topic'
+  CheckJobFinished:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: functions/checkJobFinished.handler
+      Runtime: python3.6
+      CodeUri: ./task-runner-functions.zip
+      Description: 'Checks a running task job for completion'
+      MemorySize: 128
+      Timeout: 3
+      Role:
+        Fn::Sub: |-
+          arn:aws:iam::${AWS::AccountId}:role/${LambdaServiceRole}
+      Environment:
+        Variables:
+          SDBDOMAIN:
+            Ref: TaskRunnerDomain
+          TASKRUNNERBUCKET:
+            Ref: TaskStore
+  CreateTaskReport:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: functions/createTaskReport.handler
+      Runtime: python3.6
+      CodeUri: ./task-runner-functions.zip
+      Description: 'Creates a consolidated task report for a given jobId'
+      MemorySize: 3008
+      Timeout: 300
+      Role:
+        Fn::Sub: |-
+          arn:aws:iam::${AWS::AccountId}:role/${LambdaServiceRole}
+      Environment:
+        Variables:
+          SDBDOMAIN: 
+            Ref: TaskRunnerDomain
+          TASKRUNNERBUCKET:
+            Ref: TaskStore
+  MarkTaskTimeout:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: functions/markTaskTimeout.handler
+      Runtime: python3.6
+      CodeUri: ./task-runner-functions.zip
+      Description: 'Flags tasks that have timed out'
+      MemorySize: 1536
+      Timeout: 30
+      Role:
+        Fn::Sub: |-
+          arn:aws:iam::${AWS::AccountId}:role/${LambdaServiceRole}
+      Environment:
+        Variables:
+          SDBDOMAIN: 
+            Ref: TaskRunnerDomain
+          TASKRUNNERBUCKET:
+            Ref: TaskStore
+  TaskRunner:
+    Type: AWS::StepFunctions::StateMachine
+    Properties:
+      DefinitionString:
+        Fn::Sub: |-
+          {
+            "Comment": "Strafes Tasks With SNS to Lambda at a Controlled Rate",
+            "StartAt": "Execute Next Batch of Tasks",
+            "States": {
+              "Execute Next Batch of Tasks": {
+                "Type": "Task",
+                "Resource": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${JobStart}",
+                "ResultPath": "$.totalTasksInvoked",
+                "Next": "Wait X Seconds",
+                "Retry": [
+                  {
+                    "ErrorEquals": [
+                      "States.ALL"
+                    ],
+                    "IntervalSeconds": 1,
+                    "MaxAttempts": 3,
+                    "BackoffRate": 2
+                  }
+                ]
+              },
+              "Wait X Seconds": {
+                "Type": "Wait",
+                "SecondsPath": "$.batchDelayInSeconds",
+                "Next": "Mark Timed Out Tasks as Expired"
+              },
+               "Mark Timed Out Tasks as Expired": {
+                "Type": "Task",
+               "Resource": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${MarkTaskTimeout}",
+                "Next": "Find Out If Tasks Are All Finished",
+                "ResultPath": "$.expiredTasksFound",
+                "Retry": [
+                  {
+                    "ErrorEquals": [
+                      "States.ALL"
+                    ],
+                    "IntervalSeconds": 1,
+                    "MaxAttempts": 3,
+                    "BackoffRate": 2
+                  }
+                ]
+              },
+              "Find Out If Tasks Are All Finished": {
+                "Type": "Task",
+                "Resource": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${CheckJobFinished}",
+                "Next": "Continue to Wait for Tasks to Finish?",
+                "ResultPath": "$.status",
+                "Retry": [
+                  {
+                    "ErrorEquals": [
+                      "States.ALL"
+                    ],
+                    "IntervalSeconds": 1,
+                    "MaxAttempts": 3,
+                    "BackoffRate": 2
+                  }
+                ]
+              },
+              "Continue to Wait for Tasks to Finish?": {
+                "Type": "Choice",
+                "Choices": [
+                  {
+                    "Variable": "$.status",
+                    "StringEquals": "jobFailed",
+                    "Next": "Job Failed"
+                  },
+                  {
+                    "Variable": "$.status",
+                    "StringEquals": "jobComplete",
+                    "Next": "Create Task Report"
+                  }
+                ],
+                "Default": "Execute Next Batch of Tasks"
+              },
+              "Job Failed": {
+                "Type": "Fail",
+                "Cause": "Execution of the task job stopped by a configured rule.",
+                "Error": "DescribeJob returned FAILED"
+              },
+              "Create Task Report": {
+                "Type": "Task",
+                "Resource": "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${CreateTaskReport}",
+                "ResultPath": "$.reportUrl",
+                "End": true,
+                "Retry": [
+                  {
+                    "ErrorEquals": [
+                      "States.ALL"
+                    ],
+                    "IntervalSeconds": 1,
+                    "MaxAttempts": 3,
+                    "BackoffRate": 2
+                  }
+                ]
+              }
+            }
+          }
+      RoleArn:
+        Fn::Sub: |-
+          arn:aws:iam::${AWS::AccountId}:role/${StepFunctionServiceRole}
+Outputs:
+  StepFunctionOutput:
+    Description: StepFunction
+    Value: !Ref TaskRunner

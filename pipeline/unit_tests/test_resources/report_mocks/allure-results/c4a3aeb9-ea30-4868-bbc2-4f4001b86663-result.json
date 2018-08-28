@@ -1,0 +1,65 @@
+{
+    "attachments": [
+        {
+            "name": "Screenshot",
+            "source": "6ed8c467-f5db-4cdf-a0b7-538dd7d22182-attachment.png",
+            "type": "image/png"
+        }
+    ],
+    "fullName": "Protractor extensions jQuery methods Finds the closest element matching the selector",
+    "historyId": "Protractor extensions jQuery methods Finds the closest element matching the selector",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "Protractor extensions"
+        },
+        {
+            "name": "suite",
+            "value": "jQuery methods"
+        },
+        {
+            "name": "host",
+            "value": "Lambda"
+        },
+        {
+            "name": "thread",
+            "value": "ip-10-128-116-237"
+        }
+    ],
+    "links": [
+        {
+            "name": "Test Video",
+            "type": "video/mp4",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/1/18-08-27-18-09-655382/1-18-08-27-18-09-655382.mp4"
+        },
+        {
+            "name": "Chrome Log",
+            "type": "text/plain",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/1/18-08-27-18-09-655382/1-18-08-27-18-09-655382.log"
+        },
+        {
+            "name": "Chrome Driver Log",
+            "type": "text/plain",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/1/18-08-27-18-09-655382/1-18-08-27-18-09-655382.chromedriver.log"
+        },
+        {
+            "name": "Console Log",
+            "type": "text/plain",
+            "url": "https://allure-reports.dev.bbpd.io/test-runner/artifacts/1/18-08-27-18-09-655382/1-18-08-27-18-09-655382.console.log"
+        },
+        {
+            "name": "Lambda Cloudwatch Logs",
+            "type": "text/html",
+            "url": "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: b5380d42-f29a-4aa1-ac62-c6774be6bb58\""
+        }
+    ],
+    "name": "Finds the closest element matching the selector",
+    "parameters": [],
+    "stage": "finished",
+    "start": 1535407816115,
+    "status": "passed",
+    "statusDetails": {},
+    "steps": [],
+    "stop": 1535407816402,
+    "uuid": "2ca99a41-0b97-4ba5-a434-7b1fd3361bb2"
+}
