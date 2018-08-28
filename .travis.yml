@@ -8,6 +8,6 @@ script:
   - sudo -H apt-get update
   - sudo -H apt-get install python3.6
   - sudo -H python3 --version
-  - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3
+  - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3.6
   - sudo -H pip3 install . -t dist
   - ./run_pipeline_stages.sh
