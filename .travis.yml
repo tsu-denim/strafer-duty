@@ -3,11 +3,11 @@ sudo: required
  
 install: true
 script:
-  - sudo apt-get install software-properties-common
-  - sudo add-apt-repository --yes ppa:deadsnakes/ppa
-  - sudo apt-get update
-  - sudo apt-get install python3.6
-  - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3
-  - sudo pip3 install --upgrade pip
-  - python3 --version
+  - sudo -H apt-get install software-properties-common
+  - sudo -H add-apt-repository --yes ppa:deadsnakes/ppa
+  - sudo -H apt-get update
+  - sudo -H apt-get install python3.6
+  - sudo -H python3 --version
+  - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3
+  - sudo -H pip3 install --upgrade pip
   - ./run_pipeline_stages.sh
