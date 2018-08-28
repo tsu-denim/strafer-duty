@@ -1,81 +1,81 @@
 from functions.lib.manifest import JasmineManifest
 
 
-def test_get_all_tests():
+def test_get_all_tests(test_resource_dir):
     # Test: pass 'glob' filePatterns to directory with 1 matching file and 5 tests; Expect: jasmine_test_list to contain 5 items
-    five_jasmine_tests = JasmineManifest(['./test_resources/five_tests.ts'], [], [])
+    five_jasmine_tests = JasmineManifest([test_resource_dir + 'five_tests.ts'], [], [])
     assert len(five_jasmine_tests.jasmine_tests) == 5
 
     # Test: pass 'glob' filePatterns to directory containing no files with matching pattern'; Expect: empty jasmine_test_list
-    does_not_contain_jasmine_tests = JasmineManifest(['./test_resources/*.py'], [], [])
+    does_not_contain_jasmine_tests = JasmineManifest([test_resource_dir + '*.py'], [], [])
     assert len(does_not_contain_jasmine_tests.jasmine_tests) == 0
 
 
-def test_get_jasmine_file_list():
+def test_get_jasmine_file_list(test_resource_dir):
     # Test: Pass No files to method; Expect: Empty list of tests (no objects)
-    no_jasmine_files = JasmineManifest(['./test_resources/*.py'], [], [])
+    no_jasmine_files = JasmineManifest([test_resource_dir + '*.py'], [], [])
     assert len(no_jasmine_files.jasmine_tests) == 0
 
     # Test: Pass more than 0 files to method; Expect: more than 0 Jasmin File Object
-    test_resources_directory = JasmineManifest(['./test_resources/*.ts'], [], [])
+    test_resources_directory = JasmineManifest([test_resource_dir + '*.ts'], [], [])
     assert len(test_resources_directory.jasmine_tests) > 0
 
 
-def test_is_runnable():
+def test_is_runnable(test_resource_dir):
     # Test: pass no test name; expect False
     no_test = JasmineManifest([], [], [])
     assert not no_test.is_runnable('')
 
     # Test: pass filepath with runnable tests; Expect True
-    runnable = JasmineManifest(['./test_resources/is_runnable_test.ts'], [], [])
+    runnable = JasmineManifest([test_resource_dir + 'is_runnable_test.ts'], [], [])
     assert runnable.is_runnable('is_runnable')
 
 
-def test_get_total_number_of_tests():
+def test_get_total_number_of_tests(test_resource_dir):
     # Test: Pass file with no tests; Expect return 0
     no_tests = JasmineManifest([], [], [])
     assert no_tests.get_total_number_tests() == 0
 
     # Test: Pass file path to recourses directory; Expected return more than 0
-    more_tests = JasmineManifest(['./test_resources/*.ts'], [], [])
+    more_tests = JasmineManifest([test_resource_dir + '*.ts'], [], [])
     assert more_tests.get_total_number_tests() > 0
 
 
-def test_get_all_runnable_tests():
+def test_get_all_runnable_tests(test_resource_dir):
     # Test: Pass file with no tests; Expect return 0
     no_tests = JasmineManifest([], [], [])
     assert len(no_tests.get_all_runnable_tests()) == 0
 
     # Test: Pass file path to recourses directory; Expected return more than 0
-    more_tests = JasmineManifest(['./test_resources/*.ts'], [], [])
+    more_tests = JasmineManifest([test_resource_dir + '*.ts'], [], [])
     assert len(more_tests.get_all_runnable_tests()) > 0
 
 
-def test_get_total_number_runnable():
+def test_get_total_number_runnable(test_resource_dir):
     # Test: Pass file with No runnable tests; Expect return 0
     no_runnable = JasmineManifest([], [], [])
     assert no_runnable.get_total_number_runnable() == 0
 
     # Test: Pass file with runnable tests; Expect return > 0
-    has_runnable = JasmineManifest(['./test_resources/*.ts'], [], [])
+    has_runnable = JasmineManifest([test_resource_dir + '*.ts'], [], [])
     assert has_runnable.get_total_number_runnable() > 0
 
 
-def test_get_all_non_runnable_tests():
+def test_get_all_non_runnable_tests(test_resource_dir):
     # Test: Pass file with five non_runnable Tests: Expect return 5
-    five_runnable = JasmineManifest(['./test_resources/five_tests.ts'], ['#include'], [])
+    five_runnable = JasmineManifest([test_resource_dir + 'five_tests.ts'], ['#include'], [])
     assert len(five_runnable.get_all_non_runnable_tests()) == 5
 
     # Test: Pass file with all runnable tests; Expect 0 return
-    all_runnable = JasmineManifest(['./test_resources/five_tests.ts'], [], [])
+    all_runnable = JasmineManifest([test_resource_dir + 'five_tests.ts'], [], [])
     assert len(all_runnable.get_all_non_runnable_tests()) == 0
 
 
-def test_get_total_number_not_runnable():
+def test_get_total_number_not_runnable(test_resource_dir):
     # Test: pass file pattern with all runnable tests; Expect return 0
-    all_runnable = JasmineManifest(['./test_resources/five_tests.ts'], [], [])
+    all_runnable = JasmineManifest([test_resource_dir + 'five_tests.ts'], [], [])
     assert all_runnable.get_total_number_not_runnable() == 0
 
     # Test: pass file pattern with 5 non-runnable tests; Expect: return 5
-    five_non_runnable = JasmineManifest(['./test_resources/five_tests.ts'], ['#include'], [])
+    five_non_runnable = JasmineManifest([test_resource_dir + 'five_tests.ts'], ['#include'], [])
     assert five_non_runnable.get_total_number_not_runnable() == 5
