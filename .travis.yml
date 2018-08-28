@@ -2,5 +2,5 @@ dist: trusty
 sudo: required
  
 install: true
-script: cd && pwd
+script: pwd && cd && pwd && echo $PYTHONPATH
 
