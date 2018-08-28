@@ -22,7 +22,6 @@ def get_branch_name():
 setup(
     name='straferduty-manual',
     version=1,
-    package_dir={'':'functions'},
     packages=find_packages(),
     package_data={
         '': [
