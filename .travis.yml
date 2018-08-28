@@ -3,6 +3,8 @@ sudo: required
  
 install: true
 script:
+  - sudo apt-get remove python-pip
+  - sudo apt-get remove python3-pip
   - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3
   - sudo pip3 install --upgrade pip
   - python3 --version
