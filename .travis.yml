@@ -4,8 +4,10 @@ python:
 dist: trusty
 sudo: required
 
-jobs:
-  include:
-    - stage: BUILD_INSTALL_LOCAL_LIBRARY
-      script: ./run_pipeline_stages.sh
+before_install:
+  - "pip install -U pip"
+  - "export PYTHONPATH=$PYTHONPATH:$(pwd)"
+  
+script:
+  - ./run_pipeline_stages.sh
 
