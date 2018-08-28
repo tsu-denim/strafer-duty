@@ -6,6 +6,4 @@ script:
   - sudo apt-get -qq install -y python3-pip
   - python3 --version
   - sudo -H pip3 install --upgrade pip
-  - pwd
-  - sudo -H pip3 install -r requirements.txt --ignore-installed urllib3
   - ./run_pipeline_stages.sh
