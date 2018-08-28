@@ -3,8 +3,10 @@ sudo: required
  
 install: true
 script:
-  - sudo apt-get remove python-pip
-  - sudo apt-get remove python3-pip
+  - sudo apt-get install software-properties-common
+  - sudo add-apt-repository ppa:deadsnakes/ppa
+  - sudo apt-get update
+  - sudo apt-get install python3.6
   - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3
   - sudo pip3 install --upgrade pip
   - python3 --version
