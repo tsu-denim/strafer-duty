@@ -23,9 +23,9 @@ setup(
     name='straferduty-manual',
     version=1,
     packages=[
-        'functions',
-        'pipeline',
-        'functions/lib'
+        '/home/travis/build/tsu-denim/strafer-duty/functions',
+        '/home/travis/build/tsu-denim/strafer-duty/pipeline',
+        '/home/travis/build/tsu-denim/strafer-duty/functions/lib'
     ],
     package_data={
         'functions': [
