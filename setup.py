@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import subprocess
 import os
 
@@ -22,13 +22,9 @@ def get_branch_name():
 setup(
     name='straferduty-manual',
     version=1,
-    packages=[
-        '/home/travis/build/tsu-denim/strafer-duty/functions',
-        '/home/travis/build/tsu-denim/strafer-duty/pipeline',
-        '/home/travis/build/tsu-denim/strafer-duty/functions/lib'
-    ],
+    packages=find_packages(),
     package_data={
-        'functions': [
+        '': [
             '*.py',
             '*.gz',
             '*.xsl'
