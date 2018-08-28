@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # sudo -H pip3 install -r requirements.txt
-export PYTHONPATH=$PYTHONPATH:$(pwd)
+export PYTHONPATH=''
 echo $PYTHONPATH
 
 # Install library
