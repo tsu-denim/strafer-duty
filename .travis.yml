@@ -3,7 +3,7 @@ sudo: required
  
 install: true
 script:
-  - sudo apt-get -qq install -y python3-pip
-  - python3 --version
+  - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3
   - sudo -H pip3 install --upgrade pip
+  - python3 --version
   - ./run_pipeline_stages.sh
