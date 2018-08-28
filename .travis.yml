@@ -2,5 +2,8 @@ dist: trusty
 sudo: required
  
 install: true
-script: pwd && cd && pwd && echo $PYTHONPATH
+script: 
+ - pwd && cd && pwd && echo $PYTHONPATH
+ - sudo apt-get -qq install -y python3-pip
+ - python3 --version
 
