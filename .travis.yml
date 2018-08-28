@@ -7,6 +7,5 @@ sudo: required
 jobs:
   include:
     - stage: BUILD_INSTALL_LOCAL_LIBRARY
-      script: ./pipeline/stages/build_install_local_library.sh
-    - stage: RUN_UNIT_TESTS
-      script: ./pipeline/stages/run_unit_tests.sh
+      script: ./run_pipeline_stages.sh
+
