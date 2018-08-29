@@ -60,13 +60,13 @@ python3.6 -u ./pipeline/stages/deploy.py
 echo "##################################################"
 echo "###### STAGE - RUN_INTEGRATION_PROTRACTOR-SYNC ###"
 echo "##################################################"
-#./pipeline/stages/run_integration_protractor-sync.sh
+./pipeline/stages/run_integration_protractor-sync.sh
 
 # Run junit jasmine integration tests
 echo "##################################################"
 echo "###### STAGE - RUN_INTEGRATION_JASMINE-JUNIT #####"
 echo "##################################################"
-#./pipeline/stages/run_integration_jasmine-junit.sh
+./pipeline/stages/run_integration_jasmine-junit.sh
 
 # Run allure jasmine integration tests
 echo "##################################################"
