@@ -2,7 +2,7 @@
 set -x
 
 # Install the python library to a folder
-sudo -H pip3 install . -t dist
+sudo -H pip3 install . -t dist --quiet
 sudo mkdir -p dist/functions
 
 echo "Forking copy/deflate operations..."

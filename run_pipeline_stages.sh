@@ -25,11 +25,10 @@ echo "##################################################"
 ./pipeline/stages/build_install_local_library.sh
 
 # Build protractor-sync
-# Install library
 echo "##################################################"
 echo "###### STAGE - BUILD_INSTALL_PROTRACTOR-SYNC #####"
 echo "##################################################"
-./pipeline/integration_tests/build_unit_tests.sh
+./pipeline/integration_tests/build_protractor_sync.sh
 
 # Cleanup any stale distribution packages
 echo "##################################################"
