@@ -9,6 +9,5 @@ strafer-duty --roleToAssume="$PIPELINE_ROLE" \
 --mockExpiredTest
 
 set -e
-python3 -m pytest --junitxml=junit_results/e2e-junit.xml \
-                  --report_path junit_results/integration.xml \
+sudo -H python3.6 -m pytest --junitxml=junit_results/e2e-junit.xml --report_path junit_results/integration.xml \
                   ./pipeline/integration_tests/functional_tests/tests/integ_tests_junit.py
