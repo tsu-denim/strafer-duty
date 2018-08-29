@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set +ex
 
+cd ./pipeline/integration_tests && ./build_integration_tests.sh && cd ../../
 strafer-duty --roleToAssume="$PIPELINE_ROLE" \
 --jsonConfigPath "pipeline/integration_tests/functional_tests/functional-test-config.json" \
 --tarPath "pipeline/integration_tests/integration.tar.gz" \

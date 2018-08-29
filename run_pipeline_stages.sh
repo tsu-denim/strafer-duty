@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Version of Chrome binary to download from github repo release
 export CHROME_VERSION='chrome-63.0.3239.84'
 echo $CHROME_VERSION
 export PYTHONPATH=$PYTHONPATH:$(pwd)/dist/functions
@@ -41,8 +42,6 @@ echo "##################################################"
 echo "###### STAGE - ZIP_CF_DISTRIBUTION ###############"
 echo "##################################################"
 ./pipeline/stages/zip_cf_distributable.sh
-
-wait
 
 # Deploy CloudFormation stack
 echo "##################################################"
