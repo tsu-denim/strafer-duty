@@ -12,6 +12,9 @@ script:
   - curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
   - unzip awscli-bundle.zip
   - which python3.6 | (read PY_PATH; sudo -H $PY_PATH ./awscli-bundle/install)
+  - sudo -H /root/.local/lib/aws/bin/aws --version
+  - /root/.local/lib/aws/bin/aws --version
+  - PATH=/root/.local/lib/aws/bin/aws:$PATH
   - sudo -H which aws
   - which aws
   - # sudo -H pip3 install -r requirements.txt --quiet
