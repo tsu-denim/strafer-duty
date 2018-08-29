@@ -142,8 +142,8 @@ def test_junit_retry(report_path):
 
 
 def test_junit_manifest(report_path):
-    setup_tests_abs_path = os.path.abspath(
-        'pipeline/integration_tests/functional_tests/test_setup/test/spec/jasmine_reporter_test.ts')
+    setup_tests_abs_path = os.path.abspath('pipeline/integration_tests/webdriver_tests/jasmine_reporter_test.ts')
+
     jasmine_manifest = JasmineManifest([setup_tests_abs_path],
                                        ['#integrationSuite'], ['#quarantine'])
     jasmine_manifest_skipped = JasmineManifest([setup_tests_abs_path],
