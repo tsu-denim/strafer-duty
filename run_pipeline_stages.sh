@@ -12,17 +12,24 @@ echo "###### STAGE - DOWNLOAD_INSTALL_REQUIREMENTS #####"
 echo "##################################################"
 ./pipeline/stages/build_install_agent_requirements.sh
 
+# Run unit tests
+echo "##################################################"
+echo "###### STAGE - RUN_UNIT_TESTS ####################"
+echo "##################################################"
+./pipeline/stages/run_unit_tests.sh
+
 # Install library
 echo "##################################################"
 echo "###### STAGE - BUILD_INSTALL_PYTHON_LIBRARY ######"
 echo "##################################################"
 ./pipeline/stages/build_install_local_library.sh
 
-# Run unit tests
+# Build protractor-sync
+# Install library
 echo "##################################################"
-echo "###### STAGE - RUN_UNIT_TESTS ####################"
+echo "###### STAGE - BUILD_INSTALL_PROTRACTOR-SYNC #####"
 echo "##################################################"
-./pipeline/stages/run_unit_tests.sh
+./pipeline/integration_tests/build_unit_tests.sh
 
 # Cleanup any stale distribution packages
 echo "##################################################"
@@ -54,13 +61,13 @@ python3.6 -u ./pipeline/stages/deploy.py
 echo "##################################################"
 echo "###### STAGE - RUN_INTEGRATION_PROTRACTOR-SYNC ###"
 echo "##################################################"
-./pipeline/stages/run_integration_protractor-sync.sh
+#./pipeline/stages/run_integration_protractor-sync.sh
 
 # Run junit jasmine integration tests
 echo "##################################################"
 echo "###### STAGE - RUN_INTEGRATION_JASMINE-JUNIT #####"
 echo "##################################################"
-./pipeline/stages/run_integration_jasmine-junit.sh
+#./pipeline/stages/run_integration_jasmine-junit.sh
 
 # Run allure jasmine integration tests
 echo "##################################################"
