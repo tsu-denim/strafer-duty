@@ -12,7 +12,7 @@ echo "###### STAGE - DOWNLOAD_INSTALL_REQUIREMENTS #####"
 echo "##################################################"
 ./pipeline/stages/build_install_agent_requirements.sh
 
-# Run unit tests
+# Run unit functional_tests
 echo "##################################################"
 echo "###### STAGE - RUN_UNIT_TESTS ####################"
 echo "##################################################"
@@ -55,23 +55,28 @@ echo "###### STAGE - DEPLOY_CF_STACK ###################"
 echo "##################################################"
 python3.6 -u ./pipeline/stages/deploy.py
 
-# TODO: Pipe runTest logs to s3 and download for integration tests
+# TODO: Pipe runTest logs to s3 and download for integration functional_tests
 # Run protractor-sync integration smoke test, set to max 1 in config
 echo "##################################################"
 echo "###### STAGE - RUN_INTEGRATION_PROTRACTOR-SYNC ###"
 echo "##################################################"
 ./pipeline/stages/run_integration_protractor-sync.sh
 
-# Run junit jasmine integration tests
+# Run junit jasmine integration functional_tests
 echo "##################################################"
 echo "###### STAGE - RUN_INTEGRATION_JASMINE-JUNIT #####"
 echo "##################################################"
 ./pipeline/stages/run_integration_jasmine-junit.sh
 
-# Run allure jasmine integration tests
+# Run allure jasmine integration functional_tests
 echo "##################################################"
 echo "###### STAGE - RUN_INTEGRATION_JASMINE-ALLURE ####"
 echo "##################################################"
-#cp categories.json allure-results
-#allure generate allure-results
-#./pipeline/stages/run_integration_jasmine-allure.sh
+cp categories.json allure-results
+allure generate allure-results
+./pipeline/stages/run_integration_jasmine-allure.sh
+mv allure-report allure-old
+cp junit_results/e2e-allure.xml allure-results
+cp junit_results/e2e-junit.xml allure-results
+allure generate allure-results
+

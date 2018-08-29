@@ -5,9 +5,11 @@ install: true
 script:
   - sudo -H apt-get -qq install software-properties-common
   - sudo -H add-apt-repository --yes ppa:deadsnakes/ppa
+  - sudo -H apt-add-repository --yes ppa:qameta/allure
   - sudo -H apt-get -qq update
   - sudo -H apt-get -qq install python3.6
   - sudo -H apt-get -qq install python3.6-dev
+  - sudo -H apt-get -qq install allure
   - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3.6
   - curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
   - unzip awscli-bundle.zip
@@ -16,3 +18,13 @@ script:
   - sudo -H pip3 install -r requirements.txt --quiet
   - ./pipeline/integration_tests/install_prerequisites.sh
   - ./run_pipeline_stages.sh
+
+deploy:
+  provider: pages
+  local-dir: allure-reports
+  committer-from-gh: true
+  skip-cleanup: true
+  github-token: $repo_token  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master

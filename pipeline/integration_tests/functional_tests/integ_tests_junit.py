@@ -65,7 +65,7 @@ def test_junit_disabled(report_path):
     assert contains_disabled
 
 
-@pytest.mark.xfail(reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
+@pytest.mark.xfail(run=False, reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
 def test_junit_video_artifact(report_path):
     report = JunitHelper(report_path)
     case_list = report.get_test_attributes()
@@ -81,7 +81,7 @@ def test_junit_video_artifact(report_path):
     assert has_video
 
 
-@pytest.mark.xfail(reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
+@pytest.mark.xfail(run=False, reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
 def test_junit_chrome_log_artifact(report_path):
     report = JunitHelper(report_path)
     case_list = report.get_test_attributes()
@@ -97,7 +97,7 @@ def test_junit_chrome_log_artifact(report_path):
     assert has_log
 
 
-@pytest.mark.xfail(reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
+@pytest.mark.xfail(run=False, reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
 def test_junit_chromedriver_log_artifact(report_path):
     report = JunitHelper(report_path)
     case_list = report.get_test_attributes()
@@ -113,7 +113,7 @@ def test_junit_chromedriver_log_artifact(report_path):
     assert has_log
 
 
-@pytest.mark.xfail(reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
+@pytest.mark.xfail(run=False, reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
 def test_junit_console_log_artifact(report_path):
     report = JunitHelper(report_path)
     case_list = report.get_test_attributes()

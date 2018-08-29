@@ -51,7 +51,7 @@ def test_allure_disabled(report_path):
     assert contains_disabled
 
 
-@pytest.mark.xfail(reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
+@pytest.mark.xfail(run=False, reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
 def test_allure_video_artifact(report_path):
     report = AllureHelper(report_path)
     case_list = report.test_cases
@@ -69,7 +69,7 @@ def test_allure_video_artifact(report_path):
     assert has_video
 
 
-@pytest.mark.xfail(reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
+@pytest.mark.xfail(run=False, reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
 def test_allure_chrome_log_artifact(report_path):
     report = AllureHelper(report_path)
     case_list = report.test_cases
@@ -87,7 +87,7 @@ def test_allure_chrome_log_artifact(report_path):
     assert has_log
 
 
-@pytest.mark.xfail(reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
+@pytest.mark.xfail(run=False, reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
 def test_allure_chromedriver_log_artifact(report_path):
     report = AllureHelper(report_path)
     case_list = report.test_cases
@@ -105,7 +105,7 @@ def test_allure_chromedriver_log_artifact(report_path):
     assert has_log
 
 
-@pytest.mark.xfail(reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
+@pytest.mark.xfail(run=False, reason="Artifacts are no longer exposed this way, these need to be downloaded instead")
 def test_allure_console_log_artifact(report_path):
     report = AllureHelper(report_path)
     case_list = report.test_cases
