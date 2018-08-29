@@ -15,13 +15,13 @@ echo "##################################################"
 echo "##################################################"
 echo "###### STAGE - RUN_UNIT_TESTS ####################"
 echo "##################################################"
-./pipeline/stages/run_unit_tests.sh &
+./pipeline/stages/run_unit_tests.sh
 
 # Cleanup any stale distribution packages
 echo "##################################################"
 echo "###### STAGE - CLEAN_STALE_DISTRIBUTION ##########"
 echo "##################################################"
-./pipeline/stages/clean_stale_distribution.sh &
+./pipeline/stages/clean_stale_distribution.sh
 
 # Build static linked distributable and install
 # TODO: Add log groups to yaml template with retention policy so they are managed as part of the stack
