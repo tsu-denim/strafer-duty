@@ -6,35 +6,37 @@ export PYTHONPATH=$PYTHONPATH:$(pwd)/dist/functions
 echo $PYTHONPATH
 
 # Install library
-echo "##################################################"
-echo "###### STAGE - BUILD_INSTALL_LOCAL_LIBRARY #######"
-echo "##################################################"
-./pipeline/stages/build_install_local_library.sh
+(echo "##################################################";
+echo "###### STAGE - BUILD_INSTALL_LOCAL_LIBRARY #######";
+echo "##################################################";
+./pipeline/stages/build_install_local_library.sh) &
 
 # Run unit tests
-echo "##################################################"
-echo "###### STAGE - RUN_UNIT_TESTS ####################"
-echo "##################################################"
-./pipeline/stages/run_unit_tests.sh
+(echo "##################################################";
+echo "###### STAGE - RUN_UNIT_TESTS ####################";
+echo "##################################################";
+./pipeline/stages/run_unit_tests.sh) &
 
 # Cleanup any stale distribution packages
-echo "##################################################"
-echo "###### STAGE - CLEAN_STALE_DISTRIBUTION ##########"
-echo "##################################################"
-./pipeline/stages/clean_stale_distribution.sh
+(echo "##################################################";
+echo "###### STAGE - CLEAN_STALE_DISTRIBUTION ##########";
+echo "##################################################";
+./pipeline/stages/clean_stale_distribution.sh;
 
 # Build static linked distributable and install
 # TODO: Add log groups to yaml template with retention policy so they are managed as part of the stack
-echo "##################################################"
-echo "###### STAGE - BUILD_CF_DISTRIBUTION #############"
-echo "##################################################"
-./pipeline/stages/build_cf_distribution.sh
+echo "##################################################";
+echo "###### STAGE - BUILD_CF_DISTRIBUTION #############";
+echo "##################################################";
+./pipeline/stages/build_cf_distribution.sh;
 
 # Build CloudFormation stack template and upload to S3 Bucket
-echo "##################################################"
-echo "###### STAGE - ZIP_CF_DISTRIBUTION ###############"
-echo "##################################################"
-#./pipeline/stages/zip_cf_distributable.sh
+echo "##################################################";
+echo "###### STAGE - ZIP_CF_DISTRIBUTION ###############";
+echo "##################################################";
+./pipeline/stages/zip_cf_distributable.sh) &
+
+wait
 
 # Deploy CloudFormation stack
 echo "##################################################"
