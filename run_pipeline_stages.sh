@@ -11,24 +11,23 @@ echo "###### STAGE - DOWNLOAD_INSTALL_REQUIREMENTS #####"
 echo "##################################################"
 ./pipeline/stages/build_install_agent_requirements.sh
 
-# Run unit tests
-echo "##################################################";
-echo "###### STAGE - RUN_UNIT_TESTS ####################";
-echo "##################################################";
-./pipeline/stages/run_unit_tests.sh
+# Install library
+echo "##################################################"
+echo "###### STAGE - BUILD_INSTALL_PYTHON_LIBRARY ######"
+echo "##################################################"
+./pipeline/stages/build_install_local_library.sh
 
+# Run unit tests
+echo "##################################################"
+echo "###### STAGE - RUN_UNIT_TESTS ####################"
+echo "##################################################"
+./pipeline/stages/run_unit_tests.sh
 
 # Cleanup any stale distribution packages
 echo "##################################################"
 echo "###### STAGE - CLEAN_STALE_DISTRIBUTION ##########"
 echo "##################################################"
 ./pipeline/stages/clean_stale_distribution.sh
-
-# Install library
-echo "##################################################"
-echo "###### STAGE - BUILD_INSTALL_PYTHON_LIBRARY ######"
-echo "##################################################"
-./pipeline/stages/build_install_local_library.sh &
 
 # Build static linked distributable and install
 # TODO: Add log groups to yaml template with retention policy so they are managed as part of the stack
