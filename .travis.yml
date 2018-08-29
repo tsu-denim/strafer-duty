@@ -2,4 +2,11 @@ dist: trusty
 sudo: required
  
 install: true
-script: ./run_pipeline_stages.sh
+script:
+  - sudo -H apt-get install software-properties-common
+  - sudo -H add-apt-repository --yes ppa:deadsnakes/ppa
+  - sudo -H apt-get update
+  - sudo -H apt-get install python3.6
+  - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3.6
+  - sudo -H pip3 install awscli --upgrade --user --quiet
+  - ./run_pipeline_stages.sh
