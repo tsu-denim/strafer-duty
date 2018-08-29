@@ -1,9 +1,14 @@
 #!/usr/bin/env bash
 set -x
 
-sudo -H pip3 install -r requirements.txt &
-sudo -H pip3 install ./ &
-pip3 install awscli --upgrade --user
+sudo -H pip3 install -r requirements.txt --quiet &
+sudo -H pip3 install ./ --quiet &
+pip3 install awscli --upgrade --user --quiet &
+
+cd pipeline/integration_tests
+./build_unit_tests.sh &
+./build_integration_tests.sh &
 
 # Wait until python library has been installed
 wait
+cd ../../
