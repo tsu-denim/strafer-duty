@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-# sudo -H pip3 install -r requirements.txt
-export PYTHONPATH=''
+export CHROME_VERSION='chrome-63.0.3239.84'
+echo $CHROME_VERSION
+export PYTHONPATH=$PYTHONPATH:$(pwd)/dist/functions
 echo $PYTHONPATH
 
 # Install library
@@ -20,14 +21,14 @@ echo "##################################################"
 echo "##################################################"
 echo "###### STAGE - CLEAN_STALE_DISTRIBUTION ##########"
 echo "##################################################"
-#./pipeline/stages/clean_stale_distribution.sh
+./pipeline/stages/clean_stale_distribution.sh
 
 # Build static linked distributable and install
 # TODO: Add log groups to yaml template with retention policy so they are managed as part of the stack
 echo "##################################################"
 echo "###### STAGE - BUILD_CF_DISTRIBUTION #############"
 echo "##################################################"
-#./pipeline/stages/build_cf_distribution.sh
+./pipeline/stages/build_cf_distribution.sh
 
 # Build CloudFormation stack template and upload to S3 Bucket
 echo "##################################################"
