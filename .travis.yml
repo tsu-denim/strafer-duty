@@ -3,10 +3,11 @@ sudo: required
  
 install: true
 script:
-  - sudo -H apt-get install software-properties-common
+  - sudo -H apt-get -qq install software-properties-common
   - sudo -H add-apt-repository --yes ppa:deadsnakes/ppa
-  - sudo -H apt-get update
-  - sudo -H apt-get install python3.6
+  - sudo -H apt-get -qq update
+  - sudo -H apt-get -qq install python3.6
+  - sudo -H apt-get -qq install python3.6-dev
   - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3.6
   - curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
   - unzip awscli-bundle.zip
