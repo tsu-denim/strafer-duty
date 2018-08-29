@@ -8,5 +8,7 @@ script:
   - sudo -H apt-get update
   - sudo -H apt-get install python3.6
   - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3.6
-  - sudo -H pip3 install awscli --upgrade --user --quiet
+  - curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+  - unzip awscli-bundle.zip
+  - sudo /usr/local/bin/python3.6 awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
   - ./run_pipeline_stages.sh
