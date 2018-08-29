@@ -1,5 +1,10 @@
+import os
 import pytest
+import sys
 
+here = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, here)
+print(sys.path)
 
 def pytest_addoption(parser):
     parser.addoption("--report_path", action="store", default="junit/integration.xml",
