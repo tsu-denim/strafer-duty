@@ -10,5 +10,5 @@ script:
   - curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3.6
   - curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
   - unzip awscli-bundle.zip
-  - sudo /usr/local/bin/python3.6 awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+  - sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
   - ./run_pipeline_stages.sh
