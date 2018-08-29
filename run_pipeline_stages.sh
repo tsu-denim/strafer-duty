@@ -28,7 +28,7 @@ echo "##################################################"
 echo "##################################################"
 echo "###### STAGE - BUILD_INSTALL_PROTRACTOR-SYNC #####"
 echo "##################################################"
-./pipeline/integration_tests/build_protractor_sync.sh
+cd ./pipeline/integration_tests && ./build_protractor_sync.sh && cd ../../
 
 # Cleanup any stale distribution packages
 echo "##################################################"
