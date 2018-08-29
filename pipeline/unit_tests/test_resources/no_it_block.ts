@@ -1,4 +1,0 @@
-describe('noItBlock', function() {
-
- 
-});
