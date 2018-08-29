@@ -3,7 +3,6 @@ set -x
 
 sudo -H pip3 install -r requirements.txt --quiet &
 sudo -H pip3 install ./ --quiet &
-pip3 install awscli --upgrade --user --quiet &
 
 cd pipeline/integration_tests
 ./build_unit_tests.sh &

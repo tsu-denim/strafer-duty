@@ -11,5 +11,6 @@ sudo -H add-apt-repository --yes ppa:deadsnakes/ppa -qq
 sudo -H apt-get update -qq
 sudo -H apt-get install python3.6 -qq
 curl -sS https://bootstrap.pypa.io/get-pip.py | sudo -H python3.6
+sudo -H pip3 install awscli --upgrade --user --quiet
 
 wait
