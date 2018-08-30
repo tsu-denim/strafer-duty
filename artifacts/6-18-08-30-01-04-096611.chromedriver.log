@@ -1,0 +1,404 @@
+[1.135][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [ "--disable-gpu", "--single-process", "--no-sandbox", "--data-path=/tmp/data-path", "--homedir=/tmp/homedir", "--disk-cache-dir=/tmp", "--disk-cache-size=1", "--media-cache-size=1", "--allow-file-access-from-files", "--enable-logging", "--v=1", "--disable-web-security", "--disable-extensions", "--ignore-certificate-errors", "--disable-ntp-most-likely-favicons-from-server", "--disable-ntp-popular-sites", "--window-size=1366,1024", "--disable-infobars", "--disable-dev-shm-usage", "..." ],
+         "binary": "/tmp/chrome-lambda/chrome",
+         "prefs": {
+            "credentials_enable_service": false,
+            "profile": {
+               "password_manager_enabled": false
+            }
+         }
+      },
+      "count": 1
+   }
+}
+[1.135][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1.135][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1.136][INFO]: Launching chrome: /tmp/chrome-lambda/chrome --allow-file-access-from-files --data-path=/tmp/data-path --disable-background-networking --disable-browser-side-navigation --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-extensions-except=/tmp/.org.chromium.Chromium.Fu2dpP/internal --disable-gpu --disable-hang-monitor --disable-infobars --disable-ntp-most-likely-favicons-from-server --disable-ntp-popular-sites --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --disable-web-security --disk-cache-dir=/tmp --disk-cache-size=1 --enable-automation --enable-logging --enable-precise-memory-info --force-fieldtrials=SiteIsolationExtensions/Control --homedir=/tmp/homedir --ignore-certificate-errors --log-level=0 --media-cache-size=1 --metrics-recording-only --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=12802 --safebrowsing-disable-auto-update --single-process --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.R7awJt --v=1 --window-size=1366,1024 data:,
+[1.136][DEBUG]: DevTools request: http://localhost:12802/json/version
+prctl(PR_SET_NO_NEW_PRIVS) failed
+Xlib:  extension "RANDR" missing on display ":99".
+[44:49:0830/010435.189550:ERROR:bus.cc(395)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+Xlib:  extension "RANDR" missing on display ":99".
+
+DevTools listening on ws://127.0.0.1:12802/devtools/browser/e5f25c1c-f0c1-49a0-9de8-85a65fe6d6b5
+[1.804][SEVERE]: CreatePlatformSocket() returned an error, errno=1: Operation not permitted (1)
+[1.849][DEBUG]: DevTools response: {
+   "Browser": "Chrome/63.0.3239.84",
+   "Protocol-Version": "1.2",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+   "V8-Version": "6.3.292.46",
+   "WebKit-Version": "537.36 (@0f53a5abc7a405fbe9f1cfd3db38f2092c8a7816)",
+   "webSocketDebuggerUrl": "ws://localhost:12802/devtools/browser/e5f25c1c-f0c1-49a0-9de8-85a65fe6d6b5"
+}
+
+[1.863][DEBUG]: DevTools request: http://localhost:12802/json
+[1.866][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12802/devtools/page/(FF617DA8786B52962F5F7FCE3524E75)",
+   "id": "(FF617DA8786B52962F5F7FCE3524E75)",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:12802/devtools/page/(FF617DA8786B52962F5F7FCE3524E75)"
+} ]
+
+[1.866][DEBUG]: DevTools request: http://localhost:12802/json
+[1.884][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12802/devtools/page/(FF617DA8786B52962F5F7FCE3524E75)",
+   "id": "(FF617DA8786B52962F5F7FCE3524E75)",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:12802/devtools/page/(FF617DA8786B52962F5F7FCE3524E75)"
+} ]
+
+[1.884][INFO]: resolved localhost to ["127.0.0.1"]
+[1.885][DEBUG]: DEVTOOLS COMMAND Log.enable (id=1) {
+
+}
+[1.885][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=2) {
+
+}
+[1.885][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=3) {
+
+}
+[1.885][DEBUG]: DEVTOOLS COMMAND Page.enable (id=4) {
+
+}
+[1.885][DEBUG]: DEVTOOLS COMMAND Page.enable (id=5) {
+
+}
+[44:67:0830/010435.663709:ERROR:io_thread.cc(730)] Cannot use V8 Proxy resolver in single process mode.
+[44:67:0830/010435.667330:ERROR:io_thread.cc(730)] Cannot use V8 Proxy resolver in single process mode.
+[2.027][DEBUG]: DEVTOOLS RESPONSE Log.enable (id=1) {
+
+}
+[2.027][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=2) {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "about:blank",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 2,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "(FF617DA8786B52962F5F7FCE3524E75)",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[2.027][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=3) {
+
+}
+[2.027][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=4) {
+
+}
+[2.027][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=5) {
+
+}
+[2.027][DEBUG]: DEVTOOLS COMMAND Page.enable (id=6) {
+
+}
+[2.062][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(FF617DA8786B52962F5F7FCE3524E75)",
+   "name": "commit",
+   "timestamp": 76.767718
+}
+[2.064][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+   "frame": {
+      "id": "(FF617DA8786B52962F5F7FCE3524E75)",
+      "loaderId": "44.1",
+      "mimeType": "text/plain",
+      "securityOrigin": "://",
+      "url": "data:,"
+   }
+}
+[2.064][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+
+}
+[2.064][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=7) {
+
+}
+[2.065][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+   "context": {
+      "auxData": {
+         "frameId": "(FF617DA8786B52962F5F7FCE3524E75)",
+         "isDefault": true
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[2.066][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=6) {
+
+}
+[2.084][DEBUG]: DEVTOOLS EVENT Page.loadEventFired {
+   "timestamp": 76.79061
+}
+[2.084][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(FF617DA8786B52962F5F7FCE3524E75)",
+   "name": "load",
+   "timestamp": 76.79061
+}
+[2.084][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "(FF617DA8786B52962F5F7FCE3524E75)"
+}
+[2.084][DEBUG]: DEVTOOLS EVENT Page.domContentEventFired {
+   "timestamp": 76.791019
+}
+[2.084][DEBUG]: DEVTOOLS EVENT Page.lifecycleEvent {
+   "frameId": "(FF617DA8786B52962F5F7FCE3524E75)",
+   "name": "DOMContentLoaded",
+   "timestamp": 76.791019
+}
+[2.084][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+
+}
+[2.084][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=8) {
+
+}
+[2.104][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=7) {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 7,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 9,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "(FF617DA8786B52962F5F7FCE3524E75)",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[2.104][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=8) {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 7,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 11,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 10
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 9,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 12,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 10
+         } ],
+         "frameId": "(FF617DA8786B52962F5F7FCE3524E75)",
+         "localName": "html",
+         "nodeId": 10,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 9
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 9,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[2.105][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=9) {
+
+}
+[2.109][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=9) {
+
+}
+[2.110][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=10) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[2.122][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=10) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[2.123][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4)",
+      "userDataDir": "/tmp/.org.chromium.Chromium.R7awJt"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Linux",
+   "rotatable": false,
+   "setWindowRect": true,
+   "takesHeapSnapshot": true,
+   "~~~": "..."
+}
+[2.142][INFO]: COMMAND SetTimeout {
+   "script": 11000
+}
+[2.144][INFO]: RESPONSE SetTimeout unknown error: 'ms' must be a double
+  (Session info: chrome=63.0.3239.84)
+[2.164][INFO]: COMMAND SetTimeout {
+   "ms": 11000,
+   "type": "script"
+}
+[2.164][INFO]: RESPONSE SetTimeout
+[2.378][INFO]: COMMAND SetTimeout {
+   "pageLoad": 30000
+}
+[2.379][INFO]: RESPONSE SetTimeout unknown error: 'ms' must be a double
+  (Session info: chrome=63.0.3239.84)
+[2.388][INFO]: COMMAND SetTimeout {
+   "ms": 30000,
+   "type": "page load"
+}
+[2.388][INFO]: RESPONSE SetTimeout
+[2.403][INFO]: COMMAND Quit {
+
+}
+[2.453][INFO]: RESPONSE Quit
+[2.453][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[2.453][DEBUG]: Log type 'browser' lost 0 entries on destruction

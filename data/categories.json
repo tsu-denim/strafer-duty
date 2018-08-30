@@ -5,38 +5,8 @@
     "children" : [ {
       "name" : "expected test failure",
       "children" : [ {
-        "name" : "test_allure_console_log_artifact",
-        "uid" : "7e86d7d54d2fe1c7",
-        "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
-        "status" : "skipped",
-        "time" : {
-          "duration" : 0
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_junit_chrome_log_artifact",
-        "uid" : "93f6727dfbf48997",
-        "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
-        "status" : "skipped",
-        "time" : {
-          "duration" : 0
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_allure_chrome_log_artifact",
-        "uid" : "2a5f4aaee2865807",
-        "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
-        "status" : "skipped",
-        "time" : {
-          "duration" : 0
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_junit_console_log_artifact",
-        "uid" : "3d2ac53d5f46ac14",
+        "name" : "test_allure_chromedriver_log_artifact",
+        "uid" : "c7de522eb31519f",
         "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
         "status" : "skipped",
         "time" : {
@@ -46,7 +16,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_junit_chromedriver_log_artifact",
-        "uid" : "25674af2870c388f",
+        "uid" : "ee260cbbd635b488",
         "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
         "status" : "skipped",
         "time" : {
@@ -55,18 +25,8 @@
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_allure_chromedriver_log_artifact",
-        "uid" : "79d847436ab5c5d8",
-        "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
-        "status" : "skipped",
-        "time" : {
-          "duration" : 0
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_allure_video_artifact",
-        "uid" : "a29034ae694809bd",
+        "name" : "test_junit_chrome_log_artifact",
+        "uid" : "15b86dee4b9bdc82",
         "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
         "status" : "skipped",
         "time" : {
@@ -76,7 +36,47 @@
         "parameters" : [ ]
       }, {
         "name" : "test_junit_video_artifact",
-        "uid" : "21c33eb734ac66c",
+        "uid" : "1b74bfb14f832d8b",
+        "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
+        "status" : "skipped",
+        "time" : {
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_allure_chrome_log_artifact",
+        "uid" : "66617ccb2733752c",
+        "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
+        "status" : "skipped",
+        "time" : {
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_allure_console_log_artifact",
+        "uid" : "21fd6de347b000ae",
+        "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
+        "status" : "skipped",
+        "time" : {
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_allure_video_artifact",
+        "uid" : "582f419e1c94c254",
+        "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
+        "status" : "skipped",
+        "time" : {
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_junit_console_log_artifact",
+        "uid" : "6ee15f84786692c2",
         "parentUid" : "eb6893a61e27c2696e2f2e1cacffc96f",
         "status" : "skipped",
         "time" : {
@@ -90,13 +90,13 @@
       "name" : "Expected 'Error: .element-does-exist was found when it should not exist!\n    at onTimeout (/tmp/lambda_protractor/app/selection.ts:52:13)\n    at Object.polledWait (/tmp/lambda_protractor/app/polled-wait.ts:35:9)\n    at _getElements (/tmp/lambda_protractor/app/selection.ts:80:10)\n    at Object.assertElementDoesNotExist (/tmp/lambda_protractor/app/selection.ts:157:20)\n    at ElementFinderSync.assertElementDoesNotExist (/tmp/lambda_protractor/app/element-finder-sync.ts:38:12)\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:70:18\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:43:13\n    at fiberContents (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:92:26)\n=== Pre-asyncblock stack ===\nError\n    at module.exports (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:29:15)\n    at UserContext.<anonymous> (/tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:42:9)\n    at /tmp/lambda_protractor/node_modules/jasminewd2/index.js:108:15\n    at new ManagedPromise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/tmp/lambda_protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:668:7' to be undefined.",
       "children" : [ {
         "name" : "should fail if an element is not supposed to exist but is found #integrationSuite",
-        "uid" : "7d1b4925d8d83c21",
+        "uid" : "99410c68c5a67488",
         "parentUid" : "b29ccac5e136ac9f8004ce75e1d0bef6",
         "status" : "failed",
         "time" : {
-          "start" : 1535588076169,
-          "stop" : 1535588076826,
-          "duration" : 657
+          "start" : 1535591066155,
+          "stop" : 1535591066840,
+          "duration" : 685
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -106,34 +106,18 @@
       "name" : "Suite disabled",
       "children" : [ {
         "name" : "can be skipped if we want them to #integrationSuite",
-        "uid" : "2af4f3838d4f27d9",
+        "uid" : "f6ad1e891132c8ac",
         "parentUid" : "a02224cd389b1e3b0dbd7273a551cc2a",
         "status" : "skipped",
         "time" : {
-          "start" : 1535588088114,
-          "stop" : 1535588088115,
-          "duration" : 1
+          "start" : 1535591076860,
+          "stop" : 1535591076860,
+          "duration" : 0
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "a02224cd389b1e3b0dbd7273a551cc2a"
-    }, {
-      "name" : "Tags: #quarantine\nSuite disabled",
-      "children" : [ {
-        "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
-        "uid" : "50ee45b4ae93d5a4",
-        "parentUid" : "4c8811ac203d95c13ccb0bb4c98c72fe",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1535588088297,
-          "stop" : 1535588088298,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4c8811ac203d95c13ccb0bb4c98c72fe"
     } ],
     "uid" : "c21b460bfad2d36213176b9bf7da30de"
   }, {
@@ -142,18 +126,34 @@
       "name" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
       "children" : [ {
         "name" : "can be disabled and hidden from the Jasmine reporter #integrationSuite",
-        "uid" : "3ad22f2487aeb29",
+        "uid" : "6300bfc2ee50a7a6",
         "parentUid" : "5ff29f599c200204a7386363ed061ecd",
         "status" : "unknown",
         "time" : {
-          "start" : 1535588074690,
-          "stop" : 1535588084550,
-          "duration" : 9860
+          "start" : 1535591059586,
+          "stop" : 1535591076176,
+          "duration" : 16590
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "5ff29f599c200204a7386363ed061ecd"
+    }, {
+      "name" : "Tags: #quarantine\nDisabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
+      "children" : [ {
+        "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
+        "uid" : "9dacdbb9eef10994",
+        "parentUid" : "3467f0513fb29f40794a69a49e3baffc",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1535591059586,
+          "stop" : 1535591134904,
+          "duration" : 75318
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3467f0513fb29f40794a69a49e3baffc"
     } ],
     "uid" : "df4b5ceb1a5521dd5c196aa4fac69280"
   }, {
@@ -162,13 +162,13 @@
       "name" : "Expected 'Error: .element-does-exist was found when it should not exist!\n    at onTimeout (/tmp/lambda_protractor/app/selection.ts:52:13)\n    at Object.polledWait (/tmp/lambda_protractor/app/polled-wait.ts:35:9)\n    at _getElements (/tmp/lambda_protractor/app/selection.ts:80:10)\n    at Object.assertElementDoesNotExist (/tmp/lambda_protractor/app/selection.ts:157:20)\n    at ElementFinderSync.assertElementDoesNotExist (/tmp/lambda_protractor/app/element-finder-sync.ts:38:12)\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:70:18\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:43:13\n    at fiberContents (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:92:26)\n=== Pre-asyncblock stack ===\nError\n    at module.exports (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:29:15)\n    at UserContext.<anonymous> (/tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:42:9)\n    at /tmp/lambda_protractor/node_modules/jasminewd2/index.js:108:15\n    at new ManagedPromise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/tmp/lambda_protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:668:7' to be undefined.",
       "children" : [ {
         "name" : "should fail if an element is not supposed to exist but is found #integrationSuite",
-        "uid" : "7d1b4925d8d83c21",
+        "uid" : "99410c68c5a67488",
         "parentUid" : "74d397ee7b2ab8b5fc94d3ae7b9378cd",
         "status" : "failed",
         "time" : {
-          "start" : 1535588076169,
-          "stop" : 1535588076826,
-          "duration" : 657
+          "start" : 1535591066155,
+          "stop" : 1535591066840,
+          "duration" : 685
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -177,38 +177,18 @@
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   }, {
-    "name" : "Quarantined",
-    "children" : [ {
-      "name" : "Tags: #quarantine\nSuite disabled",
-      "children" : [ {
-        "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
-        "uid" : "50ee45b4ae93d5a4",
-        "parentUid" : "a7e3b06c755489d7cb84569fad3d53ae",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1535588088297,
-          "stop" : 1535588088298,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a7e3b06c755489d7cb84569fad3d53ae"
-    } ],
-    "uid" : "e4e0a5105cda112e903704ea3d243690"
-  }, {
     "name" : "Flaky Tests",
     "children" : [ {
       "name" : "Without message",
       "children" : [ {
         "name" : "can retry if they fail when configured #integrationSuite",
-        "uid" : "6c757910f933583f",
+        "uid" : "1fea3ede3d18ced2",
         "parentUid" : "38d91c48efea9eed86fa583243e949ad",
         "status" : "passed",
         "time" : {
-          "start" : 1535588088363,
-          "stop" : 1535588088500,
-          "duration" : 137
+          "start" : 1535591076878,
+          "stop" : 1535591077031,
+          "duration" : 153
         },
         "flaky" : true,
         "parameters" : [ ]

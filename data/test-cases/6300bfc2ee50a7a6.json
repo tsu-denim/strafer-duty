@@ -1,0 +1,76 @@
+{
+  "uid" : "6300bfc2ee50a7a6",
+  "name" : "can be disabled and hidden from the Jasmine reporter #integrationSuite",
+  "fullName" : "Protractor sync test cases can be disabled and hidden from the Jasmine reporter #integrationSuite",
+  "historyId" : "Protractor sync test cases can be disabled and hidden from the Jasmine reporter #integrationSuite",
+  "time" : {
+    "start" : 1535591059586,
+    "stop" : 1535591076176,
+    "duration" : 16590
+  },
+  "status" : "unknown",
+  "statusDetails" : {
+    "message" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
+    "trace" : "#MISSING_TEST_RESULT",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Lambda"
+  }, {
+    "name" : "thread",
+    "value" : "ip-10-129-198-0"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Protractor sync test cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Video",
+    "url" : "artifacts/6-18-08-30-01-04-096611.mp4",
+    "type" : "video/mp4"
+  }, {
+    "name" : "Chrome Log",
+    "url" : "artifacts/6-18-08-30-01-04-096611.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Chrome Driver Log",
+    "url" : "artifacts/6-18-08-30-01-04-096611.chromedriver.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Console Log",
+    "url" : "artifacts/6-18-08-30-01-04-096611.console.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Lambda Cloudwatch Logs",
+    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: 94438e85-6481-4d00-ab6a-50d67a2f1cad\"",
+    "type" : "text/html"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Hidden Behind Feature Flag",
+      "traceRegex" : ".*MISSING_TEST_RESULT.*",
+      "matchedStatuses" : [ "unknown" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6300bfc2ee50a7a6.json",
+  "statusDetailsSafe" : {
+    "message" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
+    "trace" : "#MISSING_TEST_RESULT",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

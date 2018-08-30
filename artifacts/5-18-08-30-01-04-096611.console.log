@@ -1,0 +1,23 @@
+[01:04:34] I/launcher - Running 1 instances of WebDriver
+[01:04:34] I/hosted - Using the selenium server at http://localhost:9515
+[01:05:34] E/launcher - unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.9.119-44.140.amzn1.x86_64 x86_64)
+[01:05:34] E/launcher - WebDriverError: unknown error: Chrome failed to start: exited abnormally
+  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.9.119-44.140.amzn1.x86_64 x86_64)
+    at WebDriverError (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/error.js:27:5)
+    at Object.checkLegacyResponse (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/error.js:546:15)
+    at parseHttpResponse (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/http.js:509:13)
+    at doSend.then.response (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+From: Task: WebDriver.createSession()
+    at Function.createSession (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
+    at Function.createSession (/tmp/lambda_protractor/node_modules/selenium-webdriver/chrome.js:761:15)
+    at createDriver (/tmp/lambda_protractor/node_modules/selenium-webdriver/index.js:170:33)
+    at Builder.build (/tmp/lambda_protractor/node_modules/selenium-webdriver/index.js:626:16)
+    at Hosted.getNewDriver (/tmp/lambda_protractor/node_modules/protractor/built/driverProviders/driverProvider.js:53:33)
+    at Runner.createBrowser (/tmp/lambda_protractor/node_modules/protractor/built/runner.js:195:43)
+    at q.then.then (/tmp/lambda_protractor/node_modules/protractor/built/runner.js:339:29)
+    at _fulfilled (/tmp/lambda_protractor/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/tmp/lambda_protractor/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/tmp/lambda_protractor/node_modules/q/q.js:796:13)
+[01:05:34] E/launcher - Process exited with error code 199

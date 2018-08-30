@@ -1,0 +1,16 @@
+[44:44:0830/010435.049233:VERBOSE1:breakpad_linux.cc(1980)] Breakpad disabled
+[44:44:0830/010435.060089:FATAL:zygote_communication_linux.cc(278)] Cannot communicate with zygote
+#0 0x5647b37d6a87 base::debug::StackTrace::StackTrace()
+#1 0x5647b37ed221 logging::LogMessage::~LogMessage()
+#2 0x5647b29a12c1 content::ZygoteCommunication::Init()
+#3 0x5647b29a172d content::CreateGenericZygote()
+#4 0x5647b2633ff5 content::BrowserMainLoop::EarlyInitialization()
+#5 0x5647b263a43e content::BrowserMainRunnerImpl::Initialize()
+#6 0x5647b2633782 content::BrowserMain()
+#7 0x5647b35248e1 content::ContentMainRunnerImpl::Run()
+#8 0x5647b352d65d service_manager::Main()
+#9 0x5647b3523412 content::ContentMain()
+#10 0x5647b1f921c4 ChromeMain
+#11 0x7f06c94fbc05 __libc_start_main
+#12 0x5647b1f92029 <unknown>
+
