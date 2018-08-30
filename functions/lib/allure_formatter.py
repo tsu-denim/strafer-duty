@@ -102,7 +102,7 @@ def create_retry_allure_results(test_name, test_class_name, start_time, stop_tim
 def create_link(name, s3_path, mime_type='text/plain'):
     return {
         'name': name,
-        'url': 'replace-me' + s3_path,
+        'url': s3_path,
         'type': mime_type
     }
 

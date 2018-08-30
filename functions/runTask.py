@@ -259,22 +259,33 @@ def handler(event, context):
     print(cleanup_junk)
     print('...Finished Running Test!')
 
-    test_error_screenshot_s3_path = artifact_s3_path + '/' + job_id.replace("/", "-") + ".mp4"
-    chrome_log_path = artifact_s3_path + '/' + job_id.replace("/", "-") + ".log"
-    chrome_driver_log_path = artifact_s3_path + '/' + job_id.replace("/", "-") + ".chromedriver.log"
-    console_log_path = artifact_s3_path + '/' + job_id.replace("/", "-") + ".console.log"
-
     allure_results_s3_path = 'artifacts/' \
                              + test_branch_job_identifier \
                              + '/' \
                              + timestamp_for_test_metrics \
                              + '/allure-results/'
 
+    allure_links_s3_path = 'artifacts/' \
+                             + test_branch_job_identifier \
+                             + '/' \
+                             + timestamp_for_test_metrics \
+                             + '/allure-artifacts/'
+
+    test_error_screenshot_s3_path = allure_links_s3_path + '/' + job_id.replace("/", "-") + ".mp4"
+    chrome_log_path = allure_links_s3_path + '/' + job_id.replace("/", "-") + ".log"
+    chrome_driver_log_path = allure_links_s3_path + '/' + job_id.replace("/", "-") + ".chromedriver.log"
+    console_log_path = allure_links_s3_path + '/' + job_id.replace("/", "-") + ".console.log"
+
+    test_error_screenshot_s3_path_link = 'artifacts/' + job_id.replace("/", "-") + ".mp4"
+    chrome_log_path_link = 'artifacts/' + job_id.replace("/", "-") + ".log"
+    chrome_driver_log_path_link = 'artifacts/' + job_id.replace("/", "-") + ".chromedriver.log"
+    console_log_path_link = 'artifacts/' + job_id.replace("/", "-") + ".console.log"
+
     allure_links = [
-        create_link('Test Video', test_error_screenshot_s3_path, 'video/mp4'),
-        create_link('Chrome Log', chrome_log_path),
-        create_link('Chrome Driver Log', chrome_driver_log_path),
-        create_link('Console Log', console_log_path),
+        create_link('Test Video', test_error_screenshot_s3_path_link, 'video/mp4'),
+        create_link('Chrome Log', chrome_log_path_link),
+        create_link('Chrome Driver Log', chrome_driver_log_path_link),
+        create_link('Console Log', console_log_path_link),
         cloud_watch_logs.get_allure_link()
     ]
 

@@ -510,17 +510,30 @@ def get_artifacts(bucket_name, sts_creds, report_destination_path, config_dict):
     new_env['AWS_SECRET_ACCESS_KEY'] = sts_creds['Credentials']['SecretAccessKey']
     new_env['AWS_SESSION_TOKEN'] = sts_creds['Credentials']['SessionToken']
 
-    aws_command_template = 'aws s3 cp s3://{}/artifacts/' + config_dict['testBranchJobIdentifier'] + '/' \
+    aws_command_template_results = 'aws s3 cp s3://{}/artifacts/' + config_dict['testBranchJobIdentifier'] + '/' \
                   + config_dict['timestampForTestMetrics'] + '/allure-results/ allure-results --recursive'
-    aws_command = aws_command_template.format(bucket_name)
+    aws_command_results = aws_command_template_results.format(bucket_name)
 
-    print('Running command: ' + aws_command)
-    call_aws_command = subprocess.Popen(aws_command,
+    aws_command_template_artifacts = 'aws s3 cp s3://{}/artifacts/' + config_dict['testBranchJobIdentifier'] + '/' \
+                           + config_dict['timestampForTestMetrics'] + '/allure-artifacts/ artifacts --recursive'
+    aws_command_artifacts = aws_command_template_artifacts.format(bucket_name)
+
+    print('Running command: ' + aws_command_results)
+    call_aws_command_results = subprocess.Popen(aws_command_results,
                                         stderr=subprocess.STDOUT,
                                         shell=True,
                                         preexec_fn=os.setsid,
                                         env=new_env)
-    call_aws_command.wait()
+
+    print('Running command: ' + aws_command_artifacts)
+    call_aws_command_artifacts = subprocess.Popen(aws_command_artifacts,
+                                        stderr=subprocess.STDOUT,
+                                        shell=True,
+                                        preexec_fn=os.setsid,
+                                        env=new_env)
+
+    call_aws_command_results.wait()
+    call_aws_command_artifacts.wait()
     allure_helper = AllureHelper('allure-results/*.json')
     manifest = JasmineManifest(config_dict["testGlobs"], ["#quarantine", "#new", "#nobackendsupport", "#setup"], [])
     allure_helper.update_results(manifest)
