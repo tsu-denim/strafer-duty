@@ -21,7 +21,7 @@ script:
 
 deploy:
   provider: pages
-  local-dir: allure-reports
+  local-dir: allure-report
   committer-from-gh: true
   skip-cleanup: true
   github-token: $repo_token  # Set in the settings page of your repository, as a secure variable
