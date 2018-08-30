@@ -1,18 +1,23 @@
 {
-  "uid" : "803765332dbf8bc5",
+  "uid" : "b569c4d30727078c",
   "name" : "Finds the closest element matching the selector",
   "fullName" : "Protractor extensions jQuery methods Finds the closest element matching the selector",
   "historyId" : "Protractor extensions jQuery methods Finds the closest element matching the selector",
   "time" : {
-    "start" : 1535407816115,
-    "stop" : 1535407816402,
-    "duration" : 287
+    "start" : 1535588043951,
+    "stop" : 1535588044207,
+    "duration" : 256
   },
   "status" : "passed",
-  "flaky" : false,
+  "statusDetails" : {
+    "flaky" : false
+  },
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
     "steps" : [ ],
     "attachments" : [ {
       "name" : "Screenshot",
@@ -37,7 +42,7 @@
     "value" : "Lambda"
   }, {
     "name" : "thread",
-    "value" : "ip-10-128-116-237"
+    "value" : "ip-10-128-36-231"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -45,33 +50,38 @@
   "parameters" : [ ],
   "links" : [ {
     "name" : "Test Video",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/1/18-08-27-18-09-655382/1-18-08-27-18-09-655382.mp4",
+    "url" : "replace-metest-runner/artifacts/1/18-08-30-00-13-211474/1-18-08-30-00-13-211474.mp4",
     "type" : "video/mp4"
   }, {
     "name" : "Chrome Log",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/1/18-08-27-18-09-655382/1-18-08-27-18-09-655382.log",
+    "url" : "replace-metest-runner/artifacts/1/18-08-30-00-13-211474/1-18-08-30-00-13-211474.log",
     "type" : "text/plain"
   }, {
     "name" : "Chrome Driver Log",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/1/18-08-27-18-09-655382/1-18-08-27-18-09-655382.chromedriver.log",
+    "url" : "replace-metest-runner/artifacts/1/18-08-30-00-13-211474/1-18-08-30-00-13-211474.chromedriver.log",
     "type" : "text/plain"
   }, {
     "name" : "Console Log",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/1/18-08-27-18-09-655382/1-18-08-27-18-09-655382.console.log",
+    "url" : "replace-metest-runner/artifacts/1/18-08-30-00-13-211474/1-18-08-30-00-13-211474.console.log",
     "type" : "text/plain"
   }, {
     "name" : "Lambda Cloudwatch Logs",
-    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: b5380d42-f29a-4aa1-ac62-c6774be6bb58\"",
+    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: b8866717-2f22-4698-bdf0-5c9f99e4afa0\"",
     "type" : "text/html"
   } ],
   "hidden" : false,
-  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "803765332dbf8bc5.json",
+  "source" : "b569c4d30727078c.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
   "parameterValues" : [ ]
 }

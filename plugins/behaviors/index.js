@@ -70,20 +70,6 @@ allure.api.addTranslation('he', {
     }
 });
 
-allure.api.addTranslation('br', {
-    tab: {
-        behaviors: {
-            name: 'Comportamentos'
-        }
-    }, 
-    widget: {
-        behaviors: {
-            name: 'Funcionalidades por história', 
-            showAll: 'Mostrar tudo'
-        }
-    }
-});
-
 allure.api.addTab('behaviors', {
     title: 'tab.behaviors.name', icon: 'fa fa-list',
     route: 'behaviors(/)(:testGroup)(/)(:testResult)(/)(:testResultTab)(/)',
@@ -94,8 +80,7 @@ allure.api.addTab('behaviors', {
             testResultTab: testResultTab,
             tabName: 'tab.behaviors.name',
             baseUrl: 'behaviors',
-            url: 'data/behaviors.json',
-            csvUrl: 'data/behaviors.csv'
+            url: 'data/behaviors.json'
         });
     })
 });

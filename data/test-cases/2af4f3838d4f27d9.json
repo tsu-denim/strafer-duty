@@ -1,16 +1,18 @@
 {
-  "uid" : "d80694d331daa56f",
+  "uid" : "2af4f3838d4f27d9",
   "name" : "can be skipped if we want them to #integrationSuite",
   "fullName" : "Protractor sync test cases can be skipped if we want them to #integrationSuite",
   "historyId" : "Protractor sync test cases can be skipped if we want them to #integrationSuite",
   "time" : {
-    "start" : 1535407882488,
-    "stop" : 1535407882488,
-    "duration" : 0
+    "start" : 1535588088114,
+    "stop" : 1535588088115,
+    "duration" : 1
   },
   "status" : "skipped",
-  "statusMessage" : "Suite disabled",
-  "flaky" : false,
+  "statusDetails" : {
+    "message" : "Suite disabled",
+    "flaky" : false
+  },
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -21,7 +23,7 @@
     "value" : "Lambda"
   }, {
     "name" : "thread",
-    "value" : "ip-10-128-116-237"
+    "value" : "ip-10-141-33-171"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -29,27 +31,26 @@
   "parameters" : [ ],
   "links" : [ {
     "name" : "Test Video",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/4/18-08-27-18-10-015143/4-18-08-27-18-10-015143.mp4",
+    "url" : "replace-metest-runner/artifacts/4/18-08-30-00-14-360889/4-18-08-30-00-14-360889.mp4",
     "type" : "video/mp4"
   }, {
     "name" : "Chrome Log",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/4/18-08-27-18-10-015143/4-18-08-27-18-10-015143.log",
+    "url" : "replace-metest-runner/artifacts/4/18-08-30-00-14-360889/4-18-08-30-00-14-360889.log",
     "type" : "text/plain"
   }, {
     "name" : "Chrome Driver Log",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/4/18-08-27-18-10-015143/4-18-08-27-18-10-015143.chromedriver.log",
+    "url" : "replace-metest-runner/artifacts/4/18-08-30-00-14-360889/4-18-08-30-00-14-360889.chromedriver.log",
     "type" : "text/plain"
   }, {
     "name" : "Console Log",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/4/18-08-27-18-10-015143/4-18-08-27-18-10-015143.console.log",
+    "url" : "replace-metest-runner/artifacts/4/18-08-30-00-14-360889/4-18-08-30-00-14-360889.console.log",
     "type" : "text/plain"
   }, {
     "name" : "Lambda Cloudwatch Logs",
-    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: 9cd509c8-d21e-42bf-a1ef-f28f6c31b957\"",
+    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: 31c7780c-53a5-4ae8-996d-e3d8aa19d8a1\"",
     "type" : "text/html"
   } ],
   "hidden" : false,
-  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
@@ -60,6 +61,13 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "d80694d331daa56f.json",
+  "source" : "2af4f3838d4f27d9.json",
+  "statusDetailsSafe" : {
+    "message" : "Suite disabled",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
   "parameterValues" : [ ]
 }

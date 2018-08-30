@@ -1,0 +1,52 @@
+{
+  "uid" : "79d847436ab5c5d8",
+  "name" : "test_allure_chromedriver_log_artifact",
+  "historyId" : "pytest:pipeline.integration_tests.functional_tests.integ_tests_allure#test_allure_chromedriver_log_artifact",
+  "time" : {
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "expected test failure",
+    "trace" : "reason: [NOTRUN] Artifacts are no longer exposed this way, these need to be downloaded instead",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "pipeline.integration_tests.functional_tests.integ_tests_allure"
+  }, {
+    "name" : "package",
+    "value" : "pipeline.integration_tests.functional_tests.integ_tests_allure"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Risk Based Testing",
+      "matchedStatuses" : [ "broken", "failed", "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "79d847436ab5c5d8.json",
+  "statusDetailsSafe" : {
+    "message" : "expected test failure",
+    "trace" : "reason: [NOTRUN] Artifacts are no longer exposed this way, these need to be downloaded instead",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

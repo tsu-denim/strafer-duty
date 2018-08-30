@@ -1,16 +1,18 @@
 {
-  "uid" : "9663fdd889edf12b",
+  "uid" : "50ee45b4ae93d5a4",
   "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
   "fullName" : "Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
   "historyId" : "Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
   "time" : {
-    "start" : 1535407883753,
-    "stop" : 1535407883753,
-    "duration" : 0
+    "start" : 1535588088297,
+    "stop" : 1535588088298,
+    "duration" : 1
   },
   "status" : "skipped",
-  "statusMessage" : "Tags: #quarantine\nSuite disabled",
-  "flaky" : false,
+  "statusDetails" : {
+    "message" : "Tags: #quarantine\nSuite disabled",
+    "flaky" : false
+  },
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -21,7 +23,7 @@
     "value" : "Lambda"
   }, {
     "name" : "thread",
-    "value" : "ip-10-128-216-43"
+    "value" : "ip-10-136-191-161"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -29,27 +31,26 @@
   "parameters" : [ ],
   "links" : [ {
     "name" : "Test Video",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/5/18-08-27-18-10-015143/5-18-08-27-18-10-015143.mp4",
+    "url" : "replace-metest-runner/artifacts/5/18-08-30-00-14-360889/5-18-08-30-00-14-360889.mp4",
     "type" : "video/mp4"
   }, {
     "name" : "Chrome Log",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/5/18-08-27-18-10-015143/5-18-08-27-18-10-015143.log",
+    "url" : "replace-metest-runner/artifacts/5/18-08-30-00-14-360889/5-18-08-30-00-14-360889.log",
     "type" : "text/plain"
   }, {
     "name" : "Chrome Driver Log",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/5/18-08-27-18-10-015143/5-18-08-27-18-10-015143.chromedriver.log",
+    "url" : "replace-metest-runner/artifacts/5/18-08-30-00-14-360889/5-18-08-30-00-14-360889.chromedriver.log",
     "type" : "text/plain"
   }, {
     "name" : "Console Log",
-    "url" : "https://allure-reports.dev.bbpd.io/test-runner/artifacts/5/18-08-27-18-10-015143/5-18-08-27-18-10-015143.console.log",
+    "url" : "replace-metest-runner/artifacts/5/18-08-30-00-14-360889/5-18-08-30-00-14-360889.console.log",
     "type" : "text/plain"
   }, {
     "name" : "Lambda Cloudwatch Logs",
-    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: 2269848c-a687-4137-a857-38ec1326629c\"",
+    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: 301aa9bd-3346-4e43-8cba-c9ee2bbce063\"",
     "type" : "text/html"
   } ],
   "hidden" : false,
-  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
@@ -65,6 +66,13 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "9663fdd889edf12b.json",
+  "source" : "50ee45b4ae93d5a4.json",
+  "statusDetailsSafe" : {
+    "message" : "Tags: #quarantine\nSuite disabled",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
   "parameterValues" : [ ]
 }

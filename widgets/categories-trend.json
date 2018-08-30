@@ -1,9 +1,0 @@
-[ {
-  "data" : {
-    "Quarantined" : 1,
-    "Product defects" : 1,
-    "Hidden Behind Feature Flag" : 1,
-    "Flaky Tests" : 1,
-    "Risk Based Testing" : 3
-  }
-} ]
