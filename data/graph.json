@@ -1,5 +1,5 @@
 [ {
-  "uid" : "198a5e95fb6f3583",
+  "uid" : "ce273bb701fb8fba",
   "name" : "test_allure_passed",
   "time" : {
     "duration" : 3
@@ -7,51 +7,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c7de522eb31519f",
-  "name" : "test_allure_chromedriver_log_artifact",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "6300bfc2ee50a7a6",
-  "name" : "can be disabled and hidden from the Jasmine reporter #integrationSuite",
-  "time" : {
-    "start" : 1535591059586,
-    "stop" : 1535591076176,
-    "duration" : 16590
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "a0cce5043b5d2760",
-  "name" : "test_allure_disabled",
-  "time" : {
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f6ad1e891132c8ac",
-  "name" : "can be skipped if we want them to #integrationSuite",
-  "time" : {
-    "start" : 1535591076860,
-    "stop" : 1535591076860,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "1dbb2cc653688c25",
-  "name" : "test_junit_passed",
-  "time" : {
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3d72a59a81c2f18b",
+  "uid" : "3fb6df4c370e4e2b",
   "name" : "test_allure_failed",
   "time" : {
     "duration" : 1
@@ -59,83 +15,15 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ee260cbbd635b488",
-  "name" : "test_junit_chromedriver_log_artifact",
+  "uid" : "eb0d3995d4807933",
+  "name" : "test_allure_chromedriver_log_artifact",
   "time" : {
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "f6f383d57711c217",
-  "name" : "test_junit_failed",
-  "time" : {
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1fea3ede3d18ced2",
-  "name" : "can retry if they fail when configured #integrationSuite",
-  "time" : {
-    "start" : 1535591076878,
-    "stop" : 1535591077031,
-    "duration" : 153
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad8040224fb34fbf",
-  "name" : "test_junit_skipped",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15b86dee4b9bdc82",
-  "name" : "test_junit_chrome_log_artifact",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "65036fe458464b86",
-  "name" : "test_junit_manifest",
-  "time" : {
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9dacdbb9eef10994",
-  "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
-  "time" : {
-    "start" : 1535591059586,
-    "stop" : 1535591134904,
-    "duration" : 75318
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "e37eb904b0bc119e",
-  "name" : "test_junit_retry",
-  "time" : {
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b74bfb14f832d8b",
-  "name" : "test_junit_video_artifact",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "66617ccb2733752c",
+  "uid" : "d71c57148c4567ae",
   "name" : "test_allure_chrome_log_artifact",
   "time" : {
     "duration" : 0
@@ -143,41 +31,7 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "21fd6de347b000ae",
-  "name" : "test_allure_console_log_artifact",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "b286af00a6db1b1d",
-  "name" : "test_allure_retry",
-  "time" : {
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "582f419e1c94c254",
-  "name" : "test_allure_video_artifact",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "99410c68c5a67488",
-  "name" : "should fail if an element is not supposed to exist but is found #integrationSuite",
-  "time" : {
-    "start" : 1535591066155,
-    "stop" : 1535591066840,
-    "duration" : 685
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "59e696df28fa737f",
+  "uid" : "d161c3a0e2c35b28",
   "name" : "test_junit_disabled",
   "time" : {
     "duration" : 0
@@ -185,15 +39,61 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6ee15f84786692c2",
-  "name" : "test_junit_console_log_artifact",
+  "uid" : "17ba9dab9f0fddaa",
+  "name" : "test_junit_video_artifact",
   "time" : {
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "16d84d59c81f77c3",
+  "uid" : "18cee4a6af5dfe3f",
+  "name" : "should fail if an element is not supposed to exist but is found #integrationSuite",
+  "time" : {
+    "start" : 1539701518683,
+    "stop" : 1539701519412,
+    "duration" : 729
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "57b4258f4ac78f9",
+  "name" : "test_allure_retry",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e377c386327ba440",
+  "name" : "test_junit_passed",
+  "time" : {
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1984f152fb994234",
+  "name" : "Finds the closest element matching the selector",
+  "time" : {
+    "start" : 1539701476873,
+    "stop" : 1539701477132,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb5e7d85df616ab6",
+  "name" : "can retry if they fail when configured #integrationSuite",
+  "time" : {
+    "start" : 1539701516154,
+    "stop" : 1539701516298,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ba8fc1cdd9700b4",
   "name" : "test_allure_skipped",
   "time" : {
     "duration" : 1
@@ -201,7 +101,85 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "451f04170bfa0e24",
+  "uid" : "95b15202a0dbdc0b",
+  "name" : "test_junit_manifest",
+  "time" : {
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dac6da503fee444d",
+  "name" : "can be skipped if we want them to #integrationSuite",
+  "time" : {
+    "start" : 1539701511665,
+    "stop" : 1539701511665,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "553850d76b1dc274",
+  "name" : "test_junit_retry",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55e47bd88b5eb08b",
+  "name" : "can be disabled and hidden from the Jasmine reporter #integrationSuite",
+  "time" : {
+    "start" : 1539701504651,
+    "stop" : 1539701518502,
+    "duration" : 13851
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "60db9bbddde3d5af",
+  "name" : "test_junit_chrome_log_artifact",
+  "time" : {
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "db986cb060e49826",
+  "name" : "test_allure_disabled",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c30fdbc951953ca",
+  "name" : "test_junit_skipped",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78d6165199a3f1c8",
+  "name" : "should pass if an element is not supposed to exist and is missing #integrationSuite",
+  "time" : {
+    "start" : 1539701516561,
+    "stop" : 1539701516735,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6999d427ad81a719",
+  "name" : "test_junit_chromedriver_log_artifact",
+  "time" : {
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "985984dcd70ed965",
   "name" : "test_junit_expired",
   "time" : {
     "duration" : 0
@@ -209,23 +187,45 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f53a4c4ed4cae740",
-  "name" : "should pass if an element is not supposed to exist and is missing #integrationSuite",
+  "uid" : "814b03164c4d79a9",
+  "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
   "time" : {
-    "start" : 1535591069826,
-    "stop" : 1535591069990,
-    "duration" : 164
+    "start" : 1539701508710,
+    "stop" : 1539701508711,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2293c7c95dcae309",
+  "name" : "test_junit_failed",
+  "time" : {
+    "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "72c17eb9c990fdd2",
-  "name" : "Finds the closest element matching the selector",
+  "uid" : "9d8917ba39480c23",
+  "name" : "test_junit_console_log_artifact",
   "time" : {
-    "start" : 1535591034341,
-    "stop" : 1535591034625,
-    "duration" : 284
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7097f3dedd50b46a",
+  "name" : "test_allure_console_log_artifact",
+  "time" : {
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "462988f437d4a02e",
+  "name" : "test_allure_video_artifact",
+  "time" : {
+    "duration" : 0
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]

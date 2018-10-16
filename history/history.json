@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f6ad1e891132c8ac",
+      "uid" : "dac6da503fee444d",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1535591076860,
-        "stop" : 1535591076860,
+        "start" : 1539701511665,
+        "stop" : 1539701511665,
         "duration" : 0
       }
     } ]
@@ -29,7 +29,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f6f383d57711c217",
+      "uid" : "2293c7c95dcae309",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -46,13 +46,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6300bfc2ee50a7a6",
+      "uid" : "55e47bd88b5eb08b",
       "status" : "unknown",
       "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
       "time" : {
-        "start" : 1535591059586,
-        "stop" : 1535591076176,
-        "duration" : 16590
+        "start" : 1539701504651,
+        "stop" : 1539701518502,
+        "duration" : 13851
       }
     } ]
   },
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f53a4c4ed4cae740",
+      "uid" : "78d6165199a3f1c8",
       "status" : "passed",
       "time" : {
-        "start" : 1535591069826,
-        "stop" : 1535591069990,
-        "duration" : 164
+        "start" : 1539701516561,
+        "stop" : 1539701516735,
+        "duration" : 174
       }
     } ]
   },
@@ -85,7 +85,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "15b86dee4b9bdc82",
+      "uid" : "60db9bbddde3d5af",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -103,7 +103,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "198a5e95fb6f3583",
+      "uid" : "ce273bb701fb8fba",
       "status" : "passed",
       "time" : {
         "duration" : 3
@@ -120,7 +120,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1b74bfb14f832d8b",
+      "uid" : "17ba9dab9f0fddaa",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -138,7 +138,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "16d84d59c81f77c3",
+      "uid" : "7ba8fc1cdd9700b4",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -149,19 +149,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
-      "unknown" : 1,
+      "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9dacdbb9eef10994",
-      "status" : "unknown",
-      "statusDetails" : "Tags: #quarantine\nDisabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
+      "uid" : "814b03164c4d79a9",
+      "status" : "skipped",
+      "statusDetails" : "Tags: #quarantine\nSuite disabled",
       "time" : {
-        "start" : 1535591059586,
-        "stop" : 1535591134904,
-        "duration" : 75318
+        "start" : 1539701508710,
+        "stop" : 1539701508711,
+        "duration" : 1
       }
     } ]
   },
@@ -175,10 +175,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad8040224fb34fbf",
+      "uid" : "3c30fdbc951953ca",
       "status" : "passed",
       "time" : {
-        "duration" : 0
+        "duration" : 1
       }
     } ]
   },
@@ -192,12 +192,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1fea3ede3d18ced2",
+      "uid" : "cb5e7d85df616ab6",
       "status" : "passed",
       "time" : {
-        "start" : 1535591076878,
-        "stop" : 1535591077031,
-        "duration" : 153
+        "start" : 1539701516154,
+        "stop" : 1539701516298,
+        "duration" : 144
       }
     } ]
   },
@@ -211,7 +211,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a0cce5043b5d2760",
+      "uid" : "db986cb060e49826",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -228,7 +228,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "59e696df28fa737f",
+      "uid" : "d161c3a0e2c35b28",
       "status" : "passed",
       "time" : {
         "duration" : 0
@@ -245,7 +245,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "21fd6de347b000ae",
+      "uid" : "7097f3dedd50b46a",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -263,7 +263,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c7de522eb31519f",
+      "uid" : "eb0d3995d4807933",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -281,7 +281,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3d72a59a81c2f18b",
+      "uid" : "3fb6df4c370e4e2b",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -298,7 +298,24 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1dbb2cc653688c25",
+      "uid" : "e377c386327ba440",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3
+      }
+    } ]
+  },
+  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_manifest" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95b15202a0dbdc0b",
       "status" : "passed",
       "time" : {
         "duration" : 3
@@ -315,30 +332,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "99410c68c5a67488",
+      "uid" : "18cee4a6af5dfe3f",
       "status" : "failed",
       "statusDetails" : "Expected 'Error: .element-does-exist was found when it should not exist!\n    at onTimeout (/tmp/lambda_protractor/app/selection.ts:52:13)\n    at Object.polledWait (/tmp/lambda_protractor/app/polled-wait.ts:35:9)\n    at _getElements (/tmp/lambda_protractor/app/selection.ts:80:10)\n    at Object.assertElementDoesNotExist (/tmp/lambda_protractor/app/selection.ts:157:20)\n    at ElementFinderSync.assertElementDoesNotExist (/tmp/lambda_protractor/app/element-finder-sync.ts:38:12)\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:70:18\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:43:13\n    at fiberContents (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:92:26)\n=== Pre-asyncblock stack ===\nError\n    at module.exports (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:29:15)\n    at UserContext.<anonymous> (/tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:42:9)\n    at /tmp/lambda_protractor/node_modules/jasminewd2/index.js:108:15\n    at new ManagedPromise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/tmp/lambda_protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:668:7' to be undefined.",
       "time" : {
-        "start" : 1535591066155,
-        "stop" : 1535591066840,
-        "duration" : 685
-      }
-    } ]
-  },
-  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_manifest" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "65036fe458464b86",
-      "status" : "passed",
-      "time" : {
-        "duration" : 3
+        "start" : 1539701518683,
+        "stop" : 1539701519412,
+        "duration" : 729
       }
     } ]
   },
@@ -352,7 +352,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66617ccb2733752c",
+      "uid" : "d71c57148c4567ae",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -370,7 +370,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b286af00a6db1b1d",
+      "uid" : "57b4258f4ac78f9",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -387,7 +387,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "582f419e1c94c254",
+      "uid" : "462988f437d4a02e",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -405,7 +405,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6ee15f84786692c2",
+      "uid" : "9d8917ba39480c23",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -423,8 +423,26 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "451f04170bfa0e24",
+      "uid" : "985984dcd70ed965",
       "status" : "passed",
+      "time" : {
+        "duration" : 0
+      }
+    } ]
+  },
+  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_chromedriver_log_artifact" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6999d427ad81a719",
+      "status" : "skipped",
+      "statusDetails" : "expected test failure",
       "time" : {
         "duration" : 0
       }
@@ -440,28 +458,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e37eb904b0bc119e",
+      "uid" : "553850d76b1dc274",
       "status" : "passed",
       "time" : {
         "duration" : 1
-      }
-    } ]
-  },
-  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_chromedriver_log_artifact" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ee260cbbd635b488",
-      "status" : "skipped",
-      "statusDetails" : "expected test failure",
-      "time" : {
-        "duration" : 0
       }
     } ]
   },
@@ -475,12 +475,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "72c17eb9c990fdd2",
+      "uid" : "1984f152fb994234",
       "status" : "passed",
       "time" : {
-        "start" : 1535591034341,
-        "stop" : 1535591034625,
-        "duration" : 284
+        "start" : 1539701476873,
+        "stop" : 1539701477132,
+        "duration" : 259
       }
     } ]
   }

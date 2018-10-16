@@ -5,18 +5,18 @@
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 15,
-      "unknown" : 2,
+      "unknown" : 1,
       "total" : 27
     },
     "time" : {
-      "start" : 1535591034341,
-      "stop" : 1535591134904,
-      "duration" : 100563,
+      "start" : 1539701476873,
+      "stop" : 1539701519412,
+      "duration" : 42539,
       "minDuration" : 0,
-      "maxDuration" : 75318,
-      "sumDuration" : 93209
+      "maxDuration" : 13851,
+      "sumDuration" : 15174
     }
   },
   "environment" : [ ],
@@ -28,9 +28,9 @@
       "statistic" : {
         "failed" : 1,
         "broken" : 0,
-        "skipped" : 1,
+        "skipped" : 2,
         "passed" : 2,
-        "unknown" : 2,
+        "unknown" : 1,
         "total" : 6
       }
     }, {
@@ -61,9 +61,9 @@
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
-      "skipped" : 9,
+      "skipped" : 10,
       "passed" : 15,
-      "unknown" : 2,
+      "unknown" : 1,
       "total" : 27
     }
   } ],
@@ -73,17 +73,17 @@
   },
   "executors" : [ ],
   "categories" : {
-    "total" : 4,
+    "total" : 5,
     "items" : [ {
       "uid" : "c21b460bfad2d36213176b9bf7da30de",
       "name" : "Risk Based Testing",
       "statistic" : {
         "failed" : 1,
         "broken" : 0,
-        "skipped" : 9,
+        "skipped" : 10,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 10
+        "total" : 11
       }
     }, {
       "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
@@ -108,6 +108,17 @@
         "total" : 1
       }
     }, {
+      "uid" : "e4e0a5105cda112e903704ea3d243690",
+      "name" : "Quarantined",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
       "uid" : "df4b5ceb1a5521dd5c196aa4fac69280",
       "name" : "Hidden Behind Feature Flag",
       "statistic" : {
@@ -115,8 +126,8 @@
         "broken" : 0,
         "skipped" : 0,
         "passed" : 0,
-        "unknown" : 2,
-        "total" : 2
+        "unknown" : 1,
+        "total" : 1
       }
     } ]
   },
