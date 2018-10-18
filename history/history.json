@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dac6da503fee444d",
+      "uid" : "d8ee05143deeb6e2",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1539701511665,
-        "stop" : 1539701511665,
-        "duration" : 0
+        "start" : 1539891885582,
+        "stop" : 1539891885583,
+        "duration" : 1
       }
     } ]
   },
@@ -29,7 +29,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2293c7c95dcae309",
+      "uid" : "af8bdf58ceebdffc",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -46,13 +46,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "55e47bd88b5eb08b",
+      "uid" : "ae7cfca1e2a3fb77",
       "status" : "unknown",
       "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
       "time" : {
-        "start" : 1539701504651,
-        "stop" : 1539701518502,
-        "duration" : 13851
+        "start" : 1539891879587,
+        "stop" : 1539891892137,
+        "duration" : 12550
       }
     } ]
   },
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "78d6165199a3f1c8",
+      "uid" : "53e88fc68697a95d",
       "status" : "passed",
       "time" : {
-        "start" : 1539701516561,
-        "stop" : 1539701516735,
-        "duration" : 174
+        "start" : 1539891890269,
+        "stop" : 1539891890447,
+        "duration" : 178
       }
     } ]
   },
@@ -85,7 +85,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "60db9bbddde3d5af",
+      "uid" : "f1c0ca76bbfdbee",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -103,7 +103,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ce273bb701fb8fba",
+      "uid" : "2519ab5398ebff58",
       "status" : "passed",
       "time" : {
         "duration" : 3
@@ -120,7 +120,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "17ba9dab9f0fddaa",
+      "uid" : "8093847311067e0a",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -138,7 +138,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7ba8fc1cdd9700b4",
+      "uid" : "af8f709f0ca419b6",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -155,12 +155,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "814b03164c4d79a9",
+      "uid" : "30ee25d665477c84",
       "status" : "skipped",
       "statusDetails" : "Tags: #quarantine\nSuite disabled",
       "time" : {
-        "start" : 1539701508710,
-        "stop" : 1539701508711,
+        "start" : 1539891881966,
+        "stop" : 1539891881967,
         "duration" : 1
       }
     } ]
@@ -175,10 +175,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c30fdbc951953ca",
+      "uid" : "a411ca13a977d91c",
       "status" : "passed",
       "time" : {
-        "duration" : 1
+        "duration" : 0
       }
     } ]
   },
@@ -192,12 +192,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb5e7d85df616ab6",
+      "uid" : "6c79fa224a332be",
       "status" : "passed",
       "time" : {
-        "start" : 1539701516154,
-        "stop" : 1539701516298,
-        "duration" : 144
+        "start" : 1539891909707,
+        "stop" : 1539891909863,
+        "duration" : 156
       }
     } ]
   },
@@ -211,7 +211,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "db986cb060e49826",
+      "uid" : "84ad883ca5de76fa",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -228,7 +228,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d161c3a0e2c35b28",
+      "uid" : "3253a403594f0416",
       "status" : "passed",
       "time" : {
         "duration" : 0
@@ -245,7 +245,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7097f3dedd50b46a",
+      "uid" : "c03057e78c63055b",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -263,7 +263,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eb0d3995d4807933",
+      "uid" : "91387b343f87d671",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -281,7 +281,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3fb6df4c370e4e2b",
+      "uid" : "32bf5d917b5bb5ae",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -298,27 +298,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e377c386327ba440",
+      "uid" : "d59d6cc19072f701",
       "status" : "passed",
       "time" : {
-        "duration" : 3
-      }
-    } ]
-  },
-  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_manifest" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "95b15202a0dbdc0b",
-      "status" : "passed",
-      "time" : {
-        "duration" : 3
+        "duration" : 2
       }
     } ]
   },
@@ -332,13 +315,30 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "18cee4a6af5dfe3f",
+      "uid" : "d51d0c1738136514",
       "status" : "failed",
       "statusDetails" : "Expected 'Error: .element-does-exist was found when it should not exist!\n    at onTimeout (/tmp/lambda_protractor/app/selection.ts:52:13)\n    at Object.polledWait (/tmp/lambda_protractor/app/polled-wait.ts:35:9)\n    at _getElements (/tmp/lambda_protractor/app/selection.ts:80:10)\n    at Object.assertElementDoesNotExist (/tmp/lambda_protractor/app/selection.ts:157:20)\n    at ElementFinderSync.assertElementDoesNotExist (/tmp/lambda_protractor/app/element-finder-sync.ts:38:12)\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:70:18\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:43:13\n    at fiberContents (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:92:26)\n=== Pre-asyncblock stack ===\nError\n    at module.exports (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:29:15)\n    at UserContext.<anonymous> (/tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:42:9)\n    at /tmp/lambda_protractor/node_modules/jasminewd2/index.js:108:15\n    at new ManagedPromise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/tmp/lambda_protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:668:7' to be undefined.",
       "time" : {
-        "start" : 1539701518683,
-        "stop" : 1539701519412,
-        "duration" : 729
+        "start" : 1539891909755,
+        "stop" : 1539891910409,
+        "duration" : 654
+      }
+    } ]
+  },
+  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_manifest" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38ba56195d02e1ce",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3
       }
     } ]
   },
@@ -352,7 +352,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d71c57148c4567ae",
+      "uid" : "266364c74a9f9362",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -370,7 +370,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57b4258f4ac78f9",
+      "uid" : "d20701ab7d9033f0",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -387,7 +387,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "462988f437d4a02e",
+      "uid" : "49d11f1834215cb7",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -405,42 +405,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9d8917ba39480c23",
-      "status" : "skipped",
-      "statusDetails" : "expected test failure",
-      "time" : {
-        "duration" : 0
-      }
-    } ]
-  },
-  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_expired" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "985984dcd70ed965",
-      "status" : "passed",
-      "time" : {
-        "duration" : 0
-      }
-    } ]
-  },
-  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_chromedriver_log_artifact" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6999d427ad81a719",
+      "uid" : "2a228b97cfa98359",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -458,10 +423,45 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "553850d76b1dc274",
+      "uid" : "c78d55d4406f2068",
       "status" : "passed",
       "time" : {
         "duration" : 1
+      }
+    } ]
+  },
+  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_chromedriver_log_artifact" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2cd1eadc0459c793",
+      "status" : "skipped",
+      "statusDetails" : "expected test failure",
+      "time" : {
+        "duration" : 0
+      }
+    } ]
+  },
+  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_expired" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d38a4ca2ef3459e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 0
       }
     } ]
   },
@@ -475,12 +475,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1984f152fb994234",
+      "uid" : "e5e0d1a4178e25ef",
       "status" : "passed",
       "time" : {
-        "start" : 1539701476873,
-        "stop" : 1539701477132,
-        "duration" : 259
+        "start" : 1539891850049,
+        "stop" : 1539891850316,
+        "duration" : 267
       }
     } ]
   }
