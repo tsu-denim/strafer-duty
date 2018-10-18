@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d8ee05143deeb6e2",
+      "uid" : "f36d57c26846ebab",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1539891885582,
-        "stop" : 1539891885583,
+        "start" : 1539895116777,
+        "stop" : 1539895116778,
         "duration" : 1
       }
     } ]
@@ -29,10 +29,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af8bdf58ceebdffc",
+      "uid" : "d99617abbe5d6583",
       "status" : "passed",
       "time" : {
-        "duration" : 1
+        "duration" : 0
       }
     } ]
   },
@@ -46,32 +46,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ae7cfca1e2a3fb77",
+      "uid" : "f729545aeed0f60d",
       "status" : "unknown",
       "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
       "time" : {
-        "start" : 1539891879587,
-        "stop" : 1539891892137,
-        "duration" : 12550
-      }
-    } ]
-  },
-  "Protractor sync test cases should pass if an element is not supposed to exist and is missing #integrationSuite" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "53e88fc68697a95d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1539891890269,
-        "stop" : 1539891890447,
-        "duration" : 178
+        "start" : 1539895111491,
+        "stop" : 1539895124342,
+        "duration" : 12851
       }
     } ]
   },
@@ -85,11 +66,30 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f1c0ca76bbfdbee",
+      "uid" : "a022dbd5e115e969",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
         "duration" : 0
+      }
+    } ]
+  },
+  "Protractor sync test cases should pass if an element is not supposed to exist and is missing #integrationSuite" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9fc98a6604c8f9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1539895124723,
+        "stop" : 1539895124966,
+        "duration" : 243
       }
     } ]
   },
@@ -103,7 +103,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2519ab5398ebff58",
+      "uid" : "27cd5ed4625dd199",
       "status" : "passed",
       "time" : {
         "duration" : 3
@@ -120,7 +120,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8093847311067e0a",
+      "uid" : "f6285840b8e686bf",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -138,29 +138,9 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af8f709f0ca419b6",
+      "uid" : "3eaf4fe5f577d6f2",
       "status" : "passed",
       "time" : {
-        "duration" : 1
-      }
-    } ]
-  },
-  "Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "30ee25d665477c84",
-      "status" : "skipped",
-      "statusDetails" : "Tags: #quarantine\nSuite disabled",
-      "time" : {
-        "start" : 1539891881966,
-        "stop" : 1539891881967,
         "duration" : 1
       }
     } ]
@@ -175,9 +155,29 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a411ca13a977d91c",
+      "uid" : "c5d3d733b9632362",
       "status" : "passed",
       "time" : {
+        "duration" : 0
+      }
+    } ]
+  },
+  "Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28978618f551a4f3",
+      "status" : "skipped",
+      "statusDetails" : "Tags: #quarantine\nSuite disabled",
+      "time" : {
+        "start" : 1539895113458,
+        "stop" : 1539895113458,
         "duration" : 0
       }
     } ]
@@ -192,12 +192,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c79fa224a332be",
+      "uid" : "923b6bf5e3413ece",
       "status" : "passed",
       "time" : {
-        "start" : 1539891909707,
-        "stop" : 1539891909863,
-        "duration" : 156
+        "start" : 1539895124656,
+        "stop" : 1539895124894,
+        "duration" : 238
       }
     } ]
   },
@@ -211,7 +211,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "84ad883ca5de76fa",
+      "uid" : "871de819914c49f7",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -228,10 +228,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3253a403594f0416",
+      "uid" : "60fdfd990381e5fa",
       "status" : "passed",
       "time" : {
-        "duration" : 0
+        "duration" : 1
       }
     } ]
   },
@@ -245,7 +245,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c03057e78c63055b",
+      "uid" : "e423630075613bf8",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -263,7 +263,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "91387b343f87d671",
+      "uid" : "7fba0b9bd72951fa",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -281,7 +281,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "32bf5d917b5bb5ae",
+      "uid" : "97bcf4f85ebfc9df",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -298,30 +298,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d59d6cc19072f701",
+      "uid" : "2eb6bf616128eacf",
       "status" : "passed",
       "time" : {
-        "duration" : 2
-      }
-    } ]
-  },
-  "Protractor sync test cases should fail if an element is not supposed to exist but is found #integrationSuite" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d51d0c1738136514",
-      "status" : "failed",
-      "statusDetails" : "Expected 'Error: .element-does-exist was found when it should not exist!\n    at onTimeout (/tmp/lambda_protractor/app/selection.ts:52:13)\n    at Object.polledWait (/tmp/lambda_protractor/app/polled-wait.ts:35:9)\n    at _getElements (/tmp/lambda_protractor/app/selection.ts:80:10)\n    at Object.assertElementDoesNotExist (/tmp/lambda_protractor/app/selection.ts:157:20)\n    at ElementFinderSync.assertElementDoesNotExist (/tmp/lambda_protractor/app/element-finder-sync.ts:38:12)\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:70:18\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:43:13\n    at fiberContents (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:92:26)\n=== Pre-asyncblock stack ===\nError\n    at module.exports (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:29:15)\n    at UserContext.<anonymous> (/tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:42:9)\n    at /tmp/lambda_protractor/node_modules/jasminewd2/index.js:108:15\n    at new ManagedPromise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/tmp/lambda_protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:668:7' to be undefined.",
-      "time" : {
-        "start" : 1539891909755,
-        "stop" : 1539891910409,
-        "duration" : 654
+        "duration" : 3
       }
     } ]
   },
@@ -335,10 +315,30 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "38ba56195d02e1ce",
+      "uid" : "21e1fa687854951f",
       "status" : "passed",
       "time" : {
         "duration" : 3
+      }
+    } ]
+  },
+  "Protractor sync test cases should fail if an element is not supposed to exist but is found #integrationSuite" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d825c590151a9dba",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Error: .element-does-exist was found when it should not exist!\n    at onTimeout (/tmp/lambda_protractor/app/selection.ts:52:13)\n    at Object.polledWait (/tmp/lambda_protractor/app/polled-wait.ts:35:9)\n    at _getElements (/tmp/lambda_protractor/app/selection.ts:80:10)\n    at Object.assertElementDoesNotExist (/tmp/lambda_protractor/app/selection.ts:157:20)\n    at ElementFinderSync.assertElementDoesNotExist (/tmp/lambda_protractor/app/element-finder-sync.ts:38:12)\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:70:18\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:43:13\n    at fiberContents (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:92:26)\n=== Pre-asyncblock stack ===\nError\n    at module.exports (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:29:15)\n    at UserContext.<anonymous> (/tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:42:9)\n    at /tmp/lambda_protractor/node_modules/jasminewd2/index.js:108:15\n    at new ManagedPromise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/tmp/lambda_protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:668:7' to be undefined.",
+      "time" : {
+        "start" : 1539895122666,
+        "stop" : 1539895123382,
+        "duration" : 716
       }
     } ]
   },
@@ -352,7 +352,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "266364c74a9f9362",
+      "uid" : "e94a85f31a275677",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -370,7 +370,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d20701ab7d9033f0",
+      "uid" : "9d21646a14149f32",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -387,7 +387,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "49d11f1834215cb7",
+      "uid" : "aa7112bf6632dcfe",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -405,42 +405,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2a228b97cfa98359",
-      "status" : "skipped",
-      "statusDetails" : "expected test failure",
-      "time" : {
-        "duration" : 0
-      }
-    } ]
-  },
-  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_retry" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c78d55d4406f2068",
-      "status" : "passed",
-      "time" : {
-        "duration" : 1
-      }
-    } ]
-  },
-  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_chromedriver_log_artifact" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2cd1eadc0459c793",
+      "uid" : "adb8b697e61a5e1d",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -458,8 +423,43 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1d38a4ca2ef3459e",
+      "uid" : "f7d9e73bffc9f93d",
       "status" : "passed",
+      "time" : {
+        "duration" : 0
+      }
+    } ]
+  },
+  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_retry" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b8e0a351c604ffb",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1
+      }
+    } ]
+  },
+  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_chromedriver_log_artifact" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7784e73401fd5bdf",
+      "status" : "skipped",
+      "statusDetails" : "expected test failure",
       "time" : {
         "duration" : 0
       }
@@ -475,12 +475,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e5e0d1a4178e25ef",
+      "uid" : "a6b9545b2f3fe0ce",
       "status" : "passed",
       "time" : {
-        "start" : 1539891850049,
-        "stop" : 1539891850316,
-        "duration" : 267
+        "start" : 1539895083881,
+        "stop" : 1539895084217,
+        "duration" : 336
       }
     } ]
   }

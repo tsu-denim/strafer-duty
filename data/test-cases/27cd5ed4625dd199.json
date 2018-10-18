@@ -1,0 +1,44 @@
+{
+  "uid" : "27cd5ed4625dd199",
+  "name" : "test_allure_passed",
+  "historyId" : "pytest:pipeline.integration_tests.functional_tests.integ_tests_allure#test_allure_passed",
+  "time" : {
+    "duration" : 3
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "pipeline.integration_tests.functional_tests.integ_tests_allure"
+  }, {
+    "name" : "package",
+    "value" : "pipeline.integration_tests.functional_tests.integ_tests_allure"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27cd5ed4625dd199.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
