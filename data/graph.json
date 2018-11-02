@@ -1,175 +1,5 @@
 [ {
-  "uid" : "f6285840b8e686bf",
-  "name" : "test_junit_video_artifact",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "7784e73401fd5bdf",
-  "name" : "test_junit_chromedriver_log_artifact",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "2b8e0a351c604ffb",
-  "name" : "test_junit_retry",
-  "time" : {
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f7d9e73bffc9f93d",
-  "name" : "test_junit_expired",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "97bcf4f85ebfc9df",
-  "name" : "test_allure_failed",
-  "time" : {
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e94a85f31a275677",
-  "name" : "test_allure_chrome_log_artifact",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "a6b9545b2f3fe0ce",
-  "name" : "Finds the closest element matching the selector",
-  "time" : {
-    "start" : 1539895083881,
-    "stop" : 1539895084217,
-    "duration" : 336
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9fc98a6604c8f9c3",
-  "name" : "should pass if an element is not supposed to exist and is missing #integrationSuite",
-  "time" : {
-    "start" : 1539895124723,
-    "stop" : 1539895124966,
-    "duration" : 243
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3eaf4fe5f577d6f2",
-  "name" : "test_allure_skipped",
-  "time" : {
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "60fdfd990381e5fa",
-  "name" : "test_junit_disabled",
-  "time" : {
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2eb6bf616128eacf",
-  "name" : "test_junit_passed",
-  "time" : {
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "28978618f551a4f3",
-  "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
-  "time" : {
-    "start" : 1539895113458,
-    "stop" : 1539895113458,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "e423630075613bf8",
-  "name" : "test_allure_console_log_artifact",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "c5d3d733b9632362",
-  "name" : "test_junit_skipped",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f729545aeed0f60d",
-  "name" : "can be disabled and hidden from the Jasmine reporter #integrationSuite",
-  "time" : {
-    "start" : 1539895111491,
-    "stop" : 1539895124342,
-    "duration" : 12851
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "aa7112bf6632dcfe",
-  "name" : "test_allure_video_artifact",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "9d21646a14149f32",
-  "name" : "test_allure_retry",
-  "time" : {
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d825c590151a9dba",
-  "name" : "should fail if an element is not supposed to exist but is found #integrationSuite",
-  "time" : {
-    "start" : 1539895122666,
-    "stop" : 1539895123382,
-    "duration" : 716
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d99617abbe5d6583",
-  "name" : "test_junit_failed",
-  "time" : {
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21e1fa687854951f",
-  "name" : "test_junit_manifest",
-  "time" : {
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "871de819914c49f7",
+  "uid" : "fe0be6ec4e3e5f40",
   "name" : "test_allure_disabled",
   "time" : {
     "duration" : 1
@@ -177,25 +7,153 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "27cd5ed4625dd199",
-  "name" : "test_allure_passed",
+  "uid" : "dd88a46e7c643d9a",
+  "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
+  "time" : {
+    "start" : 1541192158822,
+    "stop" : 1541192172873,
+    "duration" : 14051
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "149423c3e33651e",
+  "name" : "test_allure_retry",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "da43c5731732f6e0",
+  "name" : "should fail if an element is not supposed to exist but is found #integrationSuite",
+  "time" : {
+    "start" : 1541192159254,
+    "stop" : 1541192176578,
+    "duration" : 17324
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "1bdbf32a26bb8e7e",
+  "name" : "test_junit_video_artifact",
+  "time" : {
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a093bb2e945d786f",
+  "name" : "test_junit_manifest",
   "time" : {
     "duration" : 3
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f36d57c26846ebab",
-  "name" : "can be skipped if we want them to #integrationSuite",
+  "uid" : "acfd073d9a3bef15",
+  "name" : "test_allure_video_artifact",
   "time" : {
-    "start" : 1539895116777,
-    "stop" : 1539895116778,
-    "duration" : 1
+    "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "a022dbd5e115e969",
+  "uid" : "31e4e9d4bf23fb37",
+  "name" : "should pass if an element is not supposed to exist and is missing #integrationSuite",
+  "time" : {
+    "start" : 1541192159254,
+    "stop" : 1541192176657,
+    "duration" : 17403
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "4a9e3e4d5d4e23ae",
+  "name" : "can be skipped if we want them to #integrationSuite",
+  "time" : {
+    "start" : 1541192158971,
+    "stop" : 1541192232616,
+    "duration" : 73645
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "fea7db64b6c5e609",
+  "name" : "test_allure_console_log_artifact",
+  "time" : {
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "381906e05908675d",
+  "name" : "test_junit_chromedriver_log_artifact",
+  "time" : {
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f3aaab3f1f61308b",
+  "name" : "test_allure_chrome_log_artifact",
+  "time" : {
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c66ac73ebb1b5dbd",
+  "name" : "test_allure_passed",
+  "time" : {
+    "duration" : 5
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "795f92651b43ab58",
+  "name" : "test_junit_passed",
+  "time" : {
+    "duration" : 4
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a296db66bd78e65c",
+  "name" : "test_junit_disabled",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce1a7d890a113d56",
+  "name" : "Finds the closest element matching the selector",
+  "time" : {
+    "start" : 1541192118499,
+    "stop" : 1541192132847,
+    "duration" : 14348
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "e958ebceabe9f1af",
+  "name" : "test_junit_retry",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2f1336a29ebf00b",
+  "name" : "test_junit_failed",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c080d73fe40713d",
   "name" : "test_junit_chrome_log_artifact",
   "time" : {
     "duration" : 0
@@ -203,7 +161,25 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "adb8b697e61a5e1d",
+  "uid" : "c84e24681437fd1f",
+  "name" : "can be disabled and hidden from the Jasmine reporter #integrationSuite",
+  "time" : {
+    "start" : 1541192156950,
+    "stop" : 1541192167027,
+    "duration" : 10077
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "5298cf4e79b0e149",
+  "name" : "test_junit_expired",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51d39029889cd099",
   "name" : "test_junit_console_log_artifact",
   "time" : {
     "duration" : 0
@@ -211,21 +187,45 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "923b6bf5e3413ece",
-  "name" : "can retry if they fail when configured #integrationSuite",
-  "time" : {
-    "start" : 1539895124656,
-    "stop" : 1539895124894,
-    "duration" : 238
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7fba0b9bd72951fa",
+  "uid" : "ccdaa742bbd4637d",
   "name" : "test_allure_chromedriver_log_artifact",
   "time" : {
     "duration" : 0
   },
   "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "44a06c9edde75323",
+  "name" : "can retry if they fail when configured #integrationSuite",
+  "time" : {
+    "start" : 1541192158971,
+    "stop" : 1541192232665,
+    "duration" : 73694
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "e2aa3881bbcbfd16",
+  "name" : "test_allure_failed",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5338c730d11bc3d",
+  "name" : "test_allure_skipped",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "81be9659f17f5712",
+  "name" : "test_junit_skipped",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

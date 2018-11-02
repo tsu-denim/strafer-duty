@@ -1,10 +1,10 @@
 [ {
   "statistic" : {
-    "failed" : 1,
+    "failed" : 7,
     "broken" : 0,
-    "skipped" : 10,
-    "passed" : 15,
-    "unknown" : 1,
+    "skipped" : 8,
+    "passed" : 5,
+    "unknown" : 7,
     "total" : 27
   }
 } ]

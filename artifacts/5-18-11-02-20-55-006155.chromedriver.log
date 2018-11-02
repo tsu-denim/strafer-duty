@@ -1,0 +1,222 @@
+[1.216][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [ "--disable-gpu", "--single-process", "--no-sandbox", "--data-path=/tmp/data-path", "--homedir=/tmp/homedir", "--disk-cache-dir=/tmp", "--disk-cache-size=1", "--media-cache-size=1", "--allow-file-access-from-files", "--enable-logging", "--v=1", "--disable-web-security", "--disable-extensions", "--ignore-certificate-errors", "--disable-ntp-most-likely-favicons-from-server", "--disable-ntp-popular-sites", "--window-size=1366,1024", "--disable-infobars", "--disable-dev-shm-usage", "..." ],
+         "binary": "/tmp/chrome-lambda/chrome",
+         "prefs": {
+            "credentials_enable_service": false,
+            "profile": {
+               "password_manager_enabled": false
+            }
+         }
+      },
+      "count": 1
+   }
+}
+[1.216][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1.216][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1.217][INFO]: Launching chrome: /tmp/chrome-lambda/chrome --allow-file-access-from-files --data-path=/tmp/data-path --disable-background-networking --disable-browser-side-navigation --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-extensions-except=/tmp/.org.chromium.Chromium.3oPGb3/internal --disable-gpu --disable-hang-monitor --disable-infobars --disable-ntp-most-likely-favicons-from-server --disable-ntp-popular-sites --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --disable-web-security --disk-cache-dir=/tmp --disk-cache-size=1 --enable-automation --enable-logging --enable-precise-memory-info --force-fieldtrials=SiteIsolationExtensions/Control --homedir=/tmp/homedir --ignore-certificate-errors --log-level=0 --media-cache-size=1 --metrics-recording-only --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=12791 --safebrowsing-disable-auto-update --single-process --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.WqrKn7 --v=1 --window-size=1366,1024 data:,
+[1.217][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.256][SEVERE]: Error initializing NSS with a persistent database (sql:/tmp/homedir/.pki/nssdb): NSS error code: -8023
+[1.256][SEVERE]: Error initializing NSS without a persistent database: NSS error code: -8023
+[1.260][SEVERE]: nss_error=-8023, os_error=0
+#0 0x000000506057 <unknown>
+#1 0x00000050d1c1 <unknown>
+#2 0x00000073fc23 <unknown>
+#3 0x000000677945 <unknown>
+#4 0x00000059dc96 <unknown>
+#5 0x00000058374c <unknown>
+#6 0x00000057a327 <unknown>
+#7 0x00000046cda4 <unknown>
+#8 0x00000065d89a <unknown>
+#9 0x00000065b87b <unknown>
+#10 0x0000005473c7 <unknown>
+#11 0x00000050eb24 <unknown>
+#12 0x00000050f1a1 <unknown>
+#13 0x000000511079 <unknown>
+#14 0x00000051b9f5 <unknown>
+#15 0x000000533cea <unknown>
+#16 0x00000052f7b3 <unknown>
+#17 0x7f5ee2308de5 start_thread
+#18 0x7f5ee02aa30d __clone
+
+[1.261][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.261][DEBUG]: DevTools request failed
+[1.311][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.311][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.311][DEBUG]: DevTools request failed
+[1.361][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.361][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.361][DEBUG]: DevTools request failed
+prctl(PR_SET_NO_NEW_PRIVS) failed
+[1.412][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.412][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.412][DEBUG]: DevTools request failed
+Xlib:  extension "RANDR" missing on display ":99".
+[1.462][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.462][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.463][DEBUG]: DevTools request failed
+[1.513][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.513][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.513][DEBUG]: DevTools request failed
+[44:49:1102/205612.235725:ERROR:bus.cc(395)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[1.563][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.563][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.563][DEBUG]: DevTools request failed
+Xlib:  extension "RANDR" missing on display ":99".
+[1.615][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.615][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.615][DEBUG]: DevTools request failed
+[44:67:1102/205612.326829:ERROR:nss_util.cc(650)] Error initializing NSS with a persistent database (sql:/tmp/homedir/.pki/nssdb): NSS error code: -8023
+[44:67:1102/205612.326945:ERROR:nss_util.cc(154)] Error initializing NSS without a persistent database: NSS error code: -8023
+[1.669][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.670][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.670][DEBUG]: DevTools request failed
+[1.729][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.729][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.729][DEBUG]: DevTools request failed
+
+DevTools listening on ws://127.0.0.1:12791/devtools/browser/76355800-2aa8-4abb-a857-ee3900878d9e
+[1.789][DEBUG]: DevTools request: http://localhost:12791/json/version
+[1.789][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1.890][DEBUG]: DevTools response: {
+   "Browser": "Chrome/63.0.3239.84",
+   "Protocol-Version": "1.2",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+   "V8-Version": "6.3.292.46",
+   "WebKit-Version": "537.36 (@0f53a5abc7a405fbe9f1cfd3db38f2092c8a7816)",
+   "webSocketDebuggerUrl": "ws://localhost:12791/devtools/browser/76355800-2aa8-4abb-a857-ee3900878d9e"
+}
+
+[1.892][DEBUG]: DevTools request: http://localhost:12791/json
+[1.894][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12791/devtools/page/(2F8AF5C97274DB043A00C3CE0703CD79)",
+   "id": "(2F8AF5C97274DB043A00C3CE0703CD79)",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:12791/devtools/page/(2F8AF5C97274DB043A00C3CE0703CD79)"
+} ]
+
+[1.894][DEBUG]: DevTools request: http://localhost:12791/json
+[1.913][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12791/devtools/page/(2F8AF5C97274DB043A00C3CE0703CD79)",
+   "id": "(2F8AF5C97274DB043A00C3CE0703CD79)",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:12791/devtools/page/(2F8AF5C97274DB043A00C3CE0703CD79)"
+} ]
+
+[1.913][INFO]: resolved localhost to ["127.0.0.1"]
+[1.914][DEBUG]: DEVTOOLS COMMAND Log.enable (id=1) {
+
+}
+[1.914][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=2) {
+
+}
+[1.914][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=3) {
+
+}
+[1.914][DEBUG]: DEVTOOLS COMMAND Page.enable (id=4) {
+
+}
+[1.914][DEBUG]: DEVTOOLS COMMAND Page.enable (id=5) {
+
+}
+[44:67:1102/205612.326957:FATAL:nss_util.cc(156)] nss_error=-8023, os_error=0
+#0 0x5585dd620a87 base::debug::StackTrace::StackTrace()
+#1 0x5585dd637221 logging::LogMessage::~LogMessage()
+#2 0x5585ddeecb43 base::LazyInstance<>::Get()
+#3 0x5585ddd15bb5 net::CertDatabase::GetInstance()
+#4 0x5585dde547d8 net::ClientSocketFactory::GetDefaultFactory()
+#5 0x5585ddd6dac8 net::DnsClient::CreateClient()
+#6 0x5585dd40164a chrome_browser_net::DnsProbeService::SetSystemClientToCurrentConfig()
+#7 0x5585dd4015b2 chrome_browser_net::DnsProbeService::DnsProbeService()
+#8 0x5585dd3cc89d IOThread::Init()
+#9 0x5585dc48a95d content::BrowserProcessSubThread::Init()
+#10 0x5585dd686c07 base::Thread::ThreadMain()
+#11 0x5585dd681ea3 base::(anonymous namespace)::ThreadFunc()
+#12 0x7f1a9458cde5 start_thread
+#13 0x7f1a8e6d230d __clone
+
+Received signal 6
+#0 0x5585dd620a87 base::debug::StackTrace::StackTrace()
+#1 0x5585dd6205ef base::debug::(anonymous namespace)::StackDumpSignalHandler()
+#2 0x7f1a945945a0 <unknown>
+#3 0x7f1a8e60f1f7 __GI_raise
+#4 0x7f1a8e6108e8 __GI_abort
+#5 0x5585dd61f632 base::debug::BreakDebugger()
+#6 0x5585dd63760a logging::LogMessage::~LogMessage()
+#7 0x5585ddeecb43 base::LazyInstance<>::Get()
+#8 0x5585ddd15bb5 net::CertDatabase::GetInstance()
+#9 0x5585dde547d8 net::ClientSocketFactory::GetDefaultFactory()
+#10 0x5585ddd6dac8 net::DnsClient::CreateClient()
+#11 0x5585dd40164a chrome_browser_net::DnsProbeService::SetSystemClientToCurrentConfig()
+#12 0x5585dd4015b2 chrome_browser_net::DnsProbeService::DnsProbeService()
+#13 0x5585dd3cc89d IOThread::Init()
+#14 0x5585dc48a95d content::BrowserProcessSubThread::Init()
+#15 0x5585dd686c07 base::Thread::ThreadMain()
+#16 0x5585dd681ea3 base::(anonymous namespace)::ThreadFunc()
+#17 0x7f1a9458cde5 start_thread
+#18 0x7f1a8e6d230d __clone
+  r8: 00007f1a76cd95a3  r9: 313a37363a34345b r10: 0000000000000008 r11: 0000000000000202
+ r12: 00007f1a76cd9720 r13: 000000000000004d r14: 00007f1a76cd9718 r15: 00007f1a76cd9710
+  di: 000000000000002c  si: 0000000000000043  bp: 00007f1a76cd9280  bx: 00007f1a76cd9280
+  dx: 0000000000000006  ax: 0000000000000000  cx: 00007f1a8e60f1f7  sp: 00007f1a76cd90d8
+  ip: 00007f1a8e60f1f7 efl: 0000000000000202 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+Calling _exit(1). Core file will not be generated.
+[2.053][SEVERE]: Unable to receive message from renderer
+[2.106][INFO]: RESPONSE InitSession session not created exception
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=63.0.3239.84)
+[2.106][DEBUG]: Log type 'driver' lost 1 entries on destruction
+[2.106][DEBUG]: Log type 'browser' lost 0 entries on destruction

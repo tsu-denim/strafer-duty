@@ -1,0 +1,56 @@
+{
+  "uid" : "149423c3e33651e",
+  "name" : "test_allure_retry",
+  "historyId" : "pytest:pipeline.integration_tests.functional_tests.integ_tests_allure#test_allure_retry",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "assert False",
+    "trace" : "report_path = 'allure-report/data/test-cases/*'\n\n    def test_allure_retry(report_path):\n        report = AllureHelper(report_path)\n        case_list = report.test_cases\n        has_retry = False\n    \n        for case in case_list:\n            try:\n                if case['fullName'] == \"Protractor sync test cases can retry if they fail when configured #integrationSuite\" \\\n                        and case['status'] == 'passed' and case['statusDetails']['flaky']:\n                    has_retry = True\n            except KeyError:\n                if case['fullName'] == \"Protractor sync test cases can retry if they fail when configured #integrationSuite\" \\\n                        and case['status'] == 'passed' and case['flaky']:\n                    has_retry = True\n    \n>       assert has_retry\nE       assert False\n\npipeline/integration_tests/functional_tests/integ_tests_allure.py:141: AssertionError",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "pipeline.integration_tests.functional_tests.integ_tests_allure"
+  }, {
+    "name" : "package",
+    "value" : "pipeline.integration_tests.functional_tests.integ_tests_allure"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Risk Based Testing",
+      "matchedStatuses" : [ "broken", "failed", "skipped" ],
+      "flaky" : false
+    }, {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "149423c3e33651e.json",
+  "statusDetailsSafe" : {
+    "message" : "assert False",
+    "trace" : "report_path = 'allure-report/data/test-cases/*'\n\n    def test_allure_retry(report_path):\n        report = AllureHelper(report_path)\n        case_list = report.test_cases\n        has_retry = False\n    \n        for case in case_list:\n            try:\n                if case['fullName'] == \"Protractor sync test cases can retry if they fail when configured #integrationSuite\" \\\n                        and case['status'] == 'passed' and case['statusDetails']['flaky']:\n                    has_retry = True\n            except KeyError:\n                if case['fullName'] == \"Protractor sync test cases can retry if they fail when configured #integrationSuite\" \\\n                        and case['status'] == 'passed' and case['flaky']:\n                    has_retry = True\n    \n>       assert has_retry\nE       assert False\n\npipeline/integration_tests/functional_tests/integ_tests_allure.py:141: AssertionError",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

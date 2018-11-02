@@ -1,0 +1,56 @@
+{
+  "uid" : "e2aa3881bbcbfd16",
+  "name" : "test_allure_failed",
+  "historyId" : "pytest:pipeline.integration_tests.functional_tests.integ_tests_allure#test_allure_failed",
+  "time" : {
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "assert False",
+    "trace" : "report_path = 'allure-report/data/test-cases/*'\n\n    def test_allure_failed(report_path):\n        report = AllureHelper(report_path)\n        case_list = report.test_cases\n        contains_fail = False\n    \n        for case in case_list:\n            if case['name'] == \"should fail if an element is not supposed to exist but is found #integrationSuite\" \\\n                    and case['status'] == 'failed':\n                contains_fail = True\n>       assert contains_fail\nE       assert False\n\npipeline/integration_tests/functional_tests/integ_tests_allure.py:28: AssertionError",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "pipeline.integration_tests.functional_tests.integ_tests_allure"
+  }, {
+    "name" : "package",
+    "value" : "pipeline.integration_tests.functional_tests.integ_tests_allure"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Risk Based Testing",
+      "matchedStatuses" : [ "broken", "failed", "skipped" ],
+      "flaky" : false
+    }, {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e2aa3881bbcbfd16.json",
+  "statusDetailsSafe" : {
+    "message" : "assert False",
+    "trace" : "report_path = 'allure-report/data/test-cases/*'\n\n    def test_allure_failed(report_path):\n        report = AllureHelper(report_path)\n        case_list = report.test_cases\n        contains_fail = False\n    \n        for case in case_list:\n            if case['name'] == \"should fail if an element is not supposed to exist but is found #integrationSuite\" \\\n                    and case['status'] == 'failed':\n                contains_fail = True\n>       assert contains_fail\nE       assert False\n\npipeline/integration_tests/functional_tests/integ_tests_allure.py:28: AssertionError",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}
