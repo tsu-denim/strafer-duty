@@ -1,0 +1,495 @@
+[1541193613.128][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [ "--disable-gpu", "--single-process", "--no-sandbox", "--data-path=/tmp/data-path", "--homedir=/tmp/homedir", "--disk-cache-dir=/tmp", "--disk-cache-size=1", "--media-cache-size=1", "--allow-file-access-from-files", "--enable-logging", "--v=1", "--disable-web-security", "--disable-extensions", "--ignore-certificate-errors", "--disable-ntp-most-likely-favicons-from-server", "--disable-ntp-popular-sites", "--window-size=1366,1024", "--disable-infobars", "--disable-dev-shm-usage", "..." ],
+         "binary": "/tmp/chrome-lambda/chrome",
+         "prefs": {
+            "credentials_enable_service": false,
+            "profile": {
+               "password_manager_enabled": false
+            }
+         }
+      },
+      "count": 1
+   }
+}
+[1541193613.128][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1541193613.128][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1541193613.129][INFO]: Launching chrome: /tmp/chrome-lambda/chrome --allow-file-access-from-files --data-path=/tmp/data-path --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-extensions-except=/tmp/.org.chromium.Chromium.SrgEte/internal --disable-gpu --disable-hang-monitor --disable-infobars --disable-ntp-most-likely-favicons-from-server --disable-ntp-popular-sites --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --disable-web-security --disk-cache-dir=/tmp --disk-cache-size=1 --enable-automation --enable-logging --enable-precise-memory-info --force-fieldtrials=SiteIsolationExtensions/Control --homedir=/tmp/homedir --ignore-certificate-errors --log-level=0 --media-cache-size=1 --metrics-recording-only --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=0 --single-process --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.ah0Fgg --v=1 --window-size=1366,1024 data:,
+prctl(PR_SET_NO_NEW_PRIVS) failed
+Xlib:  extension "RANDR" missing on display ":99".
+Fontconfig warning: "/etc/fonts/conf.d/30-metric-aliases.conf", line 84: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/30-metric-aliases.conf", line 84: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/30-metric-aliases.conf", line 93: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/30-metric-aliases.conf", line 93: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/30-metric-aliases.conf", line 102: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/30-metric-aliases.conf", line 102: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 33: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 59: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 68: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 68: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 79: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 79: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 79: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 88: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 23: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 23: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 23: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 23: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 23: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 23: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 23: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 23: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 39: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 39: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 39: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 39: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 39: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 39: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 39: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 39: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 39: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 56: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 56: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 56: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 56: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 56: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 56: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 56: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 56: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 56: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 56: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 66: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 66: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 66: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 75: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 75: Having multiple <family> in <alias> isn't supported and may not work as expected
+Fontconfig warning: "/etc/fonts/fonts.conf", line 142: blank doesn't take any effect anymore. please remove it from your fonts.conf
+
+(chrome:44): GLib-GIO-CRITICAL **: g_settings_schema_source_lookup: assertion 'source != NULL' failed
+
+(chrome:44): GLib-GIO-CRITICAL **: g_settings_schema_source_lookup: assertion 'source != NULL' failed
+[44:44:1102/212013.808101:ERROR:default_network_context_params.cc(60)] Cannot use V8 Proxy resolver in single process mode.
+Xlib:  extension "RANDR" missing on display ":99".
+[44:56:1102/212013.808786:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[44:44:1102/212013.826549:ERROR:gpu_process_transport_factory.cc(1016)] Lost UI shared context.
+[44:44:1102/212013.873276:ERROR:default_network_context_params.cc(60)] Cannot use V8 Proxy resolver in single process mode.
+
+DevTools listening on ws://127.0.0.1:46729/devtools/browser/42a48ea4-45eb-429d-a3d2-69811636385e
+[1541193613.926][DEBUG]: DevTools request: http://localhost:46729/json/version
+[1541193613.927][SEVERE]: CreatePlatformSocket() returned an error, errno=97: Address family not supported by protocol (97)
+[1541193613.967][DEBUG]: DevTools response: {
+   "Browser": "Chrome/68.0.3440.75",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36",
+   "V8-Version": "6.8.275.24",
+   "WebKit-Version": "537.36 (@cf598d63a4f1b9e7cd14f2a8433276b196e3e07d)",
+   "webSocketDebuggerUrl": "ws://localhost:46729/devtools/browser/42a48ea4-45eb-429d-a3d2-69811636385e"
+}
+
+[1541193613.969][DEBUG]: DevTools request: http://localhost:46729/json
+[44:77:1102/212013.987427:ERROR:bus.cc(394)] Failed to connect to the bus: Address does not contain a colon
+[1541193613.989][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:46729/devtools/page/AD43F96857E9D20081DCDD988A432DFE",
+   "id": "AD43F96857E9D20081DCDD988A432DFE",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:46729/devtools/page/AD43F96857E9D20081DCDD988A432DFE"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:46729/devtools/page/B886177409CD3BE6857ED95D5BD2C475",
+   "id": "B886177409CD3BE6857ED95D5BD2C475",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:46729/devtools/page/B886177409CD3BE6857ED95D5BD2C475"
+} ]
+
+[1541193613.989][DEBUG]: DevTools request: http://localhost:46729/json
+[1541193614.029][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:46729/devtools/page/AD43F96857E9D20081DCDD988A432DFE",
+   "id": "AD43F96857E9D20081DCDD988A432DFE",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:46729/devtools/page/AD43F96857E9D20081DCDD988A432DFE"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:46729/devtools/page/B886177409CD3BE6857ED95D5BD2C475",
+   "id": "B886177409CD3BE6857ED95D5BD2C475",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:46729/devtools/page/B886177409CD3BE6857ED95D5BD2C475"
+} ]
+
+[1541193614.030][INFO]: resolved localhost to ["127.0.0.1"]
+[1541193614.053][DEBUG]: DEVTOOLS COMMAND Log.enable (id=1) {
+
+}
+[1541193614.053][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=2) {
+
+}
+[1541193614.053][DEBUG]: DEVTOOLS COMMAND Target.setAutoAttach (id=3) {
+   "autoAttach": true,
+   "waitForDebuggerOnStart": false
+}
+[1541193614.053][DEBUG]: DEVTOOLS COMMAND Page.enable (id=4) {
+
+}
+[1541193614.053][DEBUG]: DEVTOOLS COMMAND Page.enable (id=5) {
+
+}
+[44:83:1102/212014.074655:ERROR:gles2_command_buffer_stub.cc(129)] ContextResult::kFatalFailure: Failed to create default offscreen surface.
+[1541193614.092][DEBUG]: DEVTOOLS RESPONSE Log.enable (id=1) {
+
+}
+[1541193614.093][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=2) {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "about:blank",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 2,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "B886177409CD3BE6857ED95D5BD2C475",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1541193614.093][DEBUG]: DEVTOOLS RESPONSE Target.setAutoAttach (id=3) {
+
+}
+[1541193614.093][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=4) {
+
+}
+[1541193614.093][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=5) {
+
+}
+[1541193614.093][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=6) {
+
+}
+[1541193614.130][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+   "frame": {
+      "id": "B886177409CD3BE6857ED95D5BD2C475",
+      "loaderId": "3DDFABEB5EB8D38F74EAF04268B0957C",
+      "mimeType": "text/plain",
+      "securityOrigin": "://",
+      "url": "data:,"
+   }
+}
+[1541193614.130][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+
+}
+[1541193614.131][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=7) {
+
+}
+[1541193614.131][DEBUG]: DEVTOOLS EVENT Page.loadEventFired {
+   "timestamp": 1544.069535
+}
+[1541193614.131][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "B886177409CD3BE6857ED95D5BD2C475"
+}
+[1541193614.131][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+
+}
+[1541193614.131][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=8) {
+
+}
+[1541193614.131][DEBUG]: DEVTOOLS EVENT Page.domContentEventFired {
+   "timestamp": 1544.069887
+}
+[1541193614.189][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+   "context": {
+      "auxData": {
+         "frameId": "B886177409CD3BE6857ED95D5BD2C475",
+         "isDefault": true
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1541193614.189][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=6) {
+
+}
+[1541193614.189][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=7) {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 6,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 7,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "B886177409CD3BE6857ED95D5BD2C475",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1541193614.189][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=8) {
+   "root": {
+      "backendNodeId": 5,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 6,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 7,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 11,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 10
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 12,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 10
+         } ],
+         "frameId": "B886177409CD3BE6857ED95D5BD2C475",
+         "localName": "html",
+         "nodeId": 10,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 9
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 9,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1541193614.189][DEBUG]: DEVTOOLS COMMAND Page.enable (id=9) {
+
+}
+[1541193614.269][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=9) {
+
+}
+[1541193614.269][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=10) {
+
+}
+[1541193614.270][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=10) {
+
+}
+[1541193614.270][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=11) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1541193614.290][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=11) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1541193614.290][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.39.562737 (dba483cee6a5f15e2e2d73df16968ab10b38a2bf)",
+      "userDataDir": "/tmp/.org.chromium.Chromium.ah0Fgg"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Linux",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1541193614.309][INFO]: COMMAND SetTimeout {
+   "script": 11000
+}
+[1541193614.311][INFO]: RESPONSE SetTimeout unknown error: 'ms' must be a double
+  (Session info: chrome=68.0.3440.75)
+[1541193614.332][INFO]: COMMAND SetTimeout {
+   "ms": 11000,
+   "type": "script"
+}
+[1541193614.332][INFO]: RESPONSE SetTimeout
+[1541193614.772][INFO]: COMMAND SetTimeout {
+   "pageLoad": 30000
+}
+[1541193614.773][INFO]: RESPONSE SetTimeout unknown error: 'ms' must be a double
+  (Session info: chrome=68.0.3440.75)
+[1541193614.792][INFO]: COMMAND Quit {
+
+}
+[1541193614.842][INFO]: RESPONSE Quit
+[1541193614.842][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1541193614.842][DEBUG]: Log type 'browser' lost 0 entries on destruction

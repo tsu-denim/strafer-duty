@@ -1,0 +1,44 @@
+{
+  "uid" : "b384ee59a0be643c",
+  "name" : "test_junit_passed",
+  "historyId" : "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_passed",
+  "time" : {
+    "duration" : 3
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "testClass",
+    "value" : "pipeline.integration_tests.functional_tests.integ_tests_junit"
+  }, {
+    "name" : "package",
+    "value" : "pipeline.integration_tests.functional_tests.integ_tests_junit"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b384ee59a0be643c.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

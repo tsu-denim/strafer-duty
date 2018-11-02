@@ -1,0 +1,10 @@
+[21:20:06] I/launcher - Running 1 instances of WebDriver
+[21:20:06] I/hosted - Using the selenium server at http://localhost:9515
+Spec started
+
+  Protractor sync test cases
+    [32m✓ can retry if they fail when configured #integrationSuite[39m
+
+Executed 1 of 5 specs [32mSUCCESS [39m(4 SKIPPED) in 0.583 sec.
+[21:20:08] I/launcher - 0 instance(s) of WebDriver still running
+[21:20:08] I/launcher - chrome #01 passed
