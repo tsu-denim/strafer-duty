@@ -3,35 +3,34 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 1,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4a9e3e4d5d4e23ae",
-      "status" : "unknown",
-      "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
-      "time" : {
-        "start" : 1541192158971,
-        "stop" : 1541192232616,
-        "duration" : 73645
-      }
-    } ]
-  },
-  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_failed" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d2f1336a29ebf00b",
-      "status" : "failed",
-      "statusDetails" : "assert False",
+      "uid" : "ab29adc32e1f068b",
+      "status" : "skipped",
+      "statusDetails" : "Suite disabled",
+      "time" : {
+        "start" : 1541192921547,
+        "stop" : 1541192921547,
+        "duration" : 0
+      }
+    } ]
+  },
+  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_failed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5db983d4c81a3b6",
+      "status" : "passed",
       "time" : {
         "duration" : 1
       }
@@ -47,13 +46,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c84e24681437fd1f",
+      "uid" : "f2604d28a5e98af6",
       "status" : "unknown",
       "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
       "time" : {
-        "start" : 1541192156950,
-        "stop" : 1541192167027,
-        "duration" : 10077
+        "start" : 1541192913338,
+        "stop" : 1541192926332,
+        "duration" : 12994
+      }
+    } ]
+  },
+  "Protractor sync test cases should pass if an element is not supposed to exist and is missing #integrationSuite" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44a569bda5c4418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1541192924565,
+        "stop" : 1541192924805,
+        "duration" : 240
       }
     } ]
   },
@@ -67,7 +85,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2c080d73fe40713d",
+      "uid" : "9721d12875c31b70",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -75,41 +93,20 @@
       }
     } ]
   },
-  "Protractor sync test cases should pass if an element is not supposed to exist and is missing #integrationSuite" : {
+  "pytest:pipeline.integration_tests.functional_tests.integ_tests_allure#test_allure_passed" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 1,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "31e4e9d4bf23fb37",
-      "status" : "unknown",
-      "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
-      "time" : {
-        "start" : 1541192159254,
-        "stop" : 1541192176657,
-        "duration" : 17403
-      }
-    } ]
-  },
-  "pytest:pipeline.integration_tests.functional_tests.integ_tests_allure#test_allure_passed" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c66ac73ebb1b5dbd",
-      "status" : "failed",
-      "statusDetails" : "assert False",
+      "uid" : "9fcb76d6b5c7ca80",
+      "status" : "passed",
       "time" : {
-        "duration" : 5
+        "duration" : 3
       }
     } ]
   },
@@ -123,7 +120,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1bdbf32a26bb8e7e",
+      "uid" : "680cb5dac82c9645",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -133,19 +130,38 @@
   },
   "pytest:pipeline.integration_tests.functional_tests.integ_tests_allure#test_allure_skipped" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ccfc081722695b7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1
+      }
+    } ]
+  },
+  "Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d5338c730d11bc3d",
-      "status" : "failed",
-      "statusDetails" : "assert False",
+      "uid" : "71977da5d9100ebf",
+      "status" : "skipped",
+      "statusDetails" : "Tags: #quarantine\nSuite disabled",
       "time" : {
-        "duration" : 1
+        "start" : 1541192914486,
+        "stop" : 1541192914486,
+        "duration" : 0
       }
     } ]
   },
@@ -159,30 +175,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "81be9659f17f5712",
+      "uid" : "544f68b9e7576fd9",
       "status" : "passed",
       "time" : {
         "duration" : 1
-      }
-    } ]
-  },
-  "Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 1,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "dd88a46e7c643d9a",
-      "status" : "unknown",
-      "statusDetails" : "Tags: #quarantine\nDisabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
-      "time" : {
-        "start" : 1541192158822,
-        "stop" : 1541192172873,
-        "duration" : 14051
       }
     } ]
   },
@@ -191,18 +187,17 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 1,
+      "passed" : 1,
+      "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "44a06c9edde75323",
-      "status" : "unknown",
-      "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
+      "uid" : "80a9c86e256f9691",
+      "status" : "passed",
       "time" : {
-        "start" : 1541192158971,
-        "stop" : 1541192232665,
-        "duration" : 73694
+        "start" : 1541192924558,
+        "stop" : 1541192924755,
+        "duration" : 197
       }
     } ]
   },
@@ -216,7 +211,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe0be6ec4e3e5f40",
+      "uid" : "6d41437d2ea13587",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -233,7 +228,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a296db66bd78e65c",
+      "uid" : "b0aa8065c99bd12d",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -250,7 +245,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fea7db64b6c5e609",
+      "uid" : "979bf9efdeacb8c7",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -268,7 +263,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ccdaa742bbd4637d",
+      "uid" : "d923b19660eedc8b",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -278,23 +273,39 @@
   },
   "pytest:pipeline.integration_tests.functional_tests.integ_tests_allure#test_allure_failed" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e2aa3881bbcbfd16",
-      "status" : "failed",
-      "statusDetails" : "assert False",
+      "uid" : "bfaa884f4fbdc8ca",
+      "status" : "passed",
       "time" : {
         "duration" : 1
       }
     } ]
   },
   "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_passed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f13260e6bbdfb80f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3
+      }
+    } ]
+  },
+  "Protractor sync test cases should fail if an element is not supposed to exist but is found #integrationSuite" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -304,11 +315,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "795f92651b43ab58",
+      "uid" : "9ff3d313d39c28c4",
       "status" : "failed",
-      "statusDetails" : "assert False",
+      "statusDetails" : "Expected 'Error: .element-does-exist was found when it should not exist!\n    at onTimeout (/tmp/lambda_protractor/app/selection.ts:52:13)\n    at Object.polledWait (/tmp/lambda_protractor/app/polled-wait.ts:35:9)\n    at _getElements (/tmp/lambda_protractor/app/selection.ts:80:10)\n    at Object.assertElementDoesNotExist (/tmp/lambda_protractor/app/selection.ts:157:20)\n    at ElementFinderSync.assertElementDoesNotExist (/tmp/lambda_protractor/app/element-finder-sync.ts:38:12)\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:70:18\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:43:13\n    at fiberContents (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:92:26)\n=== Pre-asyncblock stack ===\nError\n    at module.exports (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:29:15)\n    at UserContext.<anonymous> (/tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:42:9)\n    at /tmp/lambda_protractor/node_modules/jasminewd2/index.js:108:15\n    at new ManagedPromise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/tmp/lambda_protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:668:7' to be undefined.",
       "time" : {
-        "duration" : 4
+        "start" : 1541192917970,
+        "stop" : 1541192918615,
+        "duration" : 645
       }
     } ]
   },
@@ -322,30 +335,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a093bb2e945d786f",
+      "uid" : "30c284f8772e696b",
       "status" : "passed",
       "time" : {
         "duration" : 3
-      }
-    } ]
-  },
-  "Protractor sync test cases should fail if an element is not supposed to exist but is found #integrationSuite" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 1,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "da43c5731732f6e0",
-      "status" : "unknown",
-      "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
-      "time" : {
-        "start" : 1541192159254,
-        "stop" : 1541192176578,
-        "duration" : 17324
       }
     } ]
   },
@@ -359,7 +352,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f3aaab3f1f61308b",
+      "uid" : "59ebbb6eb53e449b",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -369,17 +362,16 @@
   },
   "pytest:pipeline.integration_tests.functional_tests.integ_tests_allure#test_allure_retry" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "149423c3e33651e",
-      "status" : "failed",
-      "statusDetails" : "assert False",
+      "uid" : "d0b11a0b91cc5345",
+      "status" : "passed",
       "time" : {
         "duration" : 1
       }
@@ -395,7 +387,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "acfd073d9a3bef15",
+      "uid" : "42ad1912ac0cd8f6",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -413,7 +405,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51d39029889cd099",
+      "uid" : "6b06995da71d7233",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -431,7 +423,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5298cf4e79b0e149",
+      "uid" : "f142975c45e30dc5",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -440,17 +432,16 @@
   },
   "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_retry" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e958ebceabe9f1af",
-      "status" : "failed",
-      "statusDetails" : "assert False",
+      "uid" : "4d2ee30478e99822",
+      "status" : "passed",
       "time" : {
         "duration" : 1
       }
@@ -466,7 +457,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "381906e05908675d",
+      "uid" : "802356af5b07ca29",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -474,23 +465,22 @@
       }
     } ]
   },
-  "jQuery methods Finds the closest element matching the selector" : {
+  "Protractor extensions jQuery methods Finds the closest element matching the selector" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 1,
+      "passed" : 1,
+      "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ce1a7d890a113d56",
-      "status" : "unknown",
-      "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
+      "uid" : "f6b9c2bd35fc8bee",
+      "status" : "passed",
       "time" : {
-        "start" : 1541192118499,
-        "stop" : 1541192132847,
-        "duration" : 14348
+        "start" : 1541192878796,
+        "stop" : 1541192879081,
+        "duration" : 285
       }
     } ]
   }

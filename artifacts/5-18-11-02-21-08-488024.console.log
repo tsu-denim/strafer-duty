@@ -1,0 +1,14 @@
+[21:08:32] I/launcher - Running 1 instances of WebDriver
+[21:08:32] I/hosted - Using the selenium server at http://localhost:9515
+Spec started
+
+**************************************************
+*                    Pending                     *
+**************************************************
+
+1) Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)
+  [33mNo reason given[39m
+
+Executed 0 of 5 specs [32mSUCCESS [39m[33m(1 PENDING) [39m(4 SKIPPED) in 0.288 sec.
+[21:08:34] I/launcher - 0 instance(s) of WebDriver still running
+[21:08:34] I/launcher - chrome #01 passed

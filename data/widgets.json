@@ -3,67 +3,67 @@
     "reportName" : "Allure Report",
     "testRuns" : [ ],
     "statistic" : {
-      "failed" : 7,
+      "failed" : 1,
       "broken" : 0,
-      "skipped" : 8,
-      "passed" : 5,
-      "unknown" : 7,
+      "skipped" : 10,
+      "passed" : 15,
+      "unknown" : 1,
       "total" : 27
     },
     "time" : {
-      "start" : 1541192118499,
-      "stop" : 1541192232665,
-      "duration" : 114166,
+      "start" : 1541192878796,
+      "stop" : 1541192926332,
+      "duration" : 47536,
       "minDuration" : 0,
-      "maxDuration" : 73694,
-      "sumDuration" : 220563
+      "maxDuration" : 12994,
+      "sumDuration" : 14379
     }
   },
   "environment" : [ ],
   "suites" : {
     "total" : 3,
     "items" : [ {
+      "uid" : "ef200cf940d3d3a362dee55c98522749",
+      "name" : "Protractor sync test cases",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 2,
+        "unknown" : 1,
+        "total" : 6
+      }
+    }, {
       "uid" : "1391e8d00208145d2c262e76f0a53c75",
       "name" : "pytest",
       "statistic" : {
-        "failed" : 7,
+        "failed" : 0,
         "broken" : 0,
         "skipped" : 8,
-        "passed" : 5,
+        "passed" : 12,
         "unknown" : 0,
         "total" : 20
       }
     }, {
-      "uid" : "ef200cf940d3d3a362dee55c98522749",
-      "name" : "Protractor sync test cases",
+      "uid" : "a9bbecd8a2629a3b522b099af37b6ce6",
+      "name" : "Protractor extensions",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 6,
-        "total" : 6
-      }
-    }, {
-      "uid" : "d4386aaee1590db767342b8121e49ddd",
-      "name" : "jQuery methods",
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 1,
+        "passed" : 1,
+        "unknown" : 0,
         "total" : 1
       }
     } ]
   },
   "history-trend" : [ {
     "statistic" : {
-      "failed" : 7,
+      "failed" : 1,
       "broken" : 0,
-      "skipped" : 8,
-      "passed" : 5,
-      "unknown" : 7,
+      "skipped" : 10,
+      "passed" : 15,
+      "unknown" : 1,
       "total" : 27
     }
   } ],
@@ -73,28 +73,50 @@
   },
   "executors" : [ ],
   "categories" : {
-    "total" : 3,
+    "total" : 5,
     "items" : [ {
       "uid" : "c21b460bfad2d36213176b9bf7da30de",
       "name" : "Risk Based Testing",
       "statistic" : {
-        "failed" : 7,
+        "failed" : 1,
         "broken" : 0,
-        "skipped" : 8,
+        "skipped" : 10,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 15
+        "total" : 11
       }
     }, {
       "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
       "name" : "Product defects",
       "statistic" : {
-        "failed" : 7,
+        "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 7
+        "total" : 1
+      }
+    }, {
+      "uid" : "968a4d6ac7522aac7d3f337b2d28d776",
+      "name" : "Flaky Tests",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "e4e0a5105cda112e903704ea3d243690",
+      "name" : "Quarantined",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
       }
     }, {
       "uid" : "df4b5ceb1a5521dd5c196aa4fac69280",
@@ -104,8 +126,8 @@
         "broken" : 0,
         "skipped" : 0,
         "passed" : 0,
-        "unknown" : 7,
-        "total" : 7
+        "unknown" : 1,
+        "total" : 1
       }
     } ]
   },

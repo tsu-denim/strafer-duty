@@ -1,0 +1,200 @@
+[142:142:1102/210832.998998:VERBOSE1:breakpad_linux.cc(1977)] Breakpad disabled
+[142:142:1102/210833.619453:VERBOSE1:webrtc_event_log_manager.cc(390)] WebRTC remote-bound event logging disabled.
+[142:142:1102/210833.619594:VERBOSE1:pref_proxy_config_tracker_impl.cc(184)] 0x2349692f9580: set chrome proxy config service to 0x2349694a5780
+[142:142:1102/210833.619708:ERROR:default_network_context_params.cc(60)] Cannot use V8 Proxy resolver in single process mode.
+[142:154:1102/210833.620451:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[142:145:1102/210833.622018:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Argon2018' log
+[142:145:1102/210833.622035:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Argon2019' log
+[142:145:1102/210833.622044:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Argon2020' log
+[142:145:1102/210833.622052:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Argon2021' log
+[142:145:1102/210833.622060:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Aviator' log
+[142:145:1102/210833.622068:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Icarus' log
+[142:145:1102/210833.622076:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Pilot' log
+[142:145:1102/210833.622084:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Rocketeer' log
+[142:145:1102/210833.622092:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Skydiver' log
+[142:145:1102/210833.622101:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Cloudflare 'Nimbus2018' Log
+[142:145:1102/210833.622109:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Cloudflare 'Nimbus2019' Log
+[142:145:1102/210833.622117:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Cloudflare 'Nimbus2020' Log
+[142:145:1102/210833.622126:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Cloudflare 'Nimbus2021' Log
+[142:145:1102/210833.622135:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Log Server
+[142:145:1102/210833.622143:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Log Server 2
+[142:145:1102/210833.622152:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Yeti2018 Log
+[142:145:1102/210833.622160:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Yeti2019 Log
+[142:145:1102/210833.622168:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Yeti2020 Log
+[142:145:1102/210833.622176:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Yeti2021 Log
+[142:145:1102/210833.622184:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Yeti2022 Log
+[142:145:1102/210833.622192:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec log
+[142:145:1102/210833.622205:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec 'Vega' log
+[142:145:1102/210833.622213:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec 'Sirius' log
+[142:145:1102/210833.622221:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Venafi Gen2 CT log
+[142:145:1102/210833.622228:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: CNNIC CT log
+[142:145:1102/210833.622235:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Comodo 'Sabre' CT log
+[142:145:1102/210833.622243:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Comodo 'Mammoth' CT log
+[142:145:1102/210833.622252:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: StartCom log
+[142:145:1102/210833.622260:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: WoSign log
+[142:145:1102/210833.622268:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Izenpe log
+[142:145:1102/210833.622276:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Venafi log
+[142:145:1102/210833.622285:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Certly.IO log
+[142:145:1102/210833.622373:VERBOSE1:proxy_resolution_service.cc(1022)] PAC support disabled because there is no system implementation
+[142:142:1102/210833.635885:ERROR:gpu_process_transport_factory.cc(1016)] Lost UI shared context.
+[142:142:1102/210833.651822:VERBOSE1:pulse_stubs.cc(683)] dlopen(libpulse.so.0) failed, dlerror() says:
+libpulse.so.0: cannot open shared object file: No such file or directory
+[142:142:1102/210833.651879:VERBOSE1:pulse_util.cc(105)] Failed on loading the Pulse library and symbols
+[142:142:1102/210833.659410:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(347)] MutablePO2TS::MutablePO2TS
+[142:142:1102/210833.659523:VERBOSE1:device_event_log_impl.cc(161)] [21:08:33.659] Bluetooth: EVENT: bluetooth_api.cc:72 BluetoothAPI: 0x234969411000
+[142:142:1102/210833.659784:VERBOSE1:bluetooth_low_energy_event_router.cc(248)] Initializing BluetoothLowEnergyEventRouter.
+[142:142:1102/210833.660853:VERBOSE1:dns_sd_registry.cc(158)] RegisterDnsSdListener: _googlecast._tcp.local, registered: 0
+[142:142:1102/210833.660871:VERBOSE1:service_discovery_device_lister.cc(40)] DeviceListerStart: service_type: _googlecast._tcp.local
+[142:142:1102/210833.660882:VERBOSE1:dns_sd_device_lister.cc(46)] Started device lister for service type _googlecast._tcp.local
+[142:142:1102/210833.660890:VERBOSE1:service_discovery_device_lister.cc(46)] DiscoverNewDevices: service_type: _googlecast._tcp.local
+[142:142:1102/210833.660898:VERBOSE1:dns_sd_device_lister.cc(50)] Discovery new devices for service type _googlecast._tcp.local
+[142:142:1102/210833.660906:VERBOSE1:dns_sd_registry.cc(249)] DispatchApiEvent: service_type: _googlecast._tcp.local
+[142:142:1102/210833.696687:VERBOSE1:pref_proxy_config_tracker_impl.cc(184)] 0x23496952db00: set chrome proxy config service to 0x2349694a5a80
+[142:142:1102/210833.696730:ERROR:default_network_context_params.cc(60)] Cannot use V8 Proxy resolver in single process mode.
+[142:145:1102/210833.698218:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Argon2018' log
+[142:145:1102/210833.698237:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Argon2019' log
+[142:145:1102/210833.698246:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Argon2020' log
+[142:145:1102/210833.698254:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Argon2021' log
+[142:145:1102/210833.698262:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Aviator' log
+[142:145:1102/210833.698270:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Icarus' log
+[142:145:1102/210833.698279:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Pilot' log
+[142:145:1102/210833.698287:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Rocketeer' log
+[142:145:1102/210833.698295:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Skydiver' log
+[142:145:1102/210833.698303:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Cloudflare 'Nimbus2018' Log
+[142:145:1102/210833.698312:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Cloudflare 'Nimbus2019' Log
+[142:145:1102/210833.698320:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Cloudflare 'Nimbus2020' Log
+[142:145:1102/210833.698328:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Cloudflare 'Nimbus2021' Log
+[142:145:1102/210833.698336:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Log Server
+[142:145:1102/210833.698344:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Log Server 2
+[142:145:1102/210833.698352:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Yeti2018 Log
+[142:145:1102/210833.698360:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Yeti2019 Log
+[142:145:1102/210833.698368:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Yeti2020 Log
+[142:145:1102/210833.698377:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Yeti2021 Log
+[142:145:1102/210833.698385:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Yeti2022 Log
+[142:145:1102/210833.698393:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec log
+[142:145:1102/210833.698401:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec 'Vega' log
+[142:145:1102/210833.698409:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec 'Sirius' log
+[142:145:1102/210833.698423:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Venafi Gen2 CT log
+[142:145:1102/210833.698432:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: CNNIC CT log
+[142:145:1102/210833.698440:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Comodo 'Sabre' CT log
+[142:145:1102/210833.698448:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Comodo 'Mammoth' CT log
+[142:145:1102/210833.698457:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: StartCom log
+[142:145:1102/210833.698465:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: WoSign log
+[142:145:1102/210833.698473:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Izenpe log
+[142:145:1102/210833.698481:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Venafi log
+[142:145:1102/210833.698489:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Certly.IO log
+[142:145:1102/210833.698511:VERBOSE1:proxy_resolution_service.cc(1022)] PAC support disabled because there is no system implementation
+[142:142:1102/210833.699375:VERBOSE1:extension_service.cc(1254)] AddComponentExtension Cloud Print
+[142:142:1102/210833.699387:VERBOSE1:extension_service.cc(1256)] Component extension Cloud Print (mfehgcgbbipciphmccgaenjidiccnmng) installing/upgrading from '' to 0.1
+[142:142:1102/210833.699791:VERBOSE1:extension_service.cc(1254)] AddComponentExtension Web Store
+[142:142:1102/210833.699807:VERBOSE1:extension_service.cc(1256)] Component extension Web Store (ahfgeienlihckogmohjhadlkjgocpleb) installing/upgrading from '' to 0.2
+[142:142:1102/210833.700153:VERBOSE1:extension_service.cc(1254)] AddComponentExtension Chromium PDF Viewer
+[142:142:1102/210833.700164:VERBOSE1:extension_service.cc(1256)] Component extension Chromium PDF Viewer (mhjfbmdgcfjbbpaeojofohoefgiehjai) installing/upgrading from '' to 1
+[142:142:1102/210833.701361:VERBOSE1:account_reconcilor.cc(101)] AccountReconcilor::AccountReconcilor
+[142:142:1102/210833.701377:VERBOSE1:account_reconcilor.cc(115)] AccountReconcilor::Initialize
+[142:142:1102/210833.704390:VERBOSE1:file_type_policies_component_installer.cc(134)] Registering File Type Policies component.
+[142:142:1102/210833.715734:WARNING:browser_main_loop.cc(271)] GLib-GObject: g_object_get_valist: object class 'GtkSettings' has no property named 'gtk-application-prefer-dark-theme'
+[142:142:1102/210833.724000:WARNING:password_store_factory.cc(250)] Using basic (unencrypted) store for password storage. See https://chromium.googlesource.com/chromium/src/+/master/docs/linux_password_storage.md for more information about password storage options.
+[142:145:1102/210833.740326:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: data:,
+[142:145:1102/210833.740345:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: data:,
+[142:145:1102/210833.740360:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: data:,
+[142:180:1102/210833.777331:WARNING:histograms.cc(40)] Started multiple compositor clients (Browser, Renderer) in one process. Some metrics will be disabled.
+[142:142:1102/210833.779905:VERBOSE1:bluez_dbus_manager.cc(174)] Bluetooth not supported.
+[142:142:1102/210833.780531:VERBOSE1:gaia_cookie_manager_service.cc(787)] GaiaCookieManagerService::ListAccounts
+[142:145:1102/210833.782233:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://accounts.google.com/ListAccounts?gpsia=1&source=durations_metrics,counter:0,load_time_ms:121&json=standard
+[142:145:1102/210833.782257:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://accounts.google.com/ListAccounts?gpsia=1&source=durations_metrics,counter:0,load_time_ms:121&json=standard
+[142:145:1102/210833.782274:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: https://accounts.google.com/ListAccounts?gpsia=1&source=durations_metrics,counter:0,load_time_ms:121&json=standard
+[142:145:1102/210833.795588:VERBOSE1:mdns_client_impl.cc(160)] Sockets ready:2
+[142:145:1102/210833.819165:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+[142:145:1102/210833.819195:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+[142:145:1102/210833.819208:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+[142:178:1102/210833.820095:ERROR:gles2_command_buffer_stub.cc(129)] ContextResult::kFatalFailure: Failed to create default offscreen surface.
+[142:145:1102/210833.861097:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/background.js
+[142:145:1102/210833.861122:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/background.js
+[142:145:1102/210833.861135:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/background.js
+[142:180:1102/210833.878554:VERBOSE1:v8_context_snapshot.cc(139)] A context is created from snapshot for main world
+[142:180:1102/210833.878707:VERBOSE1:script_context.cc(91)] Created context:
+  extension id:           aapnijgdinlhnhlmodcfapnahmbfebeb
+  frame:                  0x145aafc71408
+  URL:                    
+  context_type:           BLESSED_EXTENSION
+  effective extension id: aapnijgdinlhnhlmodcfapnahmbfebeb
+  effective context type: BLESSED_EXTENSION
+[142:180:1102/210833.879598:VERBOSE1:script_context.cc(91)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[142:180:1102/210833.904093:VERBOSE1:dispatcher.cc(360)] Num tracked contexts: 1
+[142:180:1102/210833.905689:VERBOSE1:language_detection_util.cc(129)] Detected language: und
+[142:180:1102/210833.936718:VERBOSE1:v8_context_snapshot.cc(139)] A context is created from snapshot for main world
+[142:180:1102/210833.936850:VERBOSE1:script_context.cc(91)] Created context:
+  extension id:           (none)
+  frame:                  0x145aafc61c28
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[142:180:1102/210833.936938:VERBOSE1:script_context.cc(91)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[142:180:1102/210833.938027:VERBOSE1:dispatcher.cc(360)] Num tracked contexts: 2
+[142:180:1102/210834.245224:VERBOSE1:v8_context_snapshot.cc(139)] A context is created from snapshot for main world
+[142:180:1102/210834.245297:VERBOSE1:script_context.cc(91)] Created context:
+  extension id:           (none)
+  frame:                  0x145aafc7bfc0
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[142:180:1102/210834.245347:VERBOSE1:script_context.cc(91)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[142:180:1102/210834.245798:VERBOSE1:dispatcher.cc(360)] Num tracked contexts: 3
+[142:180:1102/210834.262960:VERBOSE1:dispatcher.cc(498)] Num tracked contexts: 2
+[142:180:1102/210834.263886:VERBOSE1:script_context.cc(98)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[142:180:1102/210834.263911:VERBOSE1:script_context.cc(98)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[142:180:1102/210834.281391:VERBOSE1:thread_state.cc(1430)] [state:0x555de24a3ae0] CollectGarbage: time: 0.88ms stack: NoHeapPointersOnStack marking: AtomicMarking sweeping: LazySweeping reason: IdleGC
+[142:145:1102/210834.281982:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: data:/,
+[142:145:1102/210834.281998:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: data:/,
+[142:145:1102/210834.282007:VERBOSE1:network_delegate.cc(30)] NetworkDelegate::NotifyBeforeURLRequest: data:/,
+[142:180:1102/210834.296498:VERBOSE1:thread_state.cc(1024)] [state:0x555de24a3ae0] PostSweep: collection_rate: 35%
+[142:180:1102/210834.297428:VERBOSE1:dispatcher.cc(498)] Num tracked contexts: 1
+[142:180:1102/210834.299454:VERBOSE1:v8_context_snapshot.cc(139)] A context is created from snapshot for main world
+[142:180:1102/210834.299563:VERBOSE1:script_context.cc(91)] Created context:
+  extension id:           (none)
+  frame:                  0x145aafc61c28
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[142:180:1102/210834.299621:VERBOSE1:script_context.cc(91)] Created context:
+  extension id:           (none)
+  frame:                  (nil)
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[142:180:1102/210834.300173:VERBOSE1:dispatcher.cc(360)] Num tracked contexts: 2
+[142:180:1102/210834.301856:VERBOSE1:script_context.cc(98)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[142:180:1102/210834.301877:VERBOSE1:script_context.cc(98)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[142:180:1102/210834.302292:VERBOSE1:language_detection_util.cc(129)] Detected language: und
+[142:175:1102/210834.496582:ERROR:bus.cc(394)] Failed to connect to the bus: Address does not contain a colon

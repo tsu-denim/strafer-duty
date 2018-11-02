@@ -1,0 +1,97 @@
+{
+  "uid" : "80a9c86e256f9691",
+  "name" : "can retry if they fail when configured #integrationSuite",
+  "fullName" : "Protractor sync test cases can retry if they fail when configured #integrationSuite",
+  "historyId" : "Protractor sync test cases can retry if they fail when configured #integrationSuite",
+  "time" : {
+    "start" : 1541192924558,
+    "stop" : 1541192924755,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "Screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Protractor sync test cases"
+  }, {
+    "name" : "host",
+    "value" : "Lambda"
+  }, {
+    "name" : "thread",
+    "value" : "ip-10-145-95-124"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Video",
+    "url" : "artifacts/3-18-11-02-21-08-488024.mp4",
+    "type" : "video/mp4"
+  }, {
+    "name" : "Chrome Log",
+    "url" : "artifacts/3-18-11-02-21-08-488024.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Chrome Driver Log",
+    "url" : "artifacts/3-18-11-02-21-08-488024.chromedriver.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Console Log",
+    "url" : "artifacts/3-18-11-02-21-08-488024.console.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Lambda Cloudwatch Logs",
+    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: c4dc8d24-8215-46ba-ad15-1d3d5bb8f967\"",
+    "type" : "text/html"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "598e581123dae90f",
+      "status" : "failed",
+      "statusDetails" : "Attempt # 1 failed! Retrying...",
+      "time" : {
+        "start" : 1541192907153,
+        "stop" : 1541192907154,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Flaky Tests",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : true
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "80a9c86e256f9691.json",
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
