@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Version of Chrome binary to download from github repo release
-export CHROME_VERSION='chrome-63.0.3239.84'
+export CHROME_VERSION='chrome-68.0.3440.75'
 echo $CHROME_VERSION
 export PYTHONPATH=$PYTHONPATH:$(pwd)/dist/functions
 echo $PYTHONPATH
