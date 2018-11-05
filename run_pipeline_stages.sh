@@ -80,5 +80,6 @@ cp junit_results/e2e-allure.xml allure-results
 cp junit_results/e2e-junit.xml allure-results
 allure generate allure-results
 mv artifacts allure-report/artifacts
+mv allure-report docs/test-report
 
 
