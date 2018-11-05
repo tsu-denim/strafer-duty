@@ -8,9 +8,7 @@ Load test user workflows using Selenium, Chrome, and AWS Lamdba! Runs on the fre
 - https://aws.amazon.com/sns/
 - https://aws.amazon.com/simpledb/ (Amazon's secret! High concurrency NoSQL at no extra cost vs costly dynamodb)
 
-To deploy, download Cloud Formation package in releases (coming soon). Log into AWS account with
-sufficient privileges to deploy CF stacks. In the Cloud Formation console,
-deploy downloaded stack.
+[![Launch strafer-duty in AWS](./cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=my-strafer-duty-stack&templateURL=https://s3.amazonaws.com/tsu-denim-public-templates/strafer-duty.json "Launch Stack")
 
 Next, install prequisites:
 
