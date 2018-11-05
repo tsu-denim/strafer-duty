@@ -1,7 +1,0 @@
-[18:02:14] I/launcher - Running 1 instances of WebDriver
-[18:02:14] I/hosted - Using the selenium server at http://localhost:9515
-Spec started
-
-Executed 0 of 5 specs [32mSUCCESS [39m(5 SKIPPED) in 0.078 sec.
-[18:02:16] I/launcher - 0 instance(s) of WebDriver still running
-[18:02:16] I/launcher - chrome #01 passed

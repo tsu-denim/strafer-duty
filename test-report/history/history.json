@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0cf33644c653eb0",
+      "uid" : "44c3e0d5cbf7bdac",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1541440930889,
-        "stop" : 1541440930889,
+        "start" : 1541443515565,
+        "stop" : 1541443515565,
         "duration" : 0
       }
     } ]
@@ -29,10 +29,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e2788a545a9e5fa8",
+      "uid" : "5876a7410a850fe1",
       "status" : "passed",
       "time" : {
-        "duration" : 1
+        "duration" : 0
       }
     } ]
   },
@@ -46,13 +46,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4196ba358560a40c",
+      "uid" : "b7e376eb869ff63a",
       "status" : "unknown",
       "statusDetails" : "Disabled, test was not attempted! This is usually intentional behavior due to either : \n 1. Hidden by feature flag. It tests a feature that has not been enabled in the host config.\n 2. Test case is manually commented out in the source code (if true, please fix).",
       "time" : {
-        "start" : 1541440922076,
-        "stop" : 1541440936869,
-        "duration" : 14793
+        "start" : 1541443507274,
+        "stop" : 1541443522967,
+        "duration" : 15693
       }
     } ]
   },
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cac82907cd4de1e2",
+      "uid" : "80bda5614e494a12",
       "status" : "passed",
       "time" : {
-        "start" : 1541440933526,
-        "stop" : 1541440933756,
-        "duration" : 230
+        "start" : 1541443521089,
+        "stop" : 1541443521303,
+        "duration" : 214
       }
     } ]
   },
@@ -85,7 +85,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "92fd4e3862b64d39",
+      "uid" : "a9aec76afa1b52ed",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -103,10 +103,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e080137295992bd",
+      "uid" : "38ba35fb18643341",
       "status" : "passed",
       "time" : {
-        "duration" : 4
+        "duration" : 3
       }
     } ]
   },
@@ -120,7 +120,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f2774a71e15b7d0e",
+      "uid" : "3f4b8fa1592c29a5",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -138,30 +138,10 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c375487df8b7131e",
+      "uid" : "3330b94b9c7b244",
       "status" : "passed",
       "time" : {
         "duration" : 1
-      }
-    } ]
-  },
-  "Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2df1c6654c2146b7",
-      "status" : "skipped",
-      "statusDetails" : "Tags: #quarantine\nSuite disabled",
-      "time" : {
-        "start" : 1541440926148,
-        "stop" : 1541440926152,
-        "duration" : 4
       }
     } ]
   },
@@ -175,9 +155,29 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "62db873ca31ca0f2",
+      "uid" : "e3281609b1671a5b",
       "status" : "passed",
       "time" : {
+        "duration" : 0
+      }
+    } ]
+  },
+  "Protractor sync test cases can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c8ebb8da82fe7d7",
+      "status" : "skipped",
+      "statusDetails" : "Tags: #quarantine\nSuite disabled",
+      "time" : {
+        "start" : 1541443510446,
+        "stop" : 1541443510446,
         "duration" : 0
       }
     } ]
@@ -192,12 +192,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "29394b3775a7659f",
+      "uid" : "2c2022077861900e",
       "status" : "passed",
       "time" : {
-        "start" : 1541440933512,
-        "stop" : 1541440933730,
-        "duration" : 218
+        "start" : 1541443521044,
+        "stop" : 1541443521208,
+        "duration" : 164
       }
     } ]
   },
@@ -211,7 +211,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9d9be232377b36c8",
+      "uid" : "ea16ccea8a3263fe",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -228,7 +228,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "33f8cbadae47bfcf",
+      "uid" : "79ed66f8c9de5cb4",
       "status" : "passed",
       "time" : {
         "duration" : 0
@@ -245,7 +245,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6878157c250c51c6",
+      "uid" : "a841daa97c27df84",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -263,7 +263,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "92ef2abe5c019d3d",
+      "uid" : "102d189859998a9c",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -281,7 +281,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e5089dd15564147",
+      "uid" : "467367729d230a",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -298,7 +298,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "71c67159f8e6f9e9",
+      "uid" : "10e2d0101c43c4fc",
       "status" : "passed",
       "time" : {
         "duration" : 2
@@ -315,13 +315,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f026de539f472f78",
+      "uid" : "4c3d176a93704646",
       "status" : "failed",
       "statusDetails" : "Expected 'Error: .element-does-exist was found when it should not exist!\n    at onTimeout (/tmp/lambda_protractor/app/selection.ts:52:13)\n    at Object.polledWait (/tmp/lambda_protractor/app/polled-wait.ts:35:9)\n    at _getElements (/tmp/lambda_protractor/app/selection.ts:80:10)\n    at Object.assertElementDoesNotExist (/tmp/lambda_protractor/app/selection.ts:157:20)\n    at ElementFinderSync.assertElementDoesNotExist (/tmp/lambda_protractor/app/element-finder-sync.ts:38:12)\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:70:18\n    at /tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:43:13\n    at fiberContents (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:92:26)\n=== Pre-asyncblock stack ===\nError\n    at module.exports (/tmp/lambda_protractor/node_modules/asyncblock/lib/asyncblock.js:29:15)\n    at UserContext.<anonymous> (/tmp/lambda_protractor/test/spec/jasmine_reporter_test.ts:42:9)\n    at /tmp/lambda_protractor/node_modules/jasminewd2/index.js:108:15\n    at new ManagedPromise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/tmp/lambda_protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /tmp/lambda_protractor/node_modules/selenium-webdriver/lib/promise.js:668:7' to be undefined.",
       "time" : {
-        "start" : 1541440935555,
-        "stop" : 1541440936249,
-        "duration" : 694
+        "start" : 1541443522975,
+        "stop" : 1541443523611,
+        "duration" : 636
       }
     } ]
   },
@@ -335,7 +335,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4aabb5600d3fe02f",
+      "uid" : "f33dafab28edf4b7",
       "status" : "passed",
       "time" : {
         "duration" : 3
@@ -352,7 +352,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b338dab1449e3332",
+      "uid" : "6838587ee4060a85",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -370,7 +370,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f464bf6fac41ce15",
+      "uid" : "d57238997740a2ac",
       "status" : "passed",
       "time" : {
         "duration" : 1
@@ -387,7 +387,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "40b123f54a042555",
+      "uid" : "d47f6896162ccd99",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -405,26 +405,9 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dc0fa4e02bce7f00",
+      "uid" : "2be0ee691a58ee9f",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
-      "time" : {
-        "duration" : 0
-      }
-    } ]
-  },
-  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_expired" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b4e55194934ec80",
-      "status" : "passed",
       "time" : {
         "duration" : 0
       }
@@ -440,7 +423,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f0d377846ba55759",
+      "uid" : "30da3fbd8745dec9",
       "status" : "skipped",
       "statusDetails" : "expected test failure",
       "time" : {
@@ -458,10 +441,27 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b85061a82eb6a0c0",
+      "uid" : "fa36cc06a50811a7",
       "status" : "passed",
       "time" : {
         "duration" : 1
+      }
+    } ]
+  },
+  "pytest:pipeline.integration_tests.functional_tests.integ_tests_junit#test_junit_expired" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "112b621176870f0f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 0
       }
     } ]
   },
@@ -475,12 +475,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad98a3413194435d",
+      "uid" : "4f59ee8bae6181ac",
       "status" : "passed",
       "time" : {
-        "start" : 1541440893560,
-        "stop" : 1541440893833,
-        "duration" : 273
+        "start" : 1541443474627,
+        "stop" : 1541443474911,
+        "duration" : 284
       }
     } ]
   }

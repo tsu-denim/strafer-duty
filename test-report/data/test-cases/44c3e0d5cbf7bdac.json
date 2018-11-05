@@ -1,0 +1,73 @@
+{
+  "uid" : "44c3e0d5cbf7bdac",
+  "name" : "can be skipped if we want them to #integrationSuite",
+  "fullName" : "Protractor sync test cases can be skipped if we want them to #integrationSuite",
+  "historyId" : "Protractor sync test cases can be skipped if we want them to #integrationSuite",
+  "time" : {
+    "start" : 1541443515565,
+    "stop" : 1541443515565,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "Suite disabled",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Protractor sync test cases"
+  }, {
+    "name" : "host",
+    "value" : "Lambda"
+  }, {
+    "name" : "thread",
+    "value" : "ip-10-144-106-47"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Video",
+    "url" : "artifacts/4-18-11-05-18-44-863601.mp4",
+    "type" : "video/mp4"
+  }, {
+    "name" : "Chrome Log",
+    "url" : "artifacts/4-18-11-05-18-44-863601.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Chrome Driver Log",
+    "url" : "artifacts/4-18-11-05-18-44-863601.chromedriver.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Console Log",
+    "url" : "artifacts/4-18-11-05-18-44-863601.console.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Lambda Cloudwatch Logs",
+    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: 728927b8-e1cc-45a3-af84-ad1d3deb7bf5\"",
+    "type" : "text/html"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Risk Based Testing",
+      "matchedStatuses" : [ "broken", "failed", "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "44c3e0d5cbf7bdac.json",
+  "statusDetailsSafe" : {
+    "message" : "Suite disabled",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}
