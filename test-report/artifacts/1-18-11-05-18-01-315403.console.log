@@ -1,0 +1,12 @@
+[18:01:30] I/launcher - Running 1 instances of WebDriver
+[18:01:30] I/hosted - Using the selenium server at http://localhost:9515
+Spec started
+
+  Protractor extensions
+
+    jQuery methods
+      [32m✓ Finds the closest element matching the selector[39m
+
+Executed 1 of 84 specs [32mSUCCESS [39m(83 SKIPPED) in 0.958 sec.
+[18:01:33] I/launcher - 0 instance(s) of WebDriver still running
+[18:01:33] I/launcher - chrome #01 passed

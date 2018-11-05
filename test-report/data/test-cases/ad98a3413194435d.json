@@ -1,0 +1,87 @@
+{
+  "uid" : "ad98a3413194435d",
+  "name" : "Finds the closest element matching the selector",
+  "fullName" : "Protractor extensions jQuery methods Finds the closest element matching the selector",
+  "historyId" : "Protractor extensions jQuery methods Finds the closest element matching the selector",
+  "time" : {
+    "start" : 1541440893560,
+    "stop" : 1541440893833,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "Screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Protractor extensions"
+  }, {
+    "name" : "suite",
+    "value" : "jQuery methods"
+  }, {
+    "name" : "host",
+    "value" : "Lambda"
+  }, {
+    "name" : "thread",
+    "value" : "ip-10-130-63-98"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test Video",
+    "url" : "artifacts/1-18-11-05-18-01-315403.mp4",
+    "type" : "video/mp4"
+  }, {
+    "name" : "Chrome Log",
+    "url" : "artifacts/1-18-11-05-18-01-315403.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Chrome Driver Log",
+    "url" : "artifacts/1-18-11-05-18-01-315403.chromedriver.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Console Log",
+    "url" : "artifacts/1-18-11-05-18-01-315403.console.log",
+    "type" : "text/plain"
+  }, {
+    "name" : "Lambda Cloudwatch Logs",
+    "url" : "https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logEventViewer:group=/aws/lambda/straferduty-manual-RunTask-1AR8QVPEGAYA8;filter=\"Test Start Locator: 3e729700-a080-4d00-b02a-7b210692c5f9\"",
+    "type" : "text/html"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad98a3413194435d.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
