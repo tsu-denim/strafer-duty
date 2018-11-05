@@ -1,8 +1,162 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "test_junit_retry",
-    "uid" : "c74ae6d1d8499446",
+    "name" : "test_junit_disabled",
+    "uid" : "2ffb8af3ccec1263",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_allure_failed",
+    "uid" : "c84c310c2d0b64c8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Lambda",
+    "children" : [ {
+      "name" : "ip-10-148-140-49",
+      "children" : [ {
+        "name" : "should fail if an element is not supposed to exist but is found #integrationSuite",
+        "uid" : "af574c69d35c2b6",
+        "parentUid" : "b334da415844d8ebd1b1cd70c0a7eb89",
+        "status" : "failed",
+        "time" : {
+          "start" : 1541437307152,
+          "stop" : 1541437307796,
+          "duration" : 644
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can be disabled and hidden from the Jasmine reporter #integrationSuite",
+        "uid" : "b4dd42efaac166d0",
+        "parentUid" : "b334da415844d8ebd1b1cd70c0a7eb89",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1541437291969,
+          "stop" : 1541437307138,
+          "duration" : 15169
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b334da415844d8ebd1b1cd70c0a7eb89"
+    }, {
+      "name" : "ip-10-153-150-138",
+      "children" : [ {
+        "name" : "should pass if an element is not supposed to exist and is missing #integrationSuite",
+        "uid" : "4e3a88afddc41796",
+        "parentUid" : "753497cd49886fe0ce5e5189e5f83892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1541437306655,
+          "stop" : 1541437307033,
+          "duration" : 378
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can retry if they fail when configured #integrationSuite",
+        "uid" : "5b59974513c6d82",
+        "parentUid" : "753497cd49886fe0ce5e5189e5f83892",
+        "status" : "passed",
+        "time" : {
+          "start" : 1541437306663,
+          "stop" : 1541437306965,
+          "duration" : 302
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "753497cd49886fe0ce5e5189e5f83892"
+    }, {
+      "name" : "ip-10-128-129-252",
+      "children" : [ {
+        "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
+        "uid" : "66c0230e3196ec51",
+        "parentUid" : "67b8e96e3c49f4b4ba7e32ffe66937c7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1541437296443,
+          "stop" : 1541437296444,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Finds the closest element matching the selector",
+        "uid" : "57096a5bffc33c09",
+        "parentUid" : "67b8e96e3c49f4b4ba7e32ffe66937c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1541437262663,
+          "stop" : 1541437262928,
+          "duration" : 265
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67b8e96e3c49f4b4ba7e32ffe66937c7"
+    }, {
+      "name" : "ip-10-128-54-224",
+      "children" : [ {
+        "name" : "can be skipped if we want them to #integrationSuite",
+        "uid" : "a18ff5ef4a102078",
+        "parentUid" : "90f6a77bd7879ab3f5490c7e22ee9e39",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1541437299547,
+          "stop" : 1541437299548,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90f6a77bd7879ab3f5490c7e22ee9e39"
+    } ],
+    "uid" : "fbc8134fe3e3302e248468682536c4c8"
+  }, {
+    "name" : "test_junit_manifest",
+    "uid" : "898e0060fd6be88b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 3
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_allure_retry",
+    "uid" : "8725850203ae66e4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_junit_passed",
+    "uid" : "93130c0ecc3af00",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 3
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_allure_disabled",
+    "uid" : "a5ae11ae1e7b967a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -12,135 +166,7 @@
     "parameters" : [ ]
   }, {
     "name" : "test_junit_console_log_artifact",
-    "uid" : "b6fdc9cbd0a2baa3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_junit_disabled",
-    "uid" : "130f576c8accc053",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Lambda",
-    "children" : [ {
-      "name" : "ip-10-152-7-44",
-      "children" : [ {
-        "name" : "should pass if an element is not supposed to exist and is missing #integrationSuite",
-        "uid" : "f19ef90b7ee9ec44",
-        "parentUid" : "6e66f506dc3e7ec9a345e27cc4be5c7a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1541193607321,
-          "stop" : 1541193607483,
-          "duration" : 162
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Finds the closest element matching the selector",
-        "uid" : "212fff5071bfd36b",
-        "parentUid" : "6e66f506dc3e7ec9a345e27cc4be5c7a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1541193572199,
-          "stop" : 1541193572440,
-          "duration" : 241
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "can be skipped by protractor but filtered from final report (#integrationSuite, #quarantine)",
-        "uid" : "975fd657bd3c8a9b",
-        "parentUid" : "6e66f506dc3e7ec9a345e27cc4be5c7a",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1541193607575,
-          "stop" : 1541193607575,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6e66f506dc3e7ec9a345e27cc4be5c7a"
-    }, {
-      "name" : "ip-10-147-129-56",
-      "children" : [ {
-        "name" : "can be disabled and hidden from the Jasmine reporter #integrationSuite",
-        "uid" : "7300e56a89421913",
-        "parentUid" : "814305ecec37e83fd49a96d28c670bc6",
-        "status" : "unknown",
-        "time" : {
-          "start" : 1541193602081,
-          "stop" : 1541193614867,
-          "duration" : 12786
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "814305ecec37e83fd49a96d28c670bc6"
-    }, {
-      "name" : "ip-10-145-95-124",
-      "children" : [ {
-        "name" : "can be skipped if we want them to #integrationSuite",
-        "uid" : "9321691568ff395a",
-        "parentUid" : "4d80fb9740e9eaf737ddb62cc21fa88c",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1541193606505,
-          "stop" : 1541193606505,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4d80fb9740e9eaf737ddb62cc21fa88c"
-    }, {
-      "name" : "ip-10-133-199-179",
-      "children" : [ {
-        "name" : "should fail if an element is not supposed to exist but is found #integrationSuite",
-        "uid" : "4027390642caa88b",
-        "parentUid" : "16c99f7c1a44ff63e71df1990a0e5d94",
-        "status" : "failed",
-        "time" : {
-          "start" : 1541193609075,
-          "stop" : 1541193609741,
-          "duration" : 666
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "16c99f7c1a44ff63e71df1990a0e5d94"
-    }, {
-      "name" : "ip-10-129-149-221",
-      "children" : [ {
-        "name" : "can retry if they fail when configured #integrationSuite",
-        "uid" : "20125b91f79eb0b2",
-        "parentUid" : "acddc398e956c59fddc2766c9298a13b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1541193608509,
-          "stop" : 1541193608769,
-          "duration" : 260
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "acddc398e956c59fddc2766c9298a13b"
-    } ],
-    "uid" : "fbc8134fe3e3302e248468682536c4c8"
-  }, {
-    "name" : "test_junit_chromedriver_log_artifact",
-    "uid" : "48914e04634f5e1d",
+    "uid" : "c4312af198a930e6",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -150,57 +176,27 @@
     "parameters" : [ ]
   }, {
     "name" : "test_junit_chrome_log_artifact",
-    "uid" : "b6a99969e2745b06",
+    "uid" : "1c7689dbb2a95c66",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
       "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_junit_skipped",
-    "uid" : "3ca1f91c38e97d13",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_allure_failed",
-    "uid" : "90dc233af1aae14c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "duration" : 1
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_allure_passed",
-    "uid" : "f3d413efbde9e2b5",
+    "uid" : "4f805ad4c4ebfbde",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
       "duration" : 3
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_allure_chrome_log_artifact",
-    "uid" : "1da032a32b822394",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "duration" : 0
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_allure_skipped",
-    "uid" : "6bf9726e0a0e1bcd",
+    "uid" : "2ad10e59daabe95e",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -209,8 +205,8 @@
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "test_allure_disabled",
-    "uid" : "f5231c41ca410fbf",
+    "name" : "test_junit_skipped",
+    "uid" : "83f7e407888baa72",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -219,18 +215,18 @@
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "test_allure_chromedriver_log_artifact",
-    "uid" : "3a3314d01b0ef710",
+    "name" : "test_junit_expired",
+    "uid" : "afb45bdc2a98373",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
+    "status" : "passed",
     "time" : {
-      "duration" : 0
+      "duration" : 1
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_junit_video_artifact",
-    "uid" : "8c052e801f95553a",
+    "uid" : "d2fbdffbc4c5bda",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -239,28 +235,8 @@
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "test_allure_retry",
-    "uid" : "7c12752cb9fc2102",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "duration" : 1
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_junit_manifest",
-    "uid" : "3f1c2017b80a1984",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "duration" : 3
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "test_allure_console_log_artifact",
-    "uid" : "855adfedf182d92a",
+    "uid" : "52b5fd7ebbc2f398",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -270,7 +246,7 @@
     "parameters" : [ ]
   }, {
     "name" : "test_junit_failed",
-    "uid" : "94f1db37ab6a63a0",
+    "uid" : "db7d007ce590d835",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -279,8 +255,8 @@
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "test_allure_video_artifact",
-    "uid" : "15236a5c75cbf2b5",
+    "name" : "test_allure_chromedriver_log_artifact",
+    "uid" : "4242409088e65c22",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -289,22 +265,42 @@
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "test_junit_expired",
-    "uid" : "ffb5828d2ac2d145",
+    "name" : "test_junit_retry",
+    "uid" : "156efd098c840c5c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
+    "time" : {
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_junit_chromedriver_log_artifact",
+    "uid" : "5f7c0c07b8e68a35",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
     "time" : {
       "duration" : 0
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "test_junit_passed",
-    "uid" : "b384ee59a0be643c",
+    "name" : "test_allure_video_artifact",
+    "uid" : "356c57d0d043a01a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
+    "status" : "skipped",
     "time" : {
-      "duration" : 3
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_allure_chrome_log_artifact",
+    "uid" : "542f7003337115f4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "duration" : 0
     },
     "flaky" : false,
     "parameters" : [ ]
